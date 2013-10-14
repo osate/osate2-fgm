@@ -247,8 +247,8 @@
          	id="org.osate.aadl2.fgm.parser"/>
    </extension>
    <extension
-         id="FGMResolver"
-         name="FGMR"
+         id="FGMLinkingService"
+         name="FGML"
          point="org.osate.annexsupport.linkingservice">
       <linkingservice
             annexName="FGM"

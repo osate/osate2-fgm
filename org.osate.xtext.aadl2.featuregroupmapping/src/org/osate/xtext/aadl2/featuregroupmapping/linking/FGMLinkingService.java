@@ -39,47 +39,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 	public FGMLinkingService(){
 		super();
 	}
-// This provides access to the getFUllyQualifiedName method for the global index mechanism.	
-    final private Injector injector = OsateCorePlugin.getDefault().getInjector("org.osate.xtext.aadl2.errormodel.ErrorModel");
-	
-	private ILinkingService linkingService;
-	
-	private IQualifiedNameProvider nameProvider;
-	
-	protected  ILinkingService getLinkingService(){
-		if (linkingService == null){
-			linkingService =  injector.getInstance(FGMLinkingService.class);
-		}
-		return linkingService;
-	}
-	
-	protected  IQualifiedNameProvider getNameProvider(){
-		if (nameProvider == null){
-			nameProvider =  injector.getInstance(FeatureGroupMappingQualifiedNameProvider.class);
-		}
-		return nameProvider;
-	}
-	
-	public QualifiedName getFullyQualifiedName(final EObject obj) {
-		return getNameProvider().getFullyQualifiedName(obj);
-	}
 
-	/**
-	 * this method is used to resolve individual references in an Xtext setting
-	 * @param annexName
-	 * @param context
-	 * @param reference
-	 * @param node
-	 * @return
-	 */
-	public List<EObject> resolveAnnexReference(String annexName,
-			EObject context, EReference reference, INode node) {
-		if (annexName.equalsIgnoreCase(FGMUtil.FGMAnnexName)){
-		return getLinkingService().getLinkedObjects(context, reference, node) ;
-		} else {
-			return Collections.<EObject> emptyList();
-		}
-	}
 
 	@Override
 	public List<EObject> getLinkedObjects(EObject context,
@@ -131,7 +91,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 		EList<AnnexLibrary>all=ps.getOwnedAnnexLibraries();
 		for (AnnexLibrary al : all){
 			if (al instanceof FGMLibrary){
-				// find in FGMLibraries
+				// find in FGMLibrary
 				return (FGTMappingset)AadlUtil.findNamedElementInList(((FGMLibrary)al).getFgtmappingset(), itemName);
 			}
 		}

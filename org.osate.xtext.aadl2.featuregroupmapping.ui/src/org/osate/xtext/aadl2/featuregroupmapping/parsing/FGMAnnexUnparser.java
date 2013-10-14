@@ -28,10 +28,10 @@ public class FGMAnnexUnparser implements AnnexUnparser {
 	}
 	
 	public String unparseAnnexSubclause(AnnexSubclause subclause, String indent){
-//		Injector injector = Guice.createInjector(new  ErrorModelRuntimeModule());  
-//	    Serializer serializer = injector.getInstance(Serializer.class);  	
-//		String text = serializer.serialize(subclause);
-		return "";//text;
+		Injector injector = Guice.createInjector(new  FeatureGroupMappingRuntimeModule());  
+	    Serializer serializer = injector.getInstance(Serializer.class);  	
+		String text = serializer.serialize(subclause);
+		return text;
 	}
 
 }

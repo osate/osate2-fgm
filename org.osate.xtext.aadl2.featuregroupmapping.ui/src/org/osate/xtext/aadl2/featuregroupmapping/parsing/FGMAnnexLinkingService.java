@@ -13,7 +13,6 @@ import org.osate.annexsupport.AnnexLinkingService;
 import org.osate.core.OsateCorePlugin;
 import org.osate.xtext.aadl2.featuregroupmapping.linking.FGMLinkingService;
 import org.osate.xtext.aadl2.featuregroupmapping.naming.FeatureGroupMappingQualifiedNameProvider;
-import org.osate.xtext.aadl2.featuregroupmapping.ui.FeatureGroupMappingUiModule;
 import org.osate.xtext.aadl2.featuregroupmapping.util.FGMUtil;
 
 import com.google.inject.Injector;
