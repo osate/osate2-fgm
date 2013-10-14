@@ -1,0 +1,79 @@
+grammar org.osate.xtext.aadl2.featuregroupmapping.FeatureGroupMapping 
+//with org.osate.xtext.aadl2.properties.Properties
+
+hidden(WS, SL_COMMENT)
+
+generate featureGroupMapping "http://www.aadl.info/FGM"
+
+
+import "platform:/resource/org.osate.aadl2/model/aadl2.ecore" as aadl2
+
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+// Xtext assumes a single grammar root. This rule is not actively interpreted.
+// We actually have two separate ones, each identified in the Annex Parser interface
+FGMGrammarRoot : 	 'library' fgml=FGMLibrary  
+	| fgmsc=FGMSubclause
+;
+
+// the root for  AnnexLibrary parsing
+FGMLibrary returns FGMLibrary:
+	(fgtmappingset+=FGTMappingset)+
+;
+
+FGTMappingset returns FGTMappingset:
+	'mappings' name=ID 
+	('extends' mappingset=[FGTMappingset|QFGTMREF])?
+	mapping+= FGMMapping
+	'end' 'mappings' ';';
+	 
+FGMSubclause returns FGMSubclause:
+	'use' 'mappings' mappingset=[FGTMappingset|QFGTMREF] ';';
+
+
+AnnexLibrary returns aadl2::AnnexLibrary:
+	 FGMLibrary 
+	 ;
+
+AnnexSubclause returns aadl2::AnnexSubclause:
+	 FGMSubclause 
+	 ;
+// FGMLibrary is a named element that can be referenced by others	 
+NamedELement returns aadl2::NamedElement:
+	FGTMappingset
+; 
+
+// all the other FGM elements must be a subclass of (aadl2) Element
+Element returns aadl2::Element:
+FGMMapping | FeaturePath | FeatureReference ; 
+
+	
+FGMMapping returns FGMMapping:
+	left = FeaturePath '<=>' right =FeaturePath ';';
+
+FeaturePath returns FeaturePath:
+	(featureGroupType=[aadl2::FeatureGroupType|ID] '.')
+	(featureReference+=FeatureReference)+
+;
+
+FeatureReference returns FeatureReference:
+	feature=[aadl2::Feature|ID]
+;
+	
+terminal SL_COMMENT:
+	'--' !('\n' | '\r')* ('\r'? '\n')?;
+
+terminal ID:	('a'..'z'
+        |'A'..'Z'
+        ) ( ('_')? ('a'..'z'
+        |'A'..'Z'
+        |'0'..'9'))*;
+
+QFGTMREF:
+	 (ID '::')* ID ;
+
+
+terminal WS			: (' '|'\t'|'\r'|'\n')+;
+
+	
+	

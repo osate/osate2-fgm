@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xtext:Grammar xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xtext="http://www.eclipse.org/2008/Xtext" name="org.osate.xtext.aadl2.featuregroupmapping.FeatureGroupMapping" definesHiddenTokens="true" hiddenTokens="//@rules.14 //@rules.11">
+  <metamodelDeclarations xsi:type="xtext:GeneratedMetamodel" name="featureGroupMapping">
+    <ePackage href="http://www.aadl.info/FGM#/"/>
+  </metamodelDeclarations>
+  <metamodelDeclarations xsi:type="xtext:ReferencedMetamodel" alias="aadl2">
+    <ePackage href="http://aadl.info/AADL/2.0#/"/>
+  </metamodelDeclarations>
+  <metamodelDeclarations xsi:type="xtext:ReferencedMetamodel" alias="ecore">
+    <ePackage href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  </metamodelDeclarations>
+  <rules xsi:type="xtext:ParserRule" name="FGMGrammarRoot">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMGrammarRoot"/>
+    </type>
+    <alternatives xsi:type="xtext:Alternatives">
+      <elements xsi:type="xtext:Group">
+        <elements xsi:type="xtext:Keyword" value="library"/>
+        <elements xsi:type="xtext:Assignment" feature="fgml" operator="=">
+          <terminal xsi:type="xtext:RuleCall" rule="//@rules.1"/>
+        </elements>
+      </elements>
+      <elements xsi:type="xtext:Assignment" feature="fgmsc" operator="=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.3"/>
+      </elements>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FGMLibrary">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMLibrary"/>
+    </type>
+    <alternatives xsi:type="xtext:Assignment" cardinality="+" feature="fgtmappingset" operator="+=">
+      <terminal xsi:type="xtext:RuleCall" rule="//@rules.2"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FGTMappingset">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Keyword" value="mappings"/>
+      <elements xsi:type="xtext:Assignment" feature="name" operator="=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.12"/>
+      </elements>
+      <elements xsi:type="xtext:Group" cardinality="?">
+        <elements xsi:type="xtext:Keyword" value="extends"/>
+        <elements xsi:type="xtext:Assignment" feature="mappingset" operator="=">
+          <terminal xsi:type="xtext:CrossReference">
+            <type metamodel="//@metamodelDeclarations.0">
+              <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+            </type>
+            <terminal xsi:type="xtext:RuleCall" rule="//@rules.13"/>
+          </terminal>
+        </elements>
+      </elements>
+      <elements xsi:type="xtext:Assignment" feature="mapping" operator="+=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.8"/>
+      </elements>
+      <elements xsi:type="xtext:Keyword" value="end"/>
+      <elements xsi:type="xtext:Keyword" value="mappings"/>
+      <elements xsi:type="xtext:Keyword" value=";"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FGMSubclause">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMSubclause"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Keyword" value="use"/>
+      <elements xsi:type="xtext:Keyword" value="mappings"/>
+      <elements xsi:type="xtext:Assignment" feature="mappingset" operator="=">
+        <terminal xsi:type="xtext:CrossReference">
+          <type metamodel="//@metamodelDeclarations.0">
+            <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+          </type>
+          <terminal xsi:type="xtext:RuleCall" rule="//@rules.13"/>
+        </terminal>
+      </elements>
+      <elements xsi:type="xtext:Keyword" value=";"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="AnnexLibrary">
+    <type metamodel="//@metamodelDeclarations.1">
+      <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//AnnexLibrary"/>
+    </type>
+    <alternatives xsi:type="xtext:RuleCall" rule="//@rules.1"/>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="AnnexSubclause">
+    <type metamodel="//@metamodelDeclarations.1">
+      <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//AnnexSubclause"/>
+    </type>
+    <alternatives xsi:type="xtext:RuleCall" rule="//@rules.3"/>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="NamedELement">
+    <type metamodel="//@metamodelDeclarations.1">
+      <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//NamedElement"/>
+    </type>
+    <alternatives xsi:type="xtext:RuleCall" rule="//@rules.2"/>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="Element">
+    <type metamodel="//@metamodelDeclarations.1">
+      <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//Element"/>
+    </type>
+    <alternatives xsi:type="xtext:Alternatives">
+      <elements xsi:type="xtext:RuleCall" rule="//@rules.8"/>
+      <elements xsi:type="xtext:RuleCall" rule="//@rules.9"/>
+      <elements xsi:type="xtext:RuleCall" rule="//@rules.10"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FGMMapping">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMMapping"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Assignment" feature="left" operator="=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.9"/>
+      </elements>
+      <elements xsi:type="xtext:Keyword" value="&lt;=>"/>
+      <elements xsi:type="xtext:Assignment" feature="right" operator="=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.9"/>
+      </elements>
+      <elements xsi:type="xtext:Keyword" value=";"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FeaturePath">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeaturePath"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Group">
+        <elements xsi:type="xtext:Assignment" feature="featureGroupType" operator="=">
+          <terminal xsi:type="xtext:CrossReference">
+            <type metamodel="//@metamodelDeclarations.1">
+              <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//FeatureGroupType"/>
+            </type>
+            <terminal xsi:type="xtext:RuleCall" rule="//@rules.12"/>
+          </terminal>
+        </elements>
+        <elements xsi:type="xtext:Keyword" value="."/>
+      </elements>
+      <elements xsi:type="xtext:Assignment" cardinality="+" feature="featureReference" operator="+=">
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.10"/>
+      </elements>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="FeatureReference">
+    <type metamodel="//@metamodelDeclarations.0">
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeatureReference"/>
+    </type>
+    <alternatives xsi:type="xtext:Assignment" feature="feature" operator="=">
+      <terminal xsi:type="xtext:CrossReference">
+        <type metamodel="//@metamodelDeclarations.1">
+          <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//Feature"/>
+        </type>
+        <terminal xsi:type="xtext:RuleCall" rule="//@rules.12"/>
+      </terminal>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:TerminalRule" name="SL_COMMENT">
+    <type metamodel="//@metamodelDeclarations.2">
+      <classifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Keyword" value="--"/>
+      <elements xsi:type="xtext:NegatedToken" cardinality="*">
+        <terminal xsi:type="xtext:Alternatives">
+          <elements xsi:type="xtext:Keyword" value="&#xA;"/>
+          <elements xsi:type="xtext:Keyword" value="&#xD;"/>
+        </terminal>
+      </elements>
+      <elements xsi:type="xtext:Group" cardinality="?">
+        <elements xsi:type="xtext:Keyword" cardinality="?" value="&#xD;"/>
+        <elements xsi:type="xtext:Keyword" value="&#xA;"/>
+      </elements>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:TerminalRule" name="ID">
+    <type metamodel="//@metamodelDeclarations.2">
+      <classifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Alternatives">
+        <elements xsi:type="xtext:CharacterRange">
+          <left value="a"/>
+          <right value="z"/>
+        </elements>
+        <elements xsi:type="xtext:CharacterRange">
+          <left value="A"/>
+          <right value="Z"/>
+        </elements>
+      </elements>
+      <elements xsi:type="xtext:Group" cardinality="*">
+        <elements xsi:type="xtext:Keyword" cardinality="?" value="_"/>
+        <elements xsi:type="xtext:Alternatives">
+          <elements xsi:type="xtext:CharacterRange">
+            <left value="a"/>
+            <right value="z"/>
+          </elements>
+          <elements xsi:type="xtext:CharacterRange">
+            <left value="A"/>
+            <right value="Z"/>
+          </elements>
+          <elements xsi:type="xtext:CharacterRange">
+            <left value="0"/>
+            <right value="9"/>
+          </elements>
+        </elements>
+      </elements>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:ParserRule" name="QFGTMREF">
+    <type metamodel="//@metamodelDeclarations.2">
+      <classifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </type>
+    <alternatives xsi:type="xtext:Group">
+      <elements xsi:type="xtext:Group" cardinality="*">
+        <elements xsi:type="xtext:RuleCall" rule="//@rules.12"/>
+        <elements xsi:type="xtext:Keyword" value="::"/>
+      </elements>
+      <elements xsi:type="xtext:RuleCall" rule="//@rules.12"/>
+    </alternatives>
+  </rules>
+  <rules xsi:type="xtext:TerminalRule" name="WS">
+    <type metamodel="//@metamodelDeclarations.2">
+      <classifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </type>
+    <alternatives xsi:type="xtext:Alternatives" cardinality="+">
+      <elements xsi:type="xtext:Keyword" value=" "/>
+      <elements xsi:type="xtext:Keyword" value="&#x9;"/>
+      <elements xsi:type="xtext:Keyword" value="&#xD;"/>
+      <elements xsi:type="xtext:Keyword" value="&#xA;"/>
+    </alternatives>
+  </rules>
+</xtext:Grammar>

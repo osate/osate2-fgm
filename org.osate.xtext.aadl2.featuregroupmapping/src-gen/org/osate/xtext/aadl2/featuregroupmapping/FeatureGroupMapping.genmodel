@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.osate.xtext.aadl2.featuregroupmapping/src-gen"
+    editDirectory="/org.osate.xtext.aadl2.featuregroupmapping.edit/src" editorDirectory="/org.osate.xtext.aadl2.featuregroupmapping.editor/src"
+    modelPluginID="org.osate.xtext.aadl2.featuregroupmapping" forceOverwrite="true"
+    modelName="FeatureGroupMapping" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.osate.xtext.aadl2.featuregroupmapping.edit"
+    editorPluginID="org.osate.xtext.aadl2.featuregroupmapping.editor" runtimeVersion="2.8"
+    usedGenPackages="../../../../../../../org.osate.aadl2/model/aadl2-nouml.genmodel#//aadl2">
+  <genPackages prefix="FeatureGroupMapping" basePackage="org.osate.xtext.aadl2.featuregroupmapping"
+      resource="XML" disposableProviderFactory="true" ecorePackage="FeatureGroupMapping.ecore#/">
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FGMGrammarRoot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMGrammarRoot/fgml"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMGrammarRoot/fgmsc"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FGMLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMLibrary/fgtmappingset"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FGTMappingset">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGTMappingset/mappingset"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGTMappingset/mapping"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FGMSubclause">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMSubclause/mappingset"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FGMMapping">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMMapping/left"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FGMMapping/right"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FeaturePath">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FeaturePath/featureGroupType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FeaturePath/featureReference"/>
+    </genClasses>
+    <genClasses ecoreClass="FeatureGroupMapping.ecore#//FeatureReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference FeatureGroupMapping.ecore#//FeatureReference/feature"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
