@@ -150,13 +150,13 @@ public interface FeatureGroupMappingPackage extends EPackage
   int FGM_LIBRARY__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.ANNEX_LIBRARY__OWNED_PROPERTY_ASSOCIATION;
 
   /**
-   * The feature id for the '<em><b>Fgtmappingset</b></em>' containment reference list.
+   * The feature id for the '<em><b>Featuremappingset</b></em>' containment reference list.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FGM_LIBRARY__FGTMAPPINGSET = Aadl2Package.ANNEX_LIBRARY_FEATURE_COUNT + 0;
+  int FGM_LIBRARY__FEATUREMAPPINGSET = Aadl2Package.ANNEX_LIBRARY_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>FGM Library</em>' class.
@@ -168,14 +168,14 @@ public interface FeatureGroupMappingPackage extends EPackage
   int FGM_LIBRARY_FEATURE_COUNT = Aadl2Package.ANNEX_LIBRARY_FEATURE_COUNT + 1;
 
   /**
-   * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl <em>FGT Mappingset</em>}' class.
+   * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl <em>Feature Mappingset</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFGTMappingset()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFeatureMappingset()
    * @generated
    */
-  int FGT_MAPPINGSET = 2;
+  int FEATURE_MAPPINGSET = 2;
 
   /**
    * The feature id for the '<em><b>Owned Element</b></em>' reference list.
@@ -184,7 +184,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__OWNED_ELEMENT = Aadl2Package.NAMED_ELEMENT__OWNED_ELEMENT;
+  int FEATURE_MAPPINGSET__OWNED_ELEMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_ELEMENT;
 
   /**
    * The feature id for the '<em><b>Owned Comment</b></em>' containment reference list.
@@ -193,7 +193,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__OWNED_COMMENT = Aadl2Package.NAMED_ELEMENT__OWNED_COMMENT;
+  int FEATURE_MAPPINGSET__OWNED_COMMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_COMMENT;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -202,7 +202,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__NAME = Aadl2Package.NAMED_ELEMENT__NAME;
+  int FEATURE_MAPPINGSET__NAME = Aadl2Package.ANNEX_SUBCLAUSE__NAME;
 
   /**
    * The feature id for the '<em><b>Qualified Name</b></em>' attribute.
@@ -211,7 +211,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__QUALIFIED_NAME = Aadl2Package.NAMED_ELEMENT__QUALIFIED_NAME;
+  int FEATURE_MAPPINGSET__QUALIFIED_NAME = Aadl2Package.ANNEX_SUBCLAUSE__QUALIFIED_NAME;
 
   /**
    * The feature id for the '<em><b>Owned Property Association</b></em>' containment reference list.
@@ -220,7 +220,16 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.NAMED_ELEMENT__OWNED_PROPERTY_ASSOCIATION;
+  int FEATURE_MAPPINGSET__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION;
+
+  /**
+   * The feature id for the '<em><b>In Mode</b></em>' reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FEATURE_MAPPINGSET__IN_MODE = Aadl2Package.ANNEX_SUBCLAUSE__IN_MODE;
 
   /**
    * The feature id for the '<em><b>Mappingset</b></em>' reference.
@@ -229,7 +238,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__MAPPINGSET = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 0;
+  int FEATURE_MAPPINGSET__MAPPINGSET = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 0;
 
   /**
    * The feature id for the '<em><b>Mapping</b></em>' containment reference list.
@@ -238,16 +247,16 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET__MAPPING = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 1;
+  int FEATURE_MAPPINGSET__MAPPING = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 1;
 
   /**
-   * The number of structural features of the '<em>FGT Mappingset</em>' class.
+   * The number of structural features of the '<em>Feature Mappingset</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FGT_MAPPINGSET_FEATURE_COUNT = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 2;
+  int FEATURE_MAPPINGSET_FEATURE_COUNT = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMSubclauseImpl <em>FGM Subclause</em>}' class.
@@ -260,67 +269,13 @@ public interface FeatureGroupMappingPackage extends EPackage
   int FGM_SUBCLAUSE = 3;
 
   /**
-   * The feature id for the '<em><b>Owned Element</b></em>' reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__OWNED_ELEMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_ELEMENT;
-
-  /**
-   * The feature id for the '<em><b>Owned Comment</b></em>' containment reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__OWNED_COMMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_COMMENT;
-
-  /**
-   * The feature id for the '<em><b>Name</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__NAME = Aadl2Package.ANNEX_SUBCLAUSE__NAME;
-
-  /**
-   * The feature id for the '<em><b>Qualified Name</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__QUALIFIED_NAME = Aadl2Package.ANNEX_SUBCLAUSE__QUALIFIED_NAME;
-
-  /**
-   * The feature id for the '<em><b>Owned Property Association</b></em>' containment reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION;
-
-  /**
-   * The feature id for the '<em><b>In Mode</b></em>' reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FGM_SUBCLAUSE__IN_MODE = Aadl2Package.ANNEX_SUBCLAUSE__IN_MODE;
-
-  /**
    * The feature id for the '<em><b>Mappingset</b></em>' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FGM_SUBCLAUSE__MAPPINGSET = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 0;
+  int FGM_SUBCLAUSE__MAPPINGSET = 0;
 
   /**
    * The number of structural features of the '<em>FGM Subclause</em>' class.
@@ -329,17 +284,17 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_SUBCLAUSE_FEATURE_COUNT = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 1;
+  int FGM_SUBCLAUSE_FEATURE_COUNT = 1;
 
   /**
-   * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl <em>FGM Mapping</em>}' class.
+   * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl <em>Feature Mapping</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFGMMapping()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFeatureMapping()
    * @generated
    */
-  int FGM_MAPPING = 4;
+  int FEATURE_MAPPING = 4;
 
   /**
    * The feature id for the '<em><b>Owned Element</b></em>' reference list.
@@ -348,7 +303,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_MAPPING__OWNED_ELEMENT = Aadl2Package.ELEMENT__OWNED_ELEMENT;
+  int FEATURE_MAPPING__OWNED_ELEMENT = Aadl2Package.ELEMENT__OWNED_ELEMENT;
 
   /**
    * The feature id for the '<em><b>Owned Comment</b></em>' containment reference list.
@@ -357,7 +312,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_MAPPING__OWNED_COMMENT = Aadl2Package.ELEMENT__OWNED_COMMENT;
+  int FEATURE_MAPPING__OWNED_COMMENT = Aadl2Package.ELEMENT__OWNED_COMMENT;
 
   /**
    * The feature id for the '<em><b>Left</b></em>' containment reference.
@@ -366,7 +321,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_MAPPING__LEFT = Aadl2Package.ELEMENT_FEATURE_COUNT + 0;
+  int FEATURE_MAPPING__LEFT = Aadl2Package.ELEMENT_FEATURE_COUNT + 0;
 
   /**
    * The feature id for the '<em><b>Right</b></em>' containment reference.
@@ -375,16 +330,16 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_MAPPING__RIGHT = Aadl2Package.ELEMENT_FEATURE_COUNT + 1;
+  int FEATURE_MAPPING__RIGHT = Aadl2Package.ELEMENT_FEATURE_COUNT + 1;
 
   /**
-   * The number of structural features of the '<em>FGM Mapping</em>' class.
+   * The number of structural features of the '<em>Feature Mapping</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FGM_MAPPING_FEATURE_COUNT = Aadl2Package.ELEMENT_FEATURE_COUNT + 2;
+  int FEATURE_MAPPING_FEATURE_COUNT = Aadl2Package.ELEMENT_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeaturePathImpl <em>Feature Path</em>}' class.
@@ -531,47 +486,47 @@ public interface FeatureGroupMappingPackage extends EPackage
   EClass getFGMLibrary();
 
   /**
-   * Returns the meta object for the containment reference list '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary#getFgtmappingset <em>Fgtmappingset</em>}'.
+   * Returns the meta object for the containment reference list '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary#getFeaturemappingset <em>Featuremappingset</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for the containment reference list '<em>Fgtmappingset</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary#getFgtmappingset()
+   * @return the meta object for the containment reference list '<em>Featuremappingset</em>'.
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary#getFeaturemappingset()
    * @see #getFGMLibrary()
    * @generated
    */
-  EReference getFGMLibrary_Fgtmappingset();
+  EReference getFGMLibrary_Featuremappingset();
 
   /**
-   * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset <em>FGT Mappingset</em>}'.
+   * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset <em>Feature Mappingset</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for class '<em>FGT Mappingset</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset
+   * @return the meta object for class '<em>Feature Mappingset</em>'.
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset
    * @generated
    */
-  EClass getFGTMappingset();
+  EClass getFeatureMappingset();
 
   /**
-   * Returns the meta object for the reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMappingset <em>Mappingset</em>}'.
+   * Returns the meta object for the reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMappingset <em>Mappingset</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the reference '<em>Mappingset</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMappingset()
-   * @see #getFGTMappingset()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMappingset()
+   * @see #getFeatureMappingset()
    * @generated
    */
-  EReference getFGTMappingset_Mappingset();
+  EReference getFeatureMappingset_Mappingset();
 
   /**
-   * Returns the meta object for the containment reference list '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMapping <em>Mapping</em>}'.
+   * Returns the meta object for the containment reference list '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMapping <em>Mapping</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference list '<em>Mapping</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMapping()
-   * @see #getFGTMappingset()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMapping()
+   * @see #getFeatureMappingset()
    * @generated
    */
-  EReference getFGTMappingset_Mapping();
+  EReference getFeatureMappingset_Mapping();
 
   /**
    * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause <em>FGM Subclause</em>}'.
@@ -595,36 +550,36 @@ public interface FeatureGroupMappingPackage extends EPackage
   EReference getFGMSubclause_Mappingset();
 
   /**
-   * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping <em>FGM Mapping</em>}'.
+   * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping <em>Feature Mapping</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for class '<em>FGM Mapping</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping
+   * @return the meta object for class '<em>Feature Mapping</em>'.
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping
    * @generated
    */
-  EClass getFGMMapping();
+  EClass getFeatureMapping();
 
   /**
-   * Returns the meta object for the containment reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping#getLeft <em>Left</em>}'.
+   * Returns the meta object for the containment reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping#getLeft <em>Left</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference '<em>Left</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping#getLeft()
-   * @see #getFGMMapping()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping#getLeft()
+   * @see #getFeatureMapping()
    * @generated
    */
-  EReference getFGMMapping_Left();
+  EReference getFeatureMapping_Left();
 
   /**
-   * Returns the meta object for the containment reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping#getRight <em>Right</em>}'.
+   * Returns the meta object for the containment reference '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping#getRight <em>Right</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference '<em>Right</em>'.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping#getRight()
-   * @see #getFGMMapping()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping#getRight()
+   * @see #getFeatureMapping()
    * @generated
    */
-  EReference getFGMMapping_Right();
+  EReference getFeatureMapping_Right();
 
   /**
    * Returns the meta object for class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeaturePath <em>Feature Path</em>}'.
@@ -739,22 +694,22 @@ public interface FeatureGroupMappingPackage extends EPackage
     EClass FGM_LIBRARY = eINSTANCE.getFGMLibrary();
 
     /**
-     * The meta object literal for the '<em><b>Fgtmappingset</b></em>' containment reference list feature.
+     * The meta object literal for the '<em><b>Featuremappingset</b></em>' containment reference list feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference FGM_LIBRARY__FGTMAPPINGSET = eINSTANCE.getFGMLibrary_Fgtmappingset();
+    EReference FGM_LIBRARY__FEATUREMAPPINGSET = eINSTANCE.getFGMLibrary_Featuremappingset();
 
     /**
-     * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl <em>FGT Mappingset</em>}' class.
+     * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl <em>Feature Mappingset</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl
-     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFGTMappingset()
+     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl
+     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFeatureMappingset()
      * @generated
      */
-    EClass FGT_MAPPINGSET = eINSTANCE.getFGTMappingset();
+    EClass FEATURE_MAPPINGSET = eINSTANCE.getFeatureMappingset();
 
     /**
      * The meta object literal for the '<em><b>Mappingset</b></em>' reference feature.
@@ -762,7 +717,7 @@ public interface FeatureGroupMappingPackage extends EPackage
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference FGT_MAPPINGSET__MAPPINGSET = eINSTANCE.getFGTMappingset_Mappingset();
+    EReference FEATURE_MAPPINGSET__MAPPINGSET = eINSTANCE.getFeatureMappingset_Mappingset();
 
     /**
      * The meta object literal for the '<em><b>Mapping</b></em>' containment reference list feature.
@@ -770,7 +725,7 @@ public interface FeatureGroupMappingPackage extends EPackage
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference FGT_MAPPINGSET__MAPPING = eINSTANCE.getFGTMappingset_Mapping();
+    EReference FEATURE_MAPPINGSET__MAPPING = eINSTANCE.getFeatureMappingset_Mapping();
 
     /**
      * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMSubclauseImpl <em>FGM Subclause</em>}' class.
@@ -791,14 +746,14 @@ public interface FeatureGroupMappingPackage extends EPackage
     EReference FGM_SUBCLAUSE__MAPPINGSET = eINSTANCE.getFGMSubclause_Mappingset();
 
     /**
-     * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl <em>FGM Mapping</em>}' class.
+     * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl <em>Feature Mapping</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl
-     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFGMMapping()
+     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl
+     * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureGroupMappingPackageImpl#getFeatureMapping()
      * @generated
      */
-    EClass FGM_MAPPING = eINSTANCE.getFGMMapping();
+    EClass FEATURE_MAPPING = eINSTANCE.getFeatureMapping();
 
     /**
      * The meta object literal for the '<em><b>Left</b></em>' containment reference feature.
@@ -806,7 +761,7 @@ public interface FeatureGroupMappingPackage extends EPackage
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference FGM_MAPPING__LEFT = eINSTANCE.getFGMMapping_Left();
+    EReference FEATURE_MAPPING__LEFT = eINSTANCE.getFeatureMapping_Left();
 
     /**
      * The meta object literal for the '<em><b>Right</b></em>' containment reference feature.
@@ -814,7 +769,7 @@ public interface FeatureGroupMappingPackage extends EPackage
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference FGM_MAPPING__RIGHT = eINSTANCE.getFGMMapping_Right();
+    EReference FEATURE_MAPPING__RIGHT = eINSTANCE.getFeatureMapping_Right();
 
     /**
      * The meta object literal for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeaturePathImpl <em>Feature Path</em>}' class.

@@ -137,17 +137,17 @@ ruleFGMLibrary returns [EObject current=null]
 (
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFGMLibraryAccess().getFgtmappingsetFGTMappingsetParserRuleCall_0()); 
+	        newCompositeNode(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetFeatureMappingsetParserRuleCall_0()); 
 	    }
-		lv_fgtmappingset_0_0=ruleFGTMappingset		{
+		lv_featuremappingset_0_0=ruleFeatureMappingset		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getFGMLibraryRule());
 	        }
        		add(
        			$current, 
-       			"fgtmappingset",
-        		lv_fgtmappingset_0_0, 
-        		"FGTMappingset");
+       			"featuremappingset",
+        		lv_featuremappingset_0_0, 
+        		"FeatureMappingset");
 	        afterParserOrEnumRuleCall();
 	    }
 
@@ -159,34 +159,34 @@ ruleFGMLibrary returns [EObject current=null]
 
 
 
-// Entry rule entryRuleFGTMappingset
-entryRuleFGTMappingset returns [EObject current=null]
+// Entry rule entryRuleFeatureMappingset
+entryRuleFeatureMappingset returns [EObject current=null]
 	:
-	{ newCompositeNode(grammarAccess.getFGTMappingsetRule()); }
-	 iv_ruleFGTMappingset=ruleFGTMappingset 
-	 { $current=$iv_ruleFGTMappingset.current; } 
+	{ newCompositeNode(grammarAccess.getFeatureMappingsetRule()); }
+	 iv_ruleFeatureMappingset=ruleFeatureMappingset 
+	 { $current=$iv_ruleFeatureMappingset.current; } 
 	 EOF 
 ;
 
-// Rule FGTMappingset
-ruleFGTMappingset returns [EObject current=null] 
+// Rule FeatureMappingset
+ruleFeatureMappingset returns [EObject current=null] 
     @init { enterRule(); 
     }
     @after { leaveRule(); }:
 (
 	otherlv_0=KEYWORD_9
     {
-    	newLeafNode(otherlv_0, grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_0());
+    	newLeafNode(otherlv_0, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_0());
     }
 (
 (
 		lv_name_1_0=RULE_ID
 		{
-			newLeafNode(lv_name_1_0, grammarAccess.getFGTMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
+			newLeafNode(lv_name_1_0, grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
 		}
 		{
 	        if ($current==null) {
-	            $current = createModelElement(grammarAccess.getFGTMappingsetRule());
+	            $current = createModelElement(grammarAccess.getFeatureMappingsetRule());
 	        }
        		setWithLastConsumed(
        			$current, 
@@ -199,17 +199,17 @@ ruleFGTMappingset returns [EObject current=null]
 )(
 	otherlv_2=KEYWORD_7
     {
-    	newLeafNode(otherlv_2, grammarAccess.getFGTMappingsetAccess().getExtendsKeyword_2_0());
+    	newLeafNode(otherlv_2, grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_2_0());
     }
 (
 (
 		{
 			if ($current==null) {
-	            $current = createModelElement(grammarAccess.getFGTMappingsetRule());
+	            $current = createModelElement(grammarAccess.getFeatureMappingsetRule());
 	        }
         }
 		{ 
-	        newCompositeNode(grammarAccess.getFGTMappingsetAccess().getMappingsetFGTMappingsetCrossReference_2_1_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_2_1_0()); 
 	    }
 		ruleQFGTMREF		{ 
 	        afterParserOrEnumRuleCall();
@@ -219,17 +219,17 @@ ruleFGTMappingset returns [EObject current=null]
 ))?(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFGTMappingsetAccess().getMappingFGMMappingParserRuleCall_3_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_3_0()); 
 	    }
-		lv_mapping_4_0=ruleFGMMapping		{
+		lv_mapping_4_0=ruleFeatureMapping		{
 	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getFGTMappingsetRule());
+	            $current = createModelElementForParent(grammarAccess.getFeatureMappingsetRule());
 	        }
        		add(
        			$current, 
        			"mapping",
         		lv_mapping_4_0, 
-        		"FGMMapping");
+        		"FeatureMapping");
 	        afterParserOrEnumRuleCall();
 	    }
 
@@ -237,17 +237,17 @@ ruleFGTMappingset returns [EObject current=null]
 )
 	otherlv_5=KEYWORD_5
     {
-    	newLeafNode(otherlv_5, grammarAccess.getFGTMappingsetAccess().getEndKeyword_4());
+    	newLeafNode(otherlv_5, grammarAccess.getFeatureMappingsetAccess().getEndKeyword_4());
     }
 
 	otherlv_6=KEYWORD_9
     {
-    	newLeafNode(otherlv_6, grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_5());
+    	newLeafNode(otherlv_6, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_5());
     }
 
 	otherlv_7=KEYWORD_2
     {
-    	newLeafNode(otherlv_7, grammarAccess.getFGTMappingsetAccess().getSemicolonKeyword_6());
+    	newLeafNode(otherlv_7, grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_6());
     }
 )
 ;
@@ -288,7 +288,7 @@ ruleFGMSubclause returns [EObject current=null]
 	        }
         }
 		{ 
-	        newCompositeNode(grammarAccess.getFGMSubclauseAccess().getMappingsetFGTMappingsetCrossReference_2_0()); 
+	        newCompositeNode(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetCrossReference_2_0()); 
 	    }
 		ruleQFGTMREF		{ 
 	        afterParserOrEnumRuleCall();
@@ -315,28 +315,28 @@ ruleFGMSubclause returns [EObject current=null]
 
 
 
-// Entry rule entryRuleFGMMapping
-entryRuleFGMMapping returns [EObject current=null]
+// Entry rule entryRuleFeatureMapping
+entryRuleFeatureMapping returns [EObject current=null]
 	:
-	{ newCompositeNode(grammarAccess.getFGMMappingRule()); }
-	 iv_ruleFGMMapping=ruleFGMMapping 
-	 { $current=$iv_ruleFGMMapping.current; } 
+	{ newCompositeNode(grammarAccess.getFeatureMappingRule()); }
+	 iv_ruleFeatureMapping=ruleFeatureMapping 
+	 { $current=$iv_ruleFeatureMapping.current; } 
 	 EOF 
 ;
 
-// Rule FGMMapping
-ruleFGMMapping returns [EObject current=null] 
+// Rule FeatureMapping
+ruleFeatureMapping returns [EObject current=null] 
     @init { enterRule(); 
     }
     @after { leaveRule(); }:
 ((
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFGMMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
 	    }
 		lv_left_0_0=ruleFeaturePath		{
 	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getFGMMappingRule());
+	            $current = createModelElementForParent(grammarAccess.getFeatureMappingRule());
 	        }
        		set(
        			$current, 
@@ -350,16 +350,16 @@ ruleFGMMapping returns [EObject current=null]
 )
 	otherlv_1=KEYWORD_4
     {
-    	newLeafNode(otherlv_1, grammarAccess.getFGMMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1());
+    	newLeafNode(otherlv_1, grammarAccess.getFeatureMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1());
     }
 (
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFGMMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
 	    }
 		lv_right_2_0=ruleFeaturePath		{
 	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getFGMMappingRule());
+	            $current = createModelElementForParent(grammarAccess.getFeatureMappingRule());
 	        }
        		set(
        			$current, 
@@ -373,7 +373,7 @@ ruleFGMMapping returns [EObject current=null]
 )
 	otherlv_3=KEYWORD_2
     {
-    	newLeafNode(otherlv_3, grammarAccess.getFGMMappingAccess().getSemicolonKeyword_3());
+    	newLeafNode(otherlv_3, grammarAccess.getFeatureMappingAccess().getSemicolonKeyword_3());
     }
 )
 ;

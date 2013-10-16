@@ -41,13 +41,13 @@ public interface FeatureGroupMappingFactory extends EFactory
   FGMLibrary createFGMLibrary();
 
   /**
-   * Returns a new object of class '<em>FGT Mappingset</em>'.
+   * Returns a new object of class '<em>Feature Mappingset</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return a new object of class '<em>FGT Mappingset</em>'.
+   * @return a new object of class '<em>Feature Mappingset</em>'.
    * @generated
    */
-  FGTMappingset createFGTMappingset();
+  FeatureMappingset createFeatureMappingset();
 
   /**
    * Returns a new object of class '<em>FGM Subclause</em>'.
@@ -59,13 +59,13 @@ public interface FeatureGroupMappingFactory extends EFactory
   FGMSubclause createFGMSubclause();
 
   /**
-   * Returns a new object of class '<em>FGM Mapping</em>'.
+   * Returns a new object of class '<em>Feature Mapping</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return a new object of class '<em>FGM Mapping</em>'.
+   * @return a new object of class '<em>Feature Mapping</em>'.
    * @generated
    */
-  FGMMapping createFGMMapping();
+  FeatureMapping createFeatureMapping();
 
   /**
    * Returns a new object of class '<em>Feature Path</em>'.

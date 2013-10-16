@@ -6,7 +6,7 @@ import org.eclipse.xtext.naming.QualifiedName;
 import org.osate.aadl2.AadlPackage;
 import org.osate.aadl2.NamedElement;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.util.FGMUtil;
 
 public class FeatureGroupMappingQualifiedNameProvider extends DefaultDeclarativeQualifiedNameProvider {
@@ -25,7 +25,7 @@ public class FeatureGroupMappingQualifiedNameProvider extends DefaultDeclarative
 			return getConverter().toQualifiedName(((AadlPackage) obj).getName());
 		}
 		// for all globally visible Annex elements return a unqiue name
-		if (obj instanceof FGMLibrary || obj instanceof FGTMappingset){
+		if (obj instanceof FGMLibrary || obj instanceof FeatureMappingset){
 			return getConverter().toQualifiedName(getTheName((NamedElement)obj));
 		}
 		return null;

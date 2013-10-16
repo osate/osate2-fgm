@@ -61,25 +61,25 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	public class FGMLibraryElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FGMLibrary");
-		private final Assignment cFgtmappingsetAssignment = (Assignment)rule.eContents().get(1);
-		private final RuleCall cFgtmappingsetFGTMappingsetParserRuleCall_0 = (RuleCall)cFgtmappingsetAssignment.eContents().get(0);
+		private final Assignment cFeaturemappingsetAssignment = (Assignment)rule.eContents().get(1);
+		private final RuleCall cFeaturemappingsetFeatureMappingsetParserRuleCall_0 = (RuleCall)cFeaturemappingsetAssignment.eContents().get(0);
 		
 		//// the root for  AnnexLibrary parsing
 		//
 		//FGMLibrary:
 		//
-		//	fgtmappingset+=FGTMappingset+;
+		//	featuremappingset+=FeatureMappingset+;
 		public ParserRule getRule() { return rule; }
 
-		//fgtmappingset+=FGTMappingset+
-		public Assignment getFgtmappingsetAssignment() { return cFgtmappingsetAssignment; }
+		//featuremappingset+=FeatureMappingset+
+		public Assignment getFeaturemappingsetAssignment() { return cFeaturemappingsetAssignment; }
 
-		//FGTMappingset
-		public RuleCall getFgtmappingsetFGTMappingsetParserRuleCall_0() { return cFgtmappingsetFGTMappingsetParserRuleCall_0; }
+		//FeatureMappingset
+		public RuleCall getFeaturemappingsetFeatureMappingsetParserRuleCall_0() { return cFeaturemappingsetFeatureMappingsetParserRuleCall_0; }
 	}
 
-	public class FGTMappingsetElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FGTMappingset");
+	public class FeatureMappingsetElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FeatureMappingset");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cMappingsKeyword_0 = (Keyword)cGroup.eContents().get(0);
 		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
@@ -87,20 +87,20 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		private final Group cGroup_2 = (Group)cGroup.eContents().get(2);
 		private final Keyword cExtendsKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
 		private final Assignment cMappingsetAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
-		private final CrossReference cMappingsetFGTMappingsetCrossReference_2_1_0 = (CrossReference)cMappingsetAssignment_2_1.eContents().get(0);
-		private final RuleCall cMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_1_0_1 = (RuleCall)cMappingsetFGTMappingsetCrossReference_2_1_0.eContents().get(1);
+		private final CrossReference cMappingsetFeatureMappingsetCrossReference_2_1_0 = (CrossReference)cMappingsetAssignment_2_1.eContents().get(0);
+		private final RuleCall cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1 = (RuleCall)cMappingsetFeatureMappingsetCrossReference_2_1_0.eContents().get(1);
 		private final Assignment cMappingAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final RuleCall cMappingFGMMappingParserRuleCall_3_0 = (RuleCall)cMappingAssignment_3.eContents().get(0);
+		private final RuleCall cMappingFeatureMappingParserRuleCall_3_0 = (RuleCall)cMappingAssignment_3.eContents().get(0);
 		private final Keyword cEndKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		private final Keyword cMappingsKeyword_5 = (Keyword)cGroup.eContents().get(5);
 		private final Keyword cSemicolonKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
-		//FGTMappingset:
+		//FeatureMappingset:
 		//
-		//	"mappings" name=ID ("extends" mappingset=[FGTMappingset|QFGTMREF])? mapping+=FGMMapping "end" "mappings" ";";
+		//	"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";";
 		public ParserRule getRule() { return rule; }
 
-		//"mappings" name=ID ("extends" mappingset=[FGTMappingset|QFGTMREF])? mapping+=FGMMapping "end" "mappings" ";"
+		//"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";"
 		public Group getGroup() { return cGroup; }
 
 		//"mappings"
@@ -112,26 +112,26 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		//ID
 		public RuleCall getNameIDTerminalRuleCall_1_0() { return cNameIDTerminalRuleCall_1_0; }
 
-		//("extends" mappingset=[FGTMappingset|QFGTMREF])?
+		//("extends" mappingset=[FeatureMappingset|QFGTMREF])?
 		public Group getGroup_2() { return cGroup_2; }
 
 		//"extends"
 		public Keyword getExtendsKeyword_2_0() { return cExtendsKeyword_2_0; }
 
-		//mappingset=[FGTMappingset|QFGTMREF]
+		//mappingset=[FeatureMappingset|QFGTMREF]
 		public Assignment getMappingsetAssignment_2_1() { return cMappingsetAssignment_2_1; }
 
-		//[FGTMappingset|QFGTMREF]
-		public CrossReference getMappingsetFGTMappingsetCrossReference_2_1_0() { return cMappingsetFGTMappingsetCrossReference_2_1_0; }
+		//[FeatureMappingset|QFGTMREF]
+		public CrossReference getMappingsetFeatureMappingsetCrossReference_2_1_0() { return cMappingsetFeatureMappingsetCrossReference_2_1_0; }
 
 		//QFGTMREF
-		public RuleCall getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_1_0_1() { return cMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_1_0_1; }
+		public RuleCall getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1() { return cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1; }
 
-		//mapping+=FGMMapping
+		//mapping+=FeatureMapping
 		public Assignment getMappingAssignment_3() { return cMappingAssignment_3; }
 
-		//FGMMapping
-		public RuleCall getMappingFGMMappingParserRuleCall_3_0() { return cMappingFGMMappingParserRuleCall_3_0; }
+		//FeatureMapping
+		public RuleCall getMappingFeatureMappingParserRuleCall_3_0() { return cMappingFeatureMappingParserRuleCall_3_0; }
 
 		//"end"
 		public Keyword getEndKeyword_4() { return cEndKeyword_4; }
@@ -149,16 +149,16 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		private final Keyword cUseKeyword_0 = (Keyword)cGroup.eContents().get(0);
 		private final Keyword cMappingsKeyword_1 = (Keyword)cGroup.eContents().get(1);
 		private final Assignment cMappingsetAssignment_2 = (Assignment)cGroup.eContents().get(2);
-		private final CrossReference cMappingsetFGTMappingsetCrossReference_2_0 = (CrossReference)cMappingsetAssignment_2.eContents().get(0);
-		private final RuleCall cMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_0_1 = (RuleCall)cMappingsetFGTMappingsetCrossReference_2_0.eContents().get(1);
+		private final CrossReference cMappingsetFeatureMappingsetCrossReference_2_0 = (CrossReference)cMappingsetAssignment_2.eContents().get(0);
+		private final RuleCall cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1 = (RuleCall)cMappingsetFeatureMappingsetCrossReference_2_0.eContents().get(1);
 		private final Keyword cSemicolonKeyword_3 = (Keyword)cGroup.eContents().get(3);
 		
 		//FGMSubclause:
 		//
-		//	"use" "mappings" mappingset=[FGTMappingset|QFGTMREF] ";";
+		//	"use" "mappings" mappingset=[FeatureMappingset|QFGTMREF] ";";
 		public ParserRule getRule() { return rule; }
 
-		//"use" "mappings" mappingset=[FGTMappingset|QFGTMREF] ";"
+		//"use" "mappings" mappingset=[FeatureMappingset|QFGTMREF] ";"
 		public Group getGroup() { return cGroup; }
 
 		//"use"
@@ -167,14 +167,14 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		//"mappings"
 		public Keyword getMappingsKeyword_1() { return cMappingsKeyword_1; }
 
-		//mappingset=[FGTMappingset|QFGTMREF]
+		//mappingset=[FeatureMappingset|QFGTMREF]
 		public Assignment getMappingsetAssignment_2() { return cMappingsetAssignment_2; }
 
-		//[FGTMappingset|QFGTMREF]
-		public CrossReference getMappingsetFGTMappingsetCrossReference_2_0() { return cMappingsetFGTMappingsetCrossReference_2_0; }
+		//[FeatureMappingset|QFGTMREF]
+		public CrossReference getMappingsetFeatureMappingsetCrossReference_2_0() { return cMappingsetFeatureMappingsetCrossReference_2_0; }
 
 		//QFGTMREF
-		public RuleCall getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_0_1() { return cMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_0_1; }
+		public RuleCall getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1() { return cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1; }
 
 		//";"
 		public Keyword getSemicolonKeyword_3() { return cSemicolonKeyword_3; }
@@ -195,36 +195,36 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	public class AnnexSubclauseElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "AnnexSubclause");
-		private final RuleCall cFGMSubclauseParserRuleCall = (RuleCall)rule.eContents().get(1);
+		private final RuleCall cFeatureMappingsetParserRuleCall = (RuleCall)rule.eContents().get(1);
 		
 		//AnnexSubclause returns aadl2::AnnexSubclause:
 		//
-		//	FGMSubclause;
+		//	FeatureMappingset;
 		public ParserRule getRule() { return rule; }
 
-		//FGMSubclause
-		public RuleCall getFGMSubclauseParserRuleCall() { return cFGMSubclauseParserRuleCall; }
+		//FeatureMappingset
+		public RuleCall getFeatureMappingsetParserRuleCall() { return cFeatureMappingsetParserRuleCall; }
 	}
 
-	public class NamedELementElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "NamedELement");
-		private final RuleCall cFGTMappingsetParserRuleCall = (RuleCall)rule.eContents().get(1);
+	public class NamedElementElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "NamedElement");
+		private final RuleCall cFeatureMappingsetParserRuleCall = (RuleCall)rule.eContents().get(1);
 		
 		//// FGMLibrary is a named element that can be referenced by others	 
 		//
-		//NamedELement returns aadl2::NamedElement:
+		//NamedElement returns aadl2::NamedElement:
 		//
-		//	FGTMappingset;
+		//	FeatureMappingset;
 		public ParserRule getRule() { return rule; }
 
-		//FGTMappingset
-		public RuleCall getFGTMappingsetParserRuleCall() { return cFGTMappingsetParserRuleCall; }
+		//FeatureMappingset
+		public RuleCall getFeatureMappingsetParserRuleCall() { return cFeatureMappingsetParserRuleCall; }
 	}
 
 	public class ElementElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "Element");
 		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
-		private final RuleCall cFGMMappingParserRuleCall_0 = (RuleCall)cAlternatives.eContents().get(0);
+		private final RuleCall cFeatureMappingParserRuleCall_0 = (RuleCall)cAlternatives.eContents().get(0);
 		private final RuleCall cFeaturePathParserRuleCall_1 = (RuleCall)cAlternatives.eContents().get(1);
 		private final RuleCall cFeatureReferenceParserRuleCall_2 = (RuleCall)cAlternatives.eContents().get(2);
 		
@@ -232,14 +232,14 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		//
 		//Element returns aadl2::Element:
 		//
-		//	FGMMapping | FeaturePath | FeatureReference;
+		//	FeatureMapping | FeaturePath | FeatureReference;
 		public ParserRule getRule() { return rule; }
 
-		//FGMMapping | FeaturePath | FeatureReference
+		//FeatureMapping | FeaturePath | FeatureReference
 		public Alternatives getAlternatives() { return cAlternatives; }
 
-		//FGMMapping
-		public RuleCall getFGMMappingParserRuleCall_0() { return cFGMMappingParserRuleCall_0; }
+		//FeatureMapping
+		public RuleCall getFeatureMappingParserRuleCall_0() { return cFeatureMappingParserRuleCall_0; }
 
 		//FeaturePath
 		public RuleCall getFeaturePathParserRuleCall_1() { return cFeaturePathParserRuleCall_1; }
@@ -248,8 +248,8 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		public RuleCall getFeatureReferenceParserRuleCall_2() { return cFeatureReferenceParserRuleCall_2; }
 	}
 
-	public class FGMMappingElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FGMMapping");
+	public class FeatureMappingElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FeatureMapping");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Assignment cLeftAssignment_0 = (Assignment)cGroup.eContents().get(0);
 		private final RuleCall cLeftFeaturePathParserRuleCall_0_0 = (RuleCall)cLeftAssignment_0.eContents().get(0);
@@ -258,7 +258,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		private final RuleCall cRightFeaturePathParserRuleCall_2_0 = (RuleCall)cRightAssignment_2.eContents().get(0);
 		private final Keyword cSemicolonKeyword_3 = (Keyword)cGroup.eContents().get(3);
 		
-		//FGMMapping:
+		//FeatureMapping:
 		//
 		//	left=FeaturePath "<=>" right=FeaturePath ";";
 		public ParserRule getRule() { return rule; }
@@ -379,13 +379,13 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	
 	private FGMGrammarRootElements pFGMGrammarRoot;
 	private FGMLibraryElements pFGMLibrary;
-	private FGTMappingsetElements pFGTMappingset;
+	private FeatureMappingsetElements pFeatureMappingset;
 	private FGMSubclauseElements pFGMSubclause;
 	private AnnexLibraryElements pAnnexLibrary;
 	private AnnexSubclauseElements pAnnexSubclause;
-	private NamedELementElements pNamedELement;
+	private NamedElementElements pNamedElement;
 	private ElementElements pElement;
-	private FGMMappingElements pFGMMapping;
+	private FeatureMappingElements pFeatureMapping;
 	private FeaturePathElements pFeaturePath;
 	private FeatureReferenceElements pFeatureReference;
 	private TerminalRule tSL_COMMENT;
@@ -442,7 +442,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	//
 	//FGMLibrary:
 	//
-	//	fgtmappingset+=FGTMappingset+;
+	//	featuremappingset+=FeatureMappingset+;
 	public FGMLibraryElements getFGMLibraryAccess() {
 		return (pFGMLibrary != null) ? pFGMLibrary : (pFGMLibrary = new FGMLibraryElements());
 	}
@@ -451,20 +451,20 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		return getFGMLibraryAccess().getRule();
 	}
 
-	//FGTMappingset:
+	//FeatureMappingset:
 	//
-	//	"mappings" name=ID ("extends" mappingset=[FGTMappingset|QFGTMREF])? mapping+=FGMMapping "end" "mappings" ";";
-	public FGTMappingsetElements getFGTMappingsetAccess() {
-		return (pFGTMappingset != null) ? pFGTMappingset : (pFGTMappingset = new FGTMappingsetElements());
+	//	"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";";
+	public FeatureMappingsetElements getFeatureMappingsetAccess() {
+		return (pFeatureMappingset != null) ? pFeatureMappingset : (pFeatureMappingset = new FeatureMappingsetElements());
 	}
 	
-	public ParserRule getFGTMappingsetRule() {
-		return getFGTMappingsetAccess().getRule();
+	public ParserRule getFeatureMappingsetRule() {
+		return getFeatureMappingsetAccess().getRule();
 	}
 
 	//FGMSubclause:
 	//
-	//	"use" "mappings" mappingset=[FGTMappingset|QFGTMREF] ";";
+	//	"use" "mappings" mappingset=[FeatureMappingset|QFGTMREF] ";";
 	public FGMSubclauseElements getFGMSubclauseAccess() {
 		return (pFGMSubclause != null) ? pFGMSubclause : (pFGMSubclause = new FGMSubclauseElements());
 	}
@@ -486,7 +486,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	//AnnexSubclause returns aadl2::AnnexSubclause:
 	//
-	//	FGMSubclause;
+	//	FeatureMappingset;
 	public AnnexSubclauseElements getAnnexSubclauseAccess() {
 		return (pAnnexSubclause != null) ? pAnnexSubclause : (pAnnexSubclause = new AnnexSubclauseElements());
 	}
@@ -497,22 +497,22 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	//// FGMLibrary is a named element that can be referenced by others	 
 	//
-	//NamedELement returns aadl2::NamedElement:
+	//NamedElement returns aadl2::NamedElement:
 	//
-	//	FGTMappingset;
-	public NamedELementElements getNamedELementAccess() {
-		return (pNamedELement != null) ? pNamedELement : (pNamedELement = new NamedELementElements());
+	//	FeatureMappingset;
+	public NamedElementElements getNamedElementAccess() {
+		return (pNamedElement != null) ? pNamedElement : (pNamedElement = new NamedElementElements());
 	}
 	
-	public ParserRule getNamedELementRule() {
-		return getNamedELementAccess().getRule();
+	public ParserRule getNamedElementRule() {
+		return getNamedElementAccess().getRule();
 	}
 
 	//// all the other FGM elements must be a subclass of (aadl2) Element
 	//
 	//Element returns aadl2::Element:
 	//
-	//	FGMMapping | FeaturePath | FeatureReference;
+	//	FeatureMapping | FeaturePath | FeatureReference;
 	public ElementElements getElementAccess() {
 		return (pElement != null) ? pElement : (pElement = new ElementElements());
 	}
@@ -521,15 +521,15 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		return getElementAccess().getRule();
 	}
 
-	//FGMMapping:
+	//FeatureMapping:
 	//
 	//	left=FeaturePath "<=>" right=FeaturePath ";";
-	public FGMMappingElements getFGMMappingAccess() {
-		return (pFGMMapping != null) ? pFGMMapping : (pFGMMapping = new FGMMappingElements());
+	public FeatureMappingElements getFeatureMappingAccess() {
+		return (pFeatureMapping != null) ? pFeatureMapping : (pFeatureMapping = new FeatureMappingElements());
 	}
 	
-	public ParserRule getFGMMappingRule() {
-		return getFGMMappingAccess().getRule();
+	public ParserRule getFeatureMappingRule() {
+		return getFeatureMappingAccess().getRule();
 	}
 
 	//FeaturePath:

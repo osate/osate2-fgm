@@ -12,11 +12,11 @@ import org.osate.aadl2.Aadl2Package;
 
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMGrammarRoot;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingFactory;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeaturePath;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureReference;
 
@@ -47,7 +47,7 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  private EClass fgtMappingsetEClass = null;
+  private EClass featureMappingsetEClass = null;
 
   /**
    * <!-- begin-user-doc -->
@@ -61,7 +61,7 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  private EClass fgmMappingEClass = null;
+  private EClass featureMappingEClass = null;
 
   /**
    * <!-- begin-user-doc -->
@@ -188,7 +188,7 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getFGMLibrary_Fgtmappingset()
+  public EReference getFGMLibrary_Featuremappingset()
   {
     return (EReference)fgmLibraryEClass.getEStructuralFeatures().get(0);
   }
@@ -198,9 +198,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EClass getFGTMappingset()
+  public EClass getFeatureMappingset()
   {
-    return fgtMappingsetEClass;
+    return featureMappingsetEClass;
   }
 
   /**
@@ -208,9 +208,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getFGTMappingset_Mappingset()
+  public EReference getFeatureMappingset_Mappingset()
   {
-    return (EReference)fgtMappingsetEClass.getEStructuralFeatures().get(0);
+    return (EReference)featureMappingsetEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -218,9 +218,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getFGTMappingset_Mapping()
+  public EReference getFeatureMappingset_Mapping()
   {
-    return (EReference)fgtMappingsetEClass.getEStructuralFeatures().get(1);
+    return (EReference)featureMappingsetEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -248,9 +248,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EClass getFGMMapping()
+  public EClass getFeatureMapping()
   {
-    return fgmMappingEClass;
+    return featureMappingEClass;
   }
 
   /**
@@ -258,9 +258,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getFGMMapping_Left()
+  public EReference getFeatureMapping_Left()
   {
-    return (EReference)fgmMappingEClass.getEStructuralFeatures().get(0);
+    return (EReference)featureMappingEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -268,9 +268,9 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getFGMMapping_Right()
+  public EReference getFeatureMapping_Right()
   {
-    return (EReference)fgmMappingEClass.getEStructuralFeatures().get(1);
+    return (EReference)featureMappingEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -358,18 +358,18 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
     createEReference(fgmGrammarRootEClass, FGM_GRAMMAR_ROOT__FGMSC);
 
     fgmLibraryEClass = createEClass(FGM_LIBRARY);
-    createEReference(fgmLibraryEClass, FGM_LIBRARY__FGTMAPPINGSET);
+    createEReference(fgmLibraryEClass, FGM_LIBRARY__FEATUREMAPPINGSET);
 
-    fgtMappingsetEClass = createEClass(FGT_MAPPINGSET);
-    createEReference(fgtMappingsetEClass, FGT_MAPPINGSET__MAPPINGSET);
-    createEReference(fgtMappingsetEClass, FGT_MAPPINGSET__MAPPING);
+    featureMappingsetEClass = createEClass(FEATURE_MAPPINGSET);
+    createEReference(featureMappingsetEClass, FEATURE_MAPPINGSET__MAPPINGSET);
+    createEReference(featureMappingsetEClass, FEATURE_MAPPINGSET__MAPPING);
 
     fgmSubclauseEClass = createEClass(FGM_SUBCLAUSE);
     createEReference(fgmSubclauseEClass, FGM_SUBCLAUSE__MAPPINGSET);
 
-    fgmMappingEClass = createEClass(FGM_MAPPING);
-    createEReference(fgmMappingEClass, FGM_MAPPING__LEFT);
-    createEReference(fgmMappingEClass, FGM_MAPPING__RIGHT);
+    featureMappingEClass = createEClass(FEATURE_MAPPING);
+    createEReference(featureMappingEClass, FEATURE_MAPPING__LEFT);
+    createEReference(featureMappingEClass, FEATURE_MAPPING__RIGHT);
 
     featurePathEClass = createEClass(FEATURE_PATH);
     createEReference(featurePathEClass, FEATURE_PATH__FEATURE_GROUP_TYPE);
@@ -412,9 +412,8 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
 
     // Add supertypes to classes
     fgmLibraryEClass.getESuperTypes().add(theAadl2Package.getAnnexLibrary());
-    fgtMappingsetEClass.getESuperTypes().add(theAadl2Package.getNamedElement());
-    fgmSubclauseEClass.getESuperTypes().add(theAadl2Package.getAnnexSubclause());
-    fgmMappingEClass.getESuperTypes().add(theAadl2Package.getElement());
+    featureMappingsetEClass.getESuperTypes().add(theAadl2Package.getAnnexSubclause());
+    featureMappingEClass.getESuperTypes().add(theAadl2Package.getElement());
     featurePathEClass.getESuperTypes().add(theAadl2Package.getElement());
     featureReferenceEClass.getESuperTypes().add(theAadl2Package.getElement());
 
@@ -424,18 +423,18 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
     initEReference(getFGMGrammarRoot_Fgmsc(), this.getFGMSubclause(), null, "fgmsc", null, 0, 1, FGMGrammarRoot.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(fgmLibraryEClass, FGMLibrary.class, "FGMLibrary", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEReference(getFGMLibrary_Fgtmappingset(), this.getFGTMappingset(), null, "fgtmappingset", null, 0, -1, FGMLibrary.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFGMLibrary_Featuremappingset(), this.getFeatureMappingset(), null, "featuremappingset", null, 0, -1, FGMLibrary.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-    initEClass(fgtMappingsetEClass, FGTMappingset.class, "FGTMappingset", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEReference(getFGTMappingset_Mappingset(), this.getFGTMappingset(), null, "mappingset", null, 0, 1, FGTMappingset.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getFGTMappingset_Mapping(), this.getFGMMapping(), null, "mapping", null, 0, -1, FGTMappingset.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEClass(featureMappingsetEClass, FeatureMappingset.class, "FeatureMappingset", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEReference(getFeatureMappingset_Mappingset(), this.getFeatureMappingset(), null, "mappingset", null, 0, 1, FeatureMappingset.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFeatureMappingset_Mapping(), this.getFeatureMapping(), null, "mapping", null, 0, -1, FeatureMappingset.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(fgmSubclauseEClass, FGMSubclause.class, "FGMSubclause", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEReference(getFGMSubclause_Mappingset(), this.getFGTMappingset(), null, "mappingset", null, 0, 1, FGMSubclause.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFGMSubclause_Mappingset(), this.getFeatureMappingset(), null, "mappingset", null, 0, 1, FGMSubclause.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-    initEClass(fgmMappingEClass, FGMMapping.class, "FGMMapping", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEReference(getFGMMapping_Left(), this.getFeaturePath(), null, "left", null, 0, 1, FGMMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getFGMMapping_Right(), this.getFeaturePath(), null, "right", null, 0, 1, FGMMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEClass(featureMappingEClass, FeatureMapping.class, "FeatureMapping", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEReference(getFeatureMapping_Left(), this.getFeaturePath(), null, "left", null, 0, 1, FeatureMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFeatureMapping_Right(), this.getFeaturePath(), null, "right", null, 0, 1, FeatureMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(featurePathEClass, FeaturePath.class, "FeaturePath", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getFeaturePath_FeatureGroupType(), theAadl2Package.getFeatureGroupType(), null, "featureGroupType", null, 0, 1, FeaturePath.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

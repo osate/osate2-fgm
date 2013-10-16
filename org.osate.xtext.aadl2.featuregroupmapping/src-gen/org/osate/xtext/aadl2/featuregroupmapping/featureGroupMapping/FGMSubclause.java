@@ -4,8 +4,6 @@ package org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.osate.aadl2.AnnexSubclause;
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>FGM Subclause</b></em>'.
@@ -22,7 +20,7 @@ import org.osate.aadl2.AnnexSubclause;
  * @model
  * @generated
  */
-public interface FGMSubclause extends EObject, AnnexSubclause
+public interface FGMSubclause extends EObject
 {
   /**
    * Returns the value of the '<em><b>Mappingset</b></em>' reference.
@@ -33,12 +31,12 @@ public interface FGMSubclause extends EObject, AnnexSubclause
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Mappingset</em>' reference.
-   * @see #setMappingset(FGTMappingset)
+   * @see #setMappingset(FeatureMappingset)
    * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFGMSubclause_Mappingset()
    * @model
    * @generated
    */
-  FGTMappingset getMappingset();
+  FeatureMappingset getMappingset();
 
   /**
    * Sets the value of the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause#getMappingset <em>Mappingset</em>}' reference.
@@ -48,6 +46,6 @@ public interface FGMSubclause extends EObject, AnnexSubclause
    * @see #getMappingset()
    * @generated
    */
-  void setMappingset(FGTMappingset value);
+  void setMappingset(FeatureMappingset value);
 
 } // FGMSubclause

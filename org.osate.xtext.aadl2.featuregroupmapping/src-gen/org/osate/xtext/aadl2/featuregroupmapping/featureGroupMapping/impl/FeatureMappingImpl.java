@@ -12,25 +12,25 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import org.osate.aadl2.impl.ElementImpl;
 
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeaturePath;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>FGM Mapping</b></em>'.
+ * An implementation of the model object '<em><b>Feature Mapping</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl#getLeft <em>Left</em>}</li>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMMappingImpl#getRight <em>Right</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl#getLeft <em>Left</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl#getRight <em>Right</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class FGMMappingImpl extends ElementImpl implements FGMMapping
+public class FeatureMappingImpl extends ElementImpl implements FeatureMapping
 {
   /**
    * The cached value of the '{@link #getLeft() <em>Left</em>}' containment reference.
@@ -57,7 +57,7 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
    * <!-- end-user-doc -->
    * @generated
    */
-  protected FGMMappingImpl()
+  protected FeatureMappingImpl()
   {
     super();
   }
@@ -70,7 +70,7 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   @Override
   protected EClass eStaticClass()
   {
-    return FeatureGroupMappingPackage.Literals.FGM_MAPPING;
+    return FeatureGroupMappingPackage.Literals.FEATURE_MAPPING;
   }
 
   /**
@@ -94,7 +94,7 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
     left = newLeft;
     if (eNotificationRequired())
     {
-      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGM_MAPPING__LEFT, oldLeft, newLeft);
+      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT, oldLeft, newLeft);
       if (msgs == null) msgs = notification; else msgs.add(notification);
     }
     return msgs;
@@ -111,14 +111,14 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
     {
       NotificationChain msgs = null;
       if (left != null)
-        msgs = ((InternalEObject)left).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FGM_MAPPING__LEFT, null, msgs);
+        msgs = ((InternalEObject)left).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT, null, msgs);
       if (newLeft != null)
-        msgs = ((InternalEObject)newLeft).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FGM_MAPPING__LEFT, null, msgs);
+        msgs = ((InternalEObject)newLeft).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT, null, msgs);
       msgs = basicSetLeft(newLeft, msgs);
       if (msgs != null) msgs.dispatch();
     }
     else if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGM_MAPPING__LEFT, newLeft, newLeft));
+      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT, newLeft, newLeft));
   }
 
   /**
@@ -142,7 +142,7 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
     right = newRight;
     if (eNotificationRequired())
     {
-      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGM_MAPPING__RIGHT, oldRight, newRight);
+      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT, oldRight, newRight);
       if (msgs == null) msgs = notification; else msgs.add(notification);
     }
     return msgs;
@@ -159,14 +159,14 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
     {
       NotificationChain msgs = null;
       if (right != null)
-        msgs = ((InternalEObject)right).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FGM_MAPPING__RIGHT, null, msgs);
+        msgs = ((InternalEObject)right).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT, null, msgs);
       if (newRight != null)
-        msgs = ((InternalEObject)newRight).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FGM_MAPPING__RIGHT, null, msgs);
+        msgs = ((InternalEObject)newRight).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT, null, msgs);
       msgs = basicSetRight(newRight, msgs);
       if (msgs != null) msgs.dispatch();
     }
     else if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGM_MAPPING__RIGHT, newRight, newRight));
+      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT, newRight, newRight));
   }
 
   /**
@@ -179,9 +179,9 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_MAPPING__LEFT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT:
         return basicSetLeft(null, msgs);
-      case FeatureGroupMappingPackage.FGM_MAPPING__RIGHT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT:
         return basicSetRight(null, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
@@ -197,9 +197,9 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_MAPPING__LEFT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT:
         return getLeft();
-      case FeatureGroupMappingPackage.FGM_MAPPING__RIGHT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT:
         return getRight();
     }
     return super.eGet(featureID, resolve, coreType);
@@ -215,10 +215,10 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_MAPPING__LEFT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT:
         setLeft((FeaturePath)newValue);
         return;
-      case FeatureGroupMappingPackage.FGM_MAPPING__RIGHT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT:
         setRight((FeaturePath)newValue);
         return;
     }
@@ -235,10 +235,10 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_MAPPING__LEFT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT:
         setLeft((FeaturePath)null);
         return;
-      case FeatureGroupMappingPackage.FGM_MAPPING__RIGHT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT:
         setRight((FeaturePath)null);
         return;
     }
@@ -255,12 +255,12 @@ public class FGMMappingImpl extends ElementImpl implements FGMMapping
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_MAPPING__LEFT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__LEFT:
         return left != null;
-      case FeatureGroupMappingPackage.FGM_MAPPING__RIGHT:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING__RIGHT:
         return right != null;
     }
     return super.eIsSet(featureID);
   }
 
-} //FGMMappingImpl
+} //FeatureMappingImpl

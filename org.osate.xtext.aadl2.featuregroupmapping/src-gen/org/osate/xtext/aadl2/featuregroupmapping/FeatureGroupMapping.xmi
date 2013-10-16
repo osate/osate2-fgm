@@ -29,13 +29,13 @@
     <type metamodel="//@metamodelDeclarations.0">
       <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMLibrary"/>
     </type>
-    <alternatives xsi:type="xtext:Assignment" cardinality="+" feature="fgtmappingset" operator="+=">
+    <alternatives xsi:type="xtext:Assignment" cardinality="+" feature="featuremappingset" operator="+=">
       <terminal xsi:type="xtext:RuleCall" rule="//@rules.2"/>
     </alternatives>
   </rules>
-  <rules xsi:type="xtext:ParserRule" name="FGTMappingset">
+  <rules xsi:type="xtext:ParserRule" name="FeatureMappingset">
     <type metamodel="//@metamodelDeclarations.0">
-      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeatureMappingset"/>
     </type>
     <alternatives xsi:type="xtext:Group">
       <elements xsi:type="xtext:Keyword" value="mappings"/>
@@ -47,7 +47,7 @@
         <elements xsi:type="xtext:Assignment" feature="mappingset" operator="=">
           <terminal xsi:type="xtext:CrossReference">
             <type metamodel="//@metamodelDeclarations.0">
-              <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+              <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeatureMappingset"/>
             </type>
             <terminal xsi:type="xtext:RuleCall" rule="//@rules.13"/>
           </terminal>
@@ -71,7 +71,7 @@
       <elements xsi:type="xtext:Assignment" feature="mappingset" operator="=">
         <terminal xsi:type="xtext:CrossReference">
           <type metamodel="//@metamodelDeclarations.0">
-            <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGTMappingset"/>
+            <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeatureMappingset"/>
           </type>
           <terminal xsi:type="xtext:RuleCall" rule="//@rules.13"/>
         </terminal>
@@ -89,9 +89,9 @@
     <type metamodel="//@metamodelDeclarations.1">
       <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//AnnexSubclause"/>
     </type>
-    <alternatives xsi:type="xtext:RuleCall" rule="//@rules.3"/>
+    <alternatives xsi:type="xtext:RuleCall" rule="//@rules.2"/>
   </rules>
-  <rules xsi:type="xtext:ParserRule" name="NamedELement">
+  <rules xsi:type="xtext:ParserRule" name="NamedElement">
     <type metamodel="//@metamodelDeclarations.1">
       <classifier xsi:type="ecore:EClass" href="http://aadl.info/AADL/2.0#//NamedElement"/>
     </type>
@@ -107,9 +107,9 @@
       <elements xsi:type="xtext:RuleCall" rule="//@rules.10"/>
     </alternatives>
   </rules>
-  <rules xsi:type="xtext:ParserRule" name="FGMMapping">
+  <rules xsi:type="xtext:ParserRule" name="FeatureMapping">
     <type metamodel="//@metamodelDeclarations.0">
-      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FGMMapping"/>
+      <classifier xsi:type="ecore:EClass" href="http://www.aadl.info/FGM#//FeatureMapping"/>
     </type>
     <alternatives xsi:type="xtext:Group">
       <elements xsi:type="xtext:Assignment" feature="left" operator="=">

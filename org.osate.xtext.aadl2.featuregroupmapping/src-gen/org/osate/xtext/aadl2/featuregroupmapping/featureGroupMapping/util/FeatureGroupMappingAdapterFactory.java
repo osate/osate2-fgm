@@ -91,9 +91,9 @@ public class FeatureGroupMappingAdapterFactory extends AdapterFactoryImpl
         return createFGMLibraryAdapter();
       }
       @Override
-      public Adapter caseFGTMappingset(FGTMappingset object)
+      public Adapter caseFeatureMappingset(FeatureMappingset object)
       {
-        return createFGTMappingsetAdapter();
+        return createFeatureMappingsetAdapter();
       }
       @Override
       public Adapter caseFGMSubclause(FGMSubclause object)
@@ -101,9 +101,9 @@ public class FeatureGroupMappingAdapterFactory extends AdapterFactoryImpl
         return createFGMSubclauseAdapter();
       }
       @Override
-      public Adapter caseFGMMapping(FGMMapping object)
+      public Adapter caseFeatureMapping(FeatureMapping object)
       {
-        return createFGMMappingAdapter();
+        return createFeatureMappingAdapter();
       }
       @Override
       public Adapter caseFeaturePath(FeaturePath object)
@@ -193,16 +193,16 @@ public class FeatureGroupMappingAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset <em>FGT Mappingset</em>}'.
+   * Creates a new adapter for an object of class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset <em>Feature Mappingset</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset
    * @generated
    */
-  public Adapter createFGTMappingsetAdapter()
+  public Adapter createFeatureMappingsetAdapter()
   {
     return null;
   }
@@ -223,16 +223,16 @@ public class FeatureGroupMappingAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping <em>FGM Mapping</em>}'.
+   * Creates a new adapter for an object of class '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping <em>Feature Mapping</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping
    * @generated
    */
-  public Adapter createFGMMappingAdapter()
+  public Adapter createFeatureMappingAdapter()
   {
     return null;
   }

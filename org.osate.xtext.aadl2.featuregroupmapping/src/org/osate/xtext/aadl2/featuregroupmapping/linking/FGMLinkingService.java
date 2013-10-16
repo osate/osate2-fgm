@@ -24,7 +24,7 @@ import org.osate.aadl2.modelsupport.util.AadlUtil;
 import org.osate.aadl2.util.Aadl2Util;
 import org.osate.core.OsateCorePlugin;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeaturePath;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureReference;
@@ -56,7 +56,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 // FeatureGroupType is handled by PropertiesLinkingService
 //		} else if (Aadl2Package.eINSTANCE.getFeatureGroupType() == requiredType) {
 //			searchResult = findFeatureGroupType(context, name, reference);
-		} else 	if (FeatureGroupMappingPackage.eINSTANCE.getFGTMappingset() == requiredType) {
+		} else 	if (FeatureGroupMappingPackage.eINSTANCE.getFeatureMappingset() == requiredType) {
 			// reference to FGMLibrary
 			// first look it up in global index
 			String fixedName = FGMUtil.fixQualifiedName(name);
@@ -68,7 +68,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 					System.out.println("Global lookup of type did not match "+name);
 				}
 			}
-			searchResult = findFGTMappingSet(context, name);
+			searchResult = findFeatureMappingset(context, name);
 		}
 		if (searchResult != null) {
 			return Collections.singletonList(searchResult);
@@ -81,7 +81,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 	 * @param name fully qualified name including FGM
 	 * @return FGMLibrary
 	 */
-	public FGTMappingset findFGTMappingSet(EObject context, String name){
+	public FeatureMappingset findFeatureMappingset(EObject context, String name){
 		String packName = Aadl2Util.getPackageName(name);
 		String itemName = Aadl2Util.getItemNameWithoutQualification(name);
 		AadlPackage ap = findAadlPackageReference(packName, AadlUtil.getContainingPackageSection(context));
@@ -92,7 +92,7 @@ public class FGMLinkingService extends PropertiesLinkingService {
 		for (AnnexLibrary al : all){
 			if (al instanceof FGMLibrary){
 				// find in FGMLibrary
-				return (FGTMappingset)AadlUtil.findNamedElementInList(((FGMLibrary)al).getFgtmappingset(), itemName);
+				return (FeatureMappingset)AadlUtil.findNamedElementInList(((FGMLibrary)al).getFeaturemappingset(), itemName);
 			}
 		}
 		return null;

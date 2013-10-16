@@ -18,17 +18,17 @@ FGMGrammarRoot : 	 'library' fgml=FGMLibrary
 
 // the root for  AnnexLibrary parsing
 FGMLibrary returns FGMLibrary:
-	(fgtmappingset+=FGTMappingset)+
+	(featuremappingset+=FeatureMappingset)+
 ;
 
-FGTMappingset returns FGTMappingset:
+FeatureMappingset returns FeatureMappingset:
 	'mappings' name=ID 
-	('extends' mappingset=[FGTMappingset|QFGTMREF])?
-	mapping+= FGMMapping
+	('extends' mappingset=[FeatureMappingset|QFGTMREF])?
+	mapping+= FeatureMapping
 	'end' 'mappings' ';';
 	 
 FGMSubclause returns FGMSubclause:
-	'use' 'mappings' mappingset=[FGTMappingset|QFGTMREF] ';';
+	'use' 'mappings' mappingset=[FeatureMappingset|QFGTMREF] ';';
 
 
 AnnexLibrary returns aadl2::AnnexLibrary:
@@ -36,19 +36,19 @@ AnnexLibrary returns aadl2::AnnexLibrary:
 	 ;
 
 AnnexSubclause returns aadl2::AnnexSubclause:
-	 FGMSubclause 
+	 FeatureMappingset 
 	 ;
 // FGMLibrary is a named element that can be referenced by others	 
-NamedELement returns aadl2::NamedElement:
-	FGTMappingset
+NamedElement returns aadl2::NamedElement:
+	FeatureMappingset
 ; 
 
 // all the other FGM elements must be a subclass of (aadl2) Element
 Element returns aadl2::Element:
-FGMMapping | FeaturePath | FeatureReference ; 
+FeatureMapping | FeaturePath | FeatureReference ; 
 
 	
-FGMMapping returns FGMMapping:
+FeatureMapping returns FeatureMapping:
 	left = FeaturePath '<=>' right =FeaturePath ';';
 
 FeaturePath returns FeaturePath:

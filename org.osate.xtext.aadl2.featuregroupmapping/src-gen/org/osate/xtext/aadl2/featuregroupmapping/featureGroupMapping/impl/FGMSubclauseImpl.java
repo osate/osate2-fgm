@@ -8,12 +8,11 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import org.osate.aadl2.impl.AnnexSubclauseImpl;
+import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 
 /**
  * <!-- begin-user-doc -->
@@ -28,7 +27,7 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGrou
  *
  * @generated
  */
-public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
+public class FGMSubclauseImpl extends MinimalEObjectImpl.Container implements FGMSubclause
 {
   /**
    * The cached value of the '{@link #getMappingset() <em>Mappingset</em>}' reference.
@@ -38,7 +37,7 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
    * @generated
    * @ordered
    */
-  protected FGTMappingset mappingset;
+  protected FeatureMappingset mappingset;
 
   /**
    * <!-- begin-user-doc -->
@@ -66,12 +65,12 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGTMappingset getMappingset()
+  public FeatureMappingset getMappingset()
   {
     if (mappingset != null && mappingset.eIsProxy())
     {
       InternalEObject oldMappingset = (InternalEObject)mappingset;
-      mappingset = (FGTMappingset)eResolveProxy(oldMappingset);
+      mappingset = (FeatureMappingset)eResolveProxy(oldMappingset);
       if (mappingset != oldMappingset)
       {
         if (eNotificationRequired())
@@ -86,7 +85,7 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGTMappingset basicGetMappingset()
+  public FeatureMappingset basicGetMappingset()
   {
     return mappingset;
   }
@@ -96,9 +95,9 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
    * <!-- end-user-doc -->
    * @generated
    */
-  public void setMappingset(FGTMappingset newMappingset)
+  public void setMappingset(FeatureMappingset newMappingset)
   {
-    FGTMappingset oldMappingset = mappingset;
+    FeatureMappingset oldMappingset = mappingset;
     mappingset = newMappingset;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGM_SUBCLAUSE__MAPPINGSET, oldMappingset, mappingset));
@@ -132,7 +131,7 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
     switch (featureID)
     {
       case FeatureGroupMappingPackage.FGM_SUBCLAUSE__MAPPINGSET:
-        setMappingset((FGTMappingset)newValue);
+        setMappingset((FeatureMappingset)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -149,7 +148,7 @@ public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
     switch (featureID)
     {
       case FeatureGroupMappingPackage.FGM_SUBCLAUSE__MAPPINGSET:
-        setMappingset((FGTMappingset)null);
+        setMappingset((FeatureMappingset)null);
         return;
     }
     super.eUnset(featureID);

@@ -202,42 +202,42 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
 
 
     // $ANTLR start "ruleFGMLibrary"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:109:1: ruleFGMLibrary : ( ( ( rule__FGMLibrary__FgtmappingsetAssignment ) ) ( ( rule__FGMLibrary__FgtmappingsetAssignment )* ) ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:109:1: ruleFGMLibrary : ( ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) ) ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* ) ) ;
     public final void ruleFGMLibrary() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:113:5: ( ( ( ( rule__FGMLibrary__FgtmappingsetAssignment ) ) ( ( rule__FGMLibrary__FgtmappingsetAssignment )* ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:114:1: ( ( ( rule__FGMLibrary__FgtmappingsetAssignment ) ) ( ( rule__FGMLibrary__FgtmappingsetAssignment )* ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:113:5: ( ( ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) ) ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:114:1: ( ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) ) ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:114:1: ( ( ( rule__FGMLibrary__FgtmappingsetAssignment ) ) ( ( rule__FGMLibrary__FgtmappingsetAssignment )* ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:115:1: ( ( rule__FGMLibrary__FgtmappingsetAssignment ) ) ( ( rule__FGMLibrary__FgtmappingsetAssignment )* )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:114:1: ( ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) ) ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:115:1: ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) ) ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:115:1: ( ( rule__FGMLibrary__FgtmappingsetAssignment ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:116:1: ( rule__FGMLibrary__FgtmappingsetAssignment )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:115:1: ( ( rule__FGMLibrary__FeaturemappingsetAssignment ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:116:1: ( rule__FGMLibrary__FeaturemappingsetAssignment )
             {
-             before(grammarAccess.getFGMLibraryAccess().getFgtmappingsetAssignment()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:117:1: ( rule__FGMLibrary__FgtmappingsetAssignment )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:117:2: rule__FGMLibrary__FgtmappingsetAssignment
+             before(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetAssignment()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:117:1: ( rule__FGMLibrary__FeaturemappingsetAssignment )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:117:2: rule__FGMLibrary__FeaturemappingsetAssignment
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMLibrary__FgtmappingsetAssignment_in_ruleFGMLibrary157);
-            rule__FGMLibrary__FgtmappingsetAssignment();
+            pushFollow(FollowSets000.FOLLOW_rule__FGMLibrary__FeaturemappingsetAssignment_in_ruleFGMLibrary157);
+            rule__FGMLibrary__FeaturemappingsetAssignment();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGMLibraryAccess().getFgtmappingsetAssignment()); 
+             after(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetAssignment()); 
 
             }
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:120:1: ( ( rule__FGMLibrary__FgtmappingsetAssignment )* )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:121:1: ( rule__FGMLibrary__FgtmappingsetAssignment )*
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:120:1: ( ( rule__FGMLibrary__FeaturemappingsetAssignment )* )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:121:1: ( rule__FGMLibrary__FeaturemappingsetAssignment )*
             {
-             before(grammarAccess.getFGMLibraryAccess().getFgtmappingsetAssignment()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:122:1: ( rule__FGMLibrary__FgtmappingsetAssignment )*
+             before(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetAssignment()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:122:1: ( rule__FGMLibrary__FeaturemappingsetAssignment )*
             loop1:
             do {
                 int alt1=2;
@@ -250,10 +250,10 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
 
                 switch (alt1) {
             	case 1 :
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:122:2: rule__FGMLibrary__FgtmappingsetAssignment
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:122:2: rule__FGMLibrary__FeaturemappingsetAssignment
             	    {
-            	    pushFollow(FollowSets000.FOLLOW_rule__FGMLibrary__FgtmappingsetAssignment_in_ruleFGMLibrary169);
-            	    rule__FGMLibrary__FgtmappingsetAssignment();
+            	    pushFollow(FollowSets000.FOLLOW_rule__FGMLibrary__FeaturemappingsetAssignment_in_ruleFGMLibrary169);
+            	    rule__FGMLibrary__FeaturemappingsetAssignment();
 
             	    state._fsp--;
 
@@ -266,7 +266,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
                 }
             } while (true);
 
-             after(grammarAccess.getFGMLibraryAccess().getFgtmappingsetAssignment()); 
+             after(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetAssignment()); 
 
             }
 
@@ -291,21 +291,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "ruleFGMLibrary"
 
 
-    // $ANTLR start "entryRuleFGTMappingset"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:135:1: entryRuleFGTMappingset : ruleFGTMappingset EOF ;
-    public final void entryRuleFGTMappingset() throws RecognitionException {
+    // $ANTLR start "entryRuleFeatureMappingset"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:135:1: entryRuleFeatureMappingset : ruleFeatureMappingset EOF ;
+    public final void entryRuleFeatureMappingset() throws RecognitionException {
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:136:1: ( ruleFGTMappingset EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:137:1: ruleFGTMappingset EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:136:1: ( ruleFeatureMappingset EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:137:1: ruleFeatureMappingset EOF
             {
-             before(grammarAccess.getFGTMappingsetRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFGTMappingset_in_entryRuleFGTMappingset199);
-            ruleFGTMappingset();
+             before(grammarAccess.getFeatureMappingsetRule()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMappingset_in_entryRuleFeatureMappingset199);
+            ruleFeatureMappingset();
 
             state._fsp--;
 
-             after(grammarAccess.getFGTMappingsetRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFGTMappingset206); 
+             after(grammarAccess.getFeatureMappingsetRule()); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureMappingset206); 
 
             }
 
@@ -318,35 +318,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "entryRuleFGTMappingset"
+    // $ANTLR end "entryRuleFeatureMappingset"
 
 
-    // $ANTLR start "ruleFGTMappingset"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:144:1: ruleFGTMappingset : ( ( rule__FGTMappingset__Group__0 ) ) ;
-    public final void ruleFGTMappingset() throws RecognitionException {
+    // $ANTLR start "ruleFeatureMappingset"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:144:1: ruleFeatureMappingset : ( ( rule__FeatureMappingset__Group__0 ) ) ;
+    public final void ruleFeatureMappingset() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:148:5: ( ( ( rule__FGTMappingset__Group__0 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:149:1: ( ( rule__FGTMappingset__Group__0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:148:5: ( ( ( rule__FeatureMappingset__Group__0 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:149:1: ( ( rule__FeatureMappingset__Group__0 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:149:1: ( ( rule__FGTMappingset__Group__0 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:150:1: ( rule__FGTMappingset__Group__0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:149:1: ( ( rule__FeatureMappingset__Group__0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:150:1: ( rule__FeatureMappingset__Group__0 )
             {
-             before(grammarAccess.getFGTMappingsetAccess().getGroup()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:151:1: ( rule__FGTMappingset__Group__0 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:151:2: rule__FGTMappingset__Group__0
+             before(grammarAccess.getFeatureMappingsetAccess().getGroup()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:151:1: ( rule__FeatureMappingset__Group__0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:151:2: rule__FeatureMappingset__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__0_in_ruleFGTMappingset236);
-            rule__FGTMappingset__Group__0();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__0_in_ruleFeatureMappingset236);
+            rule__FeatureMappingset__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getGroup()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getGroup()); 
 
             }
 
@@ -365,7 +365,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "ruleFGTMappingset"
+    // $ANTLR end "ruleFeatureMappingset"
 
 
     // $ANTLR start "entryRuleFGMSubclause"
@@ -445,21 +445,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "ruleFGMSubclause"
 
 
-    // $ANTLR start "entryRuleFGMMapping"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:199:1: entryRuleFGMMapping : ruleFGMMapping EOF ;
-    public final void entryRuleFGMMapping() throws RecognitionException {
+    // $ANTLR start "entryRuleFeatureMapping"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:199:1: entryRuleFeatureMapping : ruleFeatureMapping EOF ;
+    public final void entryRuleFeatureMapping() throws RecognitionException {
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:200:1: ( ruleFGMMapping EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:201:1: ruleFGMMapping EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:200:1: ( ruleFeatureMapping EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:201:1: ruleFeatureMapping EOF
             {
-             before(grammarAccess.getFGMMappingRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFGMMapping_in_entryRuleFGMMapping335);
-            ruleFGMMapping();
+             before(grammarAccess.getFeatureMappingRule()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping335);
+            ruleFeatureMapping();
 
             state._fsp--;
 
-             after(grammarAccess.getFGMMappingRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFGMMapping342); 
+             after(grammarAccess.getFeatureMappingRule()); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureMapping342); 
 
             }
 
@@ -472,35 +472,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "entryRuleFGMMapping"
+    // $ANTLR end "entryRuleFeatureMapping"
 
 
-    // $ANTLR start "ruleFGMMapping"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:208:1: ruleFGMMapping : ( ( rule__FGMMapping__Group__0 ) ) ;
-    public final void ruleFGMMapping() throws RecognitionException {
+    // $ANTLR start "ruleFeatureMapping"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:208:1: ruleFeatureMapping : ( ( rule__FeatureMapping__Group__0 ) ) ;
+    public final void ruleFeatureMapping() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:212:5: ( ( ( rule__FGMMapping__Group__0 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:213:1: ( ( rule__FGMMapping__Group__0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:212:5: ( ( ( rule__FeatureMapping__Group__0 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:213:1: ( ( rule__FeatureMapping__Group__0 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:213:1: ( ( rule__FGMMapping__Group__0 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:214:1: ( rule__FGMMapping__Group__0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:213:1: ( ( rule__FeatureMapping__Group__0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:214:1: ( rule__FeatureMapping__Group__0 )
             {
-             before(grammarAccess.getFGMMappingAccess().getGroup()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:215:1: ( rule__FGMMapping__Group__0 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:215:2: rule__FGMMapping__Group__0
+             before(grammarAccess.getFeatureMappingAccess().getGroup()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:215:1: ( rule__FeatureMapping__Group__0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:215:2: rule__FeatureMapping__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__0_in_ruleFGMMapping372);
-            rule__FGMMapping__Group__0();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__0_in_ruleFeatureMapping372);
+            rule__FeatureMapping__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGMMappingAccess().getGroup()); 
+             after(grammarAccess.getFeatureMappingAccess().getGroup()); 
 
             }
 
@@ -519,7 +519,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "ruleFGMMapping"
+    // $ANTLR end "ruleFeatureMapping"
 
 
     // $ANTLR start "entryRuleFeaturePath"
@@ -999,23 +999,23 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "rule__FGMGrammarRoot__Group_0__1__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__0"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:399:1: rule__FGTMappingset__Group__0 : rule__FGTMappingset__Group__0__Impl rule__FGTMappingset__Group__1 ;
-    public final void rule__FGTMappingset__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__0"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:399:1: rule__FeatureMappingset__Group__0 : rule__FeatureMappingset__Group__0__Impl rule__FeatureMappingset__Group__1 ;
+    public final void rule__FeatureMappingset__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:403:1: ( rule__FGTMappingset__Group__0__Impl rule__FGTMappingset__Group__1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:404:2: rule__FGTMappingset__Group__0__Impl rule__FGTMappingset__Group__1
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:403:1: ( rule__FeatureMappingset__Group__0__Impl rule__FeatureMappingset__Group__1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:404:2: rule__FeatureMappingset__Group__0__Impl rule__FeatureMappingset__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__0__Impl_in_rule__FGTMappingset__Group__0773);
-            rule__FGTMappingset__Group__0__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__0__Impl_in_rule__FeatureMappingset__Group__0773);
+            rule__FeatureMappingset__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__1_in_rule__FGTMappingset__Group__0776);
-            rule__FGTMappingset__Group__1();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__1_in_rule__FeatureMappingset__Group__0776);
+            rule__FeatureMappingset__Group__1();
 
             state._fsp--;
 
@@ -1034,12 +1034,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__0"
+    // $ANTLR end "rule__FeatureMappingset__Group__0"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__0__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:411:1: rule__FGTMappingset__Group__0__Impl : ( KEYWORD_9 ) ;
-    public final void rule__FGTMappingset__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__0__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:411:1: rule__FeatureMappingset__Group__0__Impl : ( KEYWORD_9 ) ;
+    public final void rule__FeatureMappingset__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -1050,9 +1050,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:416:1: ( KEYWORD_9 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:417:1: KEYWORD_9
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_0()); 
-            match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_rule__FGTMappingset__Group__0__Impl804); 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_0()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_0()); 
+            match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_rule__FeatureMappingset__Group__0__Impl804); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_0()); 
 
             }
 
@@ -1071,26 +1071,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__0__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__0__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__1"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:430:1: rule__FGTMappingset__Group__1 : rule__FGTMappingset__Group__1__Impl rule__FGTMappingset__Group__2 ;
-    public final void rule__FGTMappingset__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__1"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:430:1: rule__FeatureMappingset__Group__1 : rule__FeatureMappingset__Group__1__Impl rule__FeatureMappingset__Group__2 ;
+    public final void rule__FeatureMappingset__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:434:1: ( rule__FGTMappingset__Group__1__Impl rule__FGTMappingset__Group__2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:435:2: rule__FGTMappingset__Group__1__Impl rule__FGTMappingset__Group__2
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:434:1: ( rule__FeatureMappingset__Group__1__Impl rule__FeatureMappingset__Group__2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:435:2: rule__FeatureMappingset__Group__1__Impl rule__FeatureMappingset__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__1__Impl_in_rule__FGTMappingset__Group__1835);
-            rule__FGTMappingset__Group__1__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__1__Impl_in_rule__FeatureMappingset__Group__1835);
+            rule__FeatureMappingset__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__2_in_rule__FGTMappingset__Group__1838);
-            rule__FGTMappingset__Group__2();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__2_in_rule__FeatureMappingset__Group__1838);
+            rule__FeatureMappingset__Group__2();
 
             state._fsp--;
 
@@ -1109,35 +1109,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__1"
+    // $ANTLR end "rule__FeatureMappingset__Group__1"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__1__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:442:1: rule__FGTMappingset__Group__1__Impl : ( ( rule__FGTMappingset__NameAssignment_1 ) ) ;
-    public final void rule__FGTMappingset__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__1__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:442:1: rule__FeatureMappingset__Group__1__Impl : ( ( rule__FeatureMappingset__NameAssignment_1 ) ) ;
+    public final void rule__FeatureMappingset__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:446:1: ( ( ( rule__FGTMappingset__NameAssignment_1 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:447:1: ( ( rule__FGTMappingset__NameAssignment_1 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:446:1: ( ( ( rule__FeatureMappingset__NameAssignment_1 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:447:1: ( ( rule__FeatureMappingset__NameAssignment_1 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:447:1: ( ( rule__FGTMappingset__NameAssignment_1 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:448:1: ( rule__FGTMappingset__NameAssignment_1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:447:1: ( ( rule__FeatureMappingset__NameAssignment_1 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:448:1: ( rule__FeatureMappingset__NameAssignment_1 )
             {
-             before(grammarAccess.getFGTMappingsetAccess().getNameAssignment_1()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:449:1: ( rule__FGTMappingset__NameAssignment_1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:449:2: rule__FGTMappingset__NameAssignment_1
+             before(grammarAccess.getFeatureMappingsetAccess().getNameAssignment_1()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:449:1: ( rule__FeatureMappingset__NameAssignment_1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:449:2: rule__FeatureMappingset__NameAssignment_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__NameAssignment_1_in_rule__FGTMappingset__Group__1__Impl865);
-            rule__FGTMappingset__NameAssignment_1();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__NameAssignment_1_in_rule__FeatureMappingset__Group__1__Impl865);
+            rule__FeatureMappingset__NameAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getNameAssignment_1()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getNameAssignment_1()); 
 
             }
 
@@ -1156,26 +1156,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__1__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__1__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__2"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:459:1: rule__FGTMappingset__Group__2 : rule__FGTMappingset__Group__2__Impl rule__FGTMappingset__Group__3 ;
-    public final void rule__FGTMappingset__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__2"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:459:1: rule__FeatureMappingset__Group__2 : rule__FeatureMappingset__Group__2__Impl rule__FeatureMappingset__Group__3 ;
+    public final void rule__FeatureMappingset__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:463:1: ( rule__FGTMappingset__Group__2__Impl rule__FGTMappingset__Group__3 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:464:2: rule__FGTMappingset__Group__2__Impl rule__FGTMappingset__Group__3
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:463:1: ( rule__FeatureMappingset__Group__2__Impl rule__FeatureMappingset__Group__3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:464:2: rule__FeatureMappingset__Group__2__Impl rule__FeatureMappingset__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__2__Impl_in_rule__FGTMappingset__Group__2895);
-            rule__FGTMappingset__Group__2__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__2__Impl_in_rule__FeatureMappingset__Group__2895);
+            rule__FeatureMappingset__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__3_in_rule__FGTMappingset__Group__2898);
-            rule__FGTMappingset__Group__3();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__3_in_rule__FeatureMappingset__Group__2898);
+            rule__FeatureMappingset__Group__3();
 
             state._fsp--;
 
@@ -1194,24 +1194,24 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__2"
+    // $ANTLR end "rule__FeatureMappingset__Group__2"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__2__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:471:1: rule__FGTMappingset__Group__2__Impl : ( ( rule__FGTMappingset__Group_2__0 )? ) ;
-    public final void rule__FGTMappingset__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__2__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:471:1: rule__FeatureMappingset__Group__2__Impl : ( ( rule__FeatureMappingset__Group_2__0 )? ) ;
+    public final void rule__FeatureMappingset__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:475:1: ( ( ( rule__FGTMappingset__Group_2__0 )? ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:476:1: ( ( rule__FGTMappingset__Group_2__0 )? )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:475:1: ( ( ( rule__FeatureMappingset__Group_2__0 )? ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:476:1: ( ( rule__FeatureMappingset__Group_2__0 )? )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:476:1: ( ( rule__FGTMappingset__Group_2__0 )? )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:477:1: ( rule__FGTMappingset__Group_2__0 )?
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:476:1: ( ( rule__FeatureMappingset__Group_2__0 )? )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:477:1: ( rule__FeatureMappingset__Group_2__0 )?
             {
-             before(grammarAccess.getFGTMappingsetAccess().getGroup_2()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:478:1: ( rule__FGTMappingset__Group_2__0 )?
+             before(grammarAccess.getFeatureMappingsetAccess().getGroup_2()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:478:1: ( rule__FeatureMappingset__Group_2__0 )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -1220,10 +1220,10 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             }
             switch (alt3) {
                 case 1 :
-                    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:478:2: rule__FGTMappingset__Group_2__0
+                    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:478:2: rule__FeatureMappingset__Group_2__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group_2__0_in_rule__FGTMappingset__Group__2__Impl925);
-                    rule__FGTMappingset__Group_2__0();
+                    pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group_2__0_in_rule__FeatureMappingset__Group__2__Impl925);
+                    rule__FeatureMappingset__Group_2__0();
 
                     state._fsp--;
 
@@ -1233,7 +1233,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getGroup_2()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getGroup_2()); 
 
             }
 
@@ -1252,26 +1252,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__2__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__2__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__3"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:488:1: rule__FGTMappingset__Group__3 : rule__FGTMappingset__Group__3__Impl rule__FGTMappingset__Group__4 ;
-    public final void rule__FGTMappingset__Group__3() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__3"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:488:1: rule__FeatureMappingset__Group__3 : rule__FeatureMappingset__Group__3__Impl rule__FeatureMappingset__Group__4 ;
+    public final void rule__FeatureMappingset__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:492:1: ( rule__FGTMappingset__Group__3__Impl rule__FGTMappingset__Group__4 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:493:2: rule__FGTMappingset__Group__3__Impl rule__FGTMappingset__Group__4
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:492:1: ( rule__FeatureMappingset__Group__3__Impl rule__FeatureMappingset__Group__4 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:493:2: rule__FeatureMappingset__Group__3__Impl rule__FeatureMappingset__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__3__Impl_in_rule__FGTMappingset__Group__3956);
-            rule__FGTMappingset__Group__3__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__3__Impl_in_rule__FeatureMappingset__Group__3956);
+            rule__FeatureMappingset__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__4_in_rule__FGTMappingset__Group__3959);
-            rule__FGTMappingset__Group__4();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__4_in_rule__FeatureMappingset__Group__3959);
+            rule__FeatureMappingset__Group__4();
 
             state._fsp--;
 
@@ -1290,35 +1290,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__3"
+    // $ANTLR end "rule__FeatureMappingset__Group__3"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__3__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:500:1: rule__FGTMappingset__Group__3__Impl : ( ( rule__FGTMappingset__MappingAssignment_3 ) ) ;
-    public final void rule__FGTMappingset__Group__3__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__3__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:500:1: rule__FeatureMappingset__Group__3__Impl : ( ( rule__FeatureMappingset__MappingAssignment_3 ) ) ;
+    public final void rule__FeatureMappingset__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:504:1: ( ( ( rule__FGTMappingset__MappingAssignment_3 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:505:1: ( ( rule__FGTMappingset__MappingAssignment_3 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:504:1: ( ( ( rule__FeatureMappingset__MappingAssignment_3 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:505:1: ( ( rule__FeatureMappingset__MappingAssignment_3 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:505:1: ( ( rule__FGTMappingset__MappingAssignment_3 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:506:1: ( rule__FGTMappingset__MappingAssignment_3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:505:1: ( ( rule__FeatureMappingset__MappingAssignment_3 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:506:1: ( rule__FeatureMappingset__MappingAssignment_3 )
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingAssignment_3()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:507:1: ( rule__FGTMappingset__MappingAssignment_3 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:507:2: rule__FGTMappingset__MappingAssignment_3
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingAssignment_3()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:507:1: ( rule__FeatureMappingset__MappingAssignment_3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:507:2: rule__FeatureMappingset__MappingAssignment_3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__MappingAssignment_3_in_rule__FGTMappingset__Group__3__Impl986);
-            rule__FGTMappingset__MappingAssignment_3();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__MappingAssignment_3_in_rule__FeatureMappingset__Group__3__Impl986);
+            rule__FeatureMappingset__MappingAssignment_3();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingAssignment_3()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingAssignment_3()); 
 
             }
 
@@ -1337,26 +1337,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__3__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__3__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__4"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:517:1: rule__FGTMappingset__Group__4 : rule__FGTMappingset__Group__4__Impl rule__FGTMappingset__Group__5 ;
-    public final void rule__FGTMappingset__Group__4() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__4"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:517:1: rule__FeatureMappingset__Group__4 : rule__FeatureMappingset__Group__4__Impl rule__FeatureMappingset__Group__5 ;
+    public final void rule__FeatureMappingset__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:521:1: ( rule__FGTMappingset__Group__4__Impl rule__FGTMappingset__Group__5 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:522:2: rule__FGTMappingset__Group__4__Impl rule__FGTMappingset__Group__5
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:521:1: ( rule__FeatureMappingset__Group__4__Impl rule__FeatureMappingset__Group__5 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:522:2: rule__FeatureMappingset__Group__4__Impl rule__FeatureMappingset__Group__5
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__4__Impl_in_rule__FGTMappingset__Group__41016);
-            rule__FGTMappingset__Group__4__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__4__Impl_in_rule__FeatureMappingset__Group__41016);
+            rule__FeatureMappingset__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__5_in_rule__FGTMappingset__Group__41019);
-            rule__FGTMappingset__Group__5();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__5_in_rule__FeatureMappingset__Group__41019);
+            rule__FeatureMappingset__Group__5();
 
             state._fsp--;
 
@@ -1375,12 +1375,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__4"
+    // $ANTLR end "rule__FeatureMappingset__Group__4"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__4__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:529:1: rule__FGTMappingset__Group__4__Impl : ( KEYWORD_5 ) ;
-    public final void rule__FGTMappingset__Group__4__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__4__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:529:1: rule__FeatureMappingset__Group__4__Impl : ( KEYWORD_5 ) ;
+    public final void rule__FeatureMappingset__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -1391,9 +1391,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:534:1: ( KEYWORD_5 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:535:1: KEYWORD_5
             {
-             before(grammarAccess.getFGTMappingsetAccess().getEndKeyword_4()); 
-            match(input,KEYWORD_5,FollowSets000.FOLLOW_KEYWORD_5_in_rule__FGTMappingset__Group__4__Impl1047); 
-             after(grammarAccess.getFGTMappingsetAccess().getEndKeyword_4()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getEndKeyword_4()); 
+            match(input,KEYWORD_5,FollowSets000.FOLLOW_KEYWORD_5_in_rule__FeatureMappingset__Group__4__Impl1047); 
+             after(grammarAccess.getFeatureMappingsetAccess().getEndKeyword_4()); 
 
             }
 
@@ -1412,26 +1412,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__4__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__4__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__5"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:548:1: rule__FGTMappingset__Group__5 : rule__FGTMappingset__Group__5__Impl rule__FGTMappingset__Group__6 ;
-    public final void rule__FGTMappingset__Group__5() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__5"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:548:1: rule__FeatureMappingset__Group__5 : rule__FeatureMappingset__Group__5__Impl rule__FeatureMappingset__Group__6 ;
+    public final void rule__FeatureMappingset__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:552:1: ( rule__FGTMappingset__Group__5__Impl rule__FGTMappingset__Group__6 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:553:2: rule__FGTMappingset__Group__5__Impl rule__FGTMappingset__Group__6
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:552:1: ( rule__FeatureMappingset__Group__5__Impl rule__FeatureMappingset__Group__6 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:553:2: rule__FeatureMappingset__Group__5__Impl rule__FeatureMappingset__Group__6
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__5__Impl_in_rule__FGTMappingset__Group__51078);
-            rule__FGTMappingset__Group__5__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__5__Impl_in_rule__FeatureMappingset__Group__51078);
+            rule__FeatureMappingset__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__6_in_rule__FGTMappingset__Group__51081);
-            rule__FGTMappingset__Group__6();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__6_in_rule__FeatureMappingset__Group__51081);
+            rule__FeatureMappingset__Group__6();
 
             state._fsp--;
 
@@ -1450,12 +1450,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__5"
+    // $ANTLR end "rule__FeatureMappingset__Group__5"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__5__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:560:1: rule__FGTMappingset__Group__5__Impl : ( KEYWORD_9 ) ;
-    public final void rule__FGTMappingset__Group__5__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__5__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:560:1: rule__FeatureMappingset__Group__5__Impl : ( KEYWORD_9 ) ;
+    public final void rule__FeatureMappingset__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -1466,9 +1466,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:565:1: ( KEYWORD_9 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:566:1: KEYWORD_9
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_5()); 
-            match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_rule__FGTMappingset__Group__5__Impl1109); 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingsKeyword_5()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_5()); 
+            match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_rule__FeatureMappingset__Group__5__Impl1109); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_5()); 
 
             }
 
@@ -1487,21 +1487,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__5__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__5__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__6"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:579:1: rule__FGTMappingset__Group__6 : rule__FGTMappingset__Group__6__Impl ;
-    public final void rule__FGTMappingset__Group__6() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__6"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:579:1: rule__FeatureMappingset__Group__6 : rule__FeatureMappingset__Group__6__Impl ;
+    public final void rule__FeatureMappingset__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:583:1: ( rule__FGTMappingset__Group__6__Impl )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:584:2: rule__FGTMappingset__Group__6__Impl
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:583:1: ( rule__FeatureMappingset__Group__6__Impl )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:584:2: rule__FeatureMappingset__Group__6__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group__6__Impl_in_rule__FGTMappingset__Group__61140);
-            rule__FGTMappingset__Group__6__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group__6__Impl_in_rule__FeatureMappingset__Group__61140);
+            rule__FeatureMappingset__Group__6__Impl();
 
             state._fsp--;
 
@@ -1520,12 +1520,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__6"
+    // $ANTLR end "rule__FeatureMappingset__Group__6"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group__6__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:590:1: rule__FGTMappingset__Group__6__Impl : ( KEYWORD_2 ) ;
-    public final void rule__FGTMappingset__Group__6__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group__6__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:590:1: rule__FeatureMappingset__Group__6__Impl : ( KEYWORD_2 ) ;
+    public final void rule__FeatureMappingset__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -1536,9 +1536,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:595:1: ( KEYWORD_2 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:596:1: KEYWORD_2
             {
-             before(grammarAccess.getFGTMappingsetAccess().getSemicolonKeyword_6()); 
-            match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_rule__FGTMappingset__Group__6__Impl1168); 
-             after(grammarAccess.getFGTMappingsetAccess().getSemicolonKeyword_6()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_6()); 
+            match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_rule__FeatureMappingset__Group__6__Impl1168); 
+             after(grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_6()); 
 
             }
 
@@ -1557,26 +1557,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group__6__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group__6__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group_2__0"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:623:1: rule__FGTMappingset__Group_2__0 : rule__FGTMappingset__Group_2__0__Impl rule__FGTMappingset__Group_2__1 ;
-    public final void rule__FGTMappingset__Group_2__0() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group_2__0"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:623:1: rule__FeatureMappingset__Group_2__0 : rule__FeatureMappingset__Group_2__0__Impl rule__FeatureMappingset__Group_2__1 ;
+    public final void rule__FeatureMappingset__Group_2__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:627:1: ( rule__FGTMappingset__Group_2__0__Impl rule__FGTMappingset__Group_2__1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:628:2: rule__FGTMappingset__Group_2__0__Impl rule__FGTMappingset__Group_2__1
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:627:1: ( rule__FeatureMappingset__Group_2__0__Impl rule__FeatureMappingset__Group_2__1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:628:2: rule__FeatureMappingset__Group_2__0__Impl rule__FeatureMappingset__Group_2__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group_2__0__Impl_in_rule__FGTMappingset__Group_2__01213);
-            rule__FGTMappingset__Group_2__0__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group_2__0__Impl_in_rule__FeatureMappingset__Group_2__01213);
+            rule__FeatureMappingset__Group_2__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group_2__1_in_rule__FGTMappingset__Group_2__01216);
-            rule__FGTMappingset__Group_2__1();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group_2__1_in_rule__FeatureMappingset__Group_2__01216);
+            rule__FeatureMappingset__Group_2__1();
 
             state._fsp--;
 
@@ -1595,12 +1595,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group_2__0"
+    // $ANTLR end "rule__FeatureMappingset__Group_2__0"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group_2__0__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:635:1: rule__FGTMappingset__Group_2__0__Impl : ( KEYWORD_7 ) ;
-    public final void rule__FGTMappingset__Group_2__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group_2__0__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:635:1: rule__FeatureMappingset__Group_2__0__Impl : ( KEYWORD_7 ) ;
+    public final void rule__FeatureMappingset__Group_2__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -1611,9 +1611,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:640:1: ( KEYWORD_7 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:641:1: KEYWORD_7
             {
-             before(grammarAccess.getFGTMappingsetAccess().getExtendsKeyword_2_0()); 
-            match(input,KEYWORD_7,FollowSets000.FOLLOW_KEYWORD_7_in_rule__FGTMappingset__Group_2__0__Impl1244); 
-             after(grammarAccess.getFGTMappingsetAccess().getExtendsKeyword_2_0()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_2_0()); 
+            match(input,KEYWORD_7,FollowSets000.FOLLOW_KEYWORD_7_in_rule__FeatureMappingset__Group_2__0__Impl1244); 
+             after(grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_2_0()); 
 
             }
 
@@ -1632,21 +1632,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group_2__0__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group_2__0__Impl"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group_2__1"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:654:1: rule__FGTMappingset__Group_2__1 : rule__FGTMappingset__Group_2__1__Impl ;
-    public final void rule__FGTMappingset__Group_2__1() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group_2__1"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:654:1: rule__FeatureMappingset__Group_2__1 : rule__FeatureMappingset__Group_2__1__Impl ;
+    public final void rule__FeatureMappingset__Group_2__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:658:1: ( rule__FGTMappingset__Group_2__1__Impl )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:659:2: rule__FGTMappingset__Group_2__1__Impl
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:658:1: ( rule__FeatureMappingset__Group_2__1__Impl )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:659:2: rule__FeatureMappingset__Group_2__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__Group_2__1__Impl_in_rule__FGTMappingset__Group_2__11275);
-            rule__FGTMappingset__Group_2__1__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__Group_2__1__Impl_in_rule__FeatureMappingset__Group_2__11275);
+            rule__FeatureMappingset__Group_2__1__Impl();
 
             state._fsp--;
 
@@ -1665,35 +1665,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group_2__1"
+    // $ANTLR end "rule__FeatureMappingset__Group_2__1"
 
 
-    // $ANTLR start "rule__FGTMappingset__Group_2__1__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:665:1: rule__FGTMappingset__Group_2__1__Impl : ( ( rule__FGTMappingset__MappingsetAssignment_2_1 ) ) ;
-    public final void rule__FGTMappingset__Group_2__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__Group_2__1__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:665:1: rule__FeatureMappingset__Group_2__1__Impl : ( ( rule__FeatureMappingset__MappingsetAssignment_2_1 ) ) ;
+    public final void rule__FeatureMappingset__Group_2__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:669:1: ( ( ( rule__FGTMappingset__MappingsetAssignment_2_1 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:670:1: ( ( rule__FGTMappingset__MappingsetAssignment_2_1 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:669:1: ( ( ( rule__FeatureMappingset__MappingsetAssignment_2_1 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:670:1: ( ( rule__FeatureMappingset__MappingsetAssignment_2_1 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:670:1: ( ( rule__FGTMappingset__MappingsetAssignment_2_1 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:671:1: ( rule__FGTMappingset__MappingsetAssignment_2_1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:670:1: ( ( rule__FeatureMappingset__MappingsetAssignment_2_1 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:671:1: ( rule__FeatureMappingset__MappingsetAssignment_2_1 )
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingsetAssignment_2_1()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:672:1: ( rule__FGTMappingset__MappingsetAssignment_2_1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:672:2: rule__FGTMappingset__MappingsetAssignment_2_1
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingsetAssignment_2_1()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:672:1: ( rule__FeatureMappingset__MappingsetAssignment_2_1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:672:2: rule__FeatureMappingset__MappingsetAssignment_2_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGTMappingset__MappingsetAssignment_2_1_in_rule__FGTMappingset__Group_2__1__Impl1302);
-            rule__FGTMappingset__MappingsetAssignment_2_1();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMappingset__MappingsetAssignment_2_1_in_rule__FeatureMappingset__Group_2__1__Impl1302);
+            rule__FeatureMappingset__MappingsetAssignment_2_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingsetAssignment_2_1()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingsetAssignment_2_1()); 
 
             }
 
@@ -1712,7 +1712,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__Group_2__1__Impl"
+    // $ANTLR end "rule__FeatureMappingset__Group_2__1__Impl"
 
 
     // $ANTLR start "rule__FGMSubclause__Group__0"
@@ -2020,23 +2020,23 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "rule__FGMSubclause__Group__3__Impl"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__0"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:815:1: rule__FGMMapping__Group__0 : rule__FGMMapping__Group__0__Impl rule__FGMMapping__Group__1 ;
-    public final void rule__FGMMapping__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__0"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:815:1: rule__FeatureMapping__Group__0 : rule__FeatureMapping__Group__0__Impl rule__FeatureMapping__Group__1 ;
+    public final void rule__FeatureMapping__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:819:1: ( rule__FGMMapping__Group__0__Impl rule__FGMMapping__Group__1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:820:2: rule__FGMMapping__Group__0__Impl rule__FGMMapping__Group__1
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:819:1: ( rule__FeatureMapping__Group__0__Impl rule__FeatureMapping__Group__1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:820:2: rule__FeatureMapping__Group__0__Impl rule__FeatureMapping__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__0__Impl_in_rule__FGMMapping__Group__01587);
-            rule__FGMMapping__Group__0__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__0__Impl_in_rule__FeatureMapping__Group__01587);
+            rule__FeatureMapping__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__1_in_rule__FGMMapping__Group__01590);
-            rule__FGMMapping__Group__1();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__1_in_rule__FeatureMapping__Group__01590);
+            rule__FeatureMapping__Group__1();
 
             state._fsp--;
 
@@ -2055,35 +2055,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__0"
+    // $ANTLR end "rule__FeatureMapping__Group__0"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__0__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:827:1: rule__FGMMapping__Group__0__Impl : ( ( rule__FGMMapping__LeftAssignment_0 ) ) ;
-    public final void rule__FGMMapping__Group__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__0__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:827:1: rule__FeatureMapping__Group__0__Impl : ( ( rule__FeatureMapping__LeftAssignment_0 ) ) ;
+    public final void rule__FeatureMapping__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:831:1: ( ( ( rule__FGMMapping__LeftAssignment_0 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:832:1: ( ( rule__FGMMapping__LeftAssignment_0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:831:1: ( ( ( rule__FeatureMapping__LeftAssignment_0 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:832:1: ( ( rule__FeatureMapping__LeftAssignment_0 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:832:1: ( ( rule__FGMMapping__LeftAssignment_0 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:833:1: ( rule__FGMMapping__LeftAssignment_0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:832:1: ( ( rule__FeatureMapping__LeftAssignment_0 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:833:1: ( rule__FeatureMapping__LeftAssignment_0 )
             {
-             before(grammarAccess.getFGMMappingAccess().getLeftAssignment_0()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:834:1: ( rule__FGMMapping__LeftAssignment_0 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:834:2: rule__FGMMapping__LeftAssignment_0
+             before(grammarAccess.getFeatureMappingAccess().getLeftAssignment_0()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:834:1: ( rule__FeatureMapping__LeftAssignment_0 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:834:2: rule__FeatureMapping__LeftAssignment_0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__LeftAssignment_0_in_rule__FGMMapping__Group__0__Impl1617);
-            rule__FGMMapping__LeftAssignment_0();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__LeftAssignment_0_in_rule__FeatureMapping__Group__0__Impl1617);
+            rule__FeatureMapping__LeftAssignment_0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGMMappingAccess().getLeftAssignment_0()); 
+             after(grammarAccess.getFeatureMappingAccess().getLeftAssignment_0()); 
 
             }
 
@@ -2102,26 +2102,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__0__Impl"
+    // $ANTLR end "rule__FeatureMapping__Group__0__Impl"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__1"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:844:1: rule__FGMMapping__Group__1 : rule__FGMMapping__Group__1__Impl rule__FGMMapping__Group__2 ;
-    public final void rule__FGMMapping__Group__1() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__1"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:844:1: rule__FeatureMapping__Group__1 : rule__FeatureMapping__Group__1__Impl rule__FeatureMapping__Group__2 ;
+    public final void rule__FeatureMapping__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:848:1: ( rule__FGMMapping__Group__1__Impl rule__FGMMapping__Group__2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:849:2: rule__FGMMapping__Group__1__Impl rule__FGMMapping__Group__2
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:848:1: ( rule__FeatureMapping__Group__1__Impl rule__FeatureMapping__Group__2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:849:2: rule__FeatureMapping__Group__1__Impl rule__FeatureMapping__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__1__Impl_in_rule__FGMMapping__Group__11647);
-            rule__FGMMapping__Group__1__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__1__Impl_in_rule__FeatureMapping__Group__11647);
+            rule__FeatureMapping__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__2_in_rule__FGMMapping__Group__11650);
-            rule__FGMMapping__Group__2();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__2_in_rule__FeatureMapping__Group__11650);
+            rule__FeatureMapping__Group__2();
 
             state._fsp--;
 
@@ -2140,12 +2140,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__1"
+    // $ANTLR end "rule__FeatureMapping__Group__1"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__1__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:856:1: rule__FGMMapping__Group__1__Impl : ( KEYWORD_4 ) ;
-    public final void rule__FGMMapping__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__1__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:856:1: rule__FeatureMapping__Group__1__Impl : ( KEYWORD_4 ) ;
+    public final void rule__FeatureMapping__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -2156,9 +2156,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:861:1: ( KEYWORD_4 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:862:1: KEYWORD_4
             {
-             before(grammarAccess.getFGMMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1()); 
-            match(input,KEYWORD_4,FollowSets000.FOLLOW_KEYWORD_4_in_rule__FGMMapping__Group__1__Impl1678); 
-             after(grammarAccess.getFGMMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1()); 
+             before(grammarAccess.getFeatureMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1()); 
+            match(input,KEYWORD_4,FollowSets000.FOLLOW_KEYWORD_4_in_rule__FeatureMapping__Group__1__Impl1678); 
+             after(grammarAccess.getFeatureMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1()); 
 
             }
 
@@ -2177,26 +2177,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__1__Impl"
+    // $ANTLR end "rule__FeatureMapping__Group__1__Impl"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__2"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:875:1: rule__FGMMapping__Group__2 : rule__FGMMapping__Group__2__Impl rule__FGMMapping__Group__3 ;
-    public final void rule__FGMMapping__Group__2() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__2"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:875:1: rule__FeatureMapping__Group__2 : rule__FeatureMapping__Group__2__Impl rule__FeatureMapping__Group__3 ;
+    public final void rule__FeatureMapping__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:879:1: ( rule__FGMMapping__Group__2__Impl rule__FGMMapping__Group__3 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:880:2: rule__FGMMapping__Group__2__Impl rule__FGMMapping__Group__3
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:879:1: ( rule__FeatureMapping__Group__2__Impl rule__FeatureMapping__Group__3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:880:2: rule__FeatureMapping__Group__2__Impl rule__FeatureMapping__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__2__Impl_in_rule__FGMMapping__Group__21709);
-            rule__FGMMapping__Group__2__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__2__Impl_in_rule__FeatureMapping__Group__21709);
+            rule__FeatureMapping__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__3_in_rule__FGMMapping__Group__21712);
-            rule__FGMMapping__Group__3();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__3_in_rule__FeatureMapping__Group__21712);
+            rule__FeatureMapping__Group__3();
 
             state._fsp--;
 
@@ -2215,35 +2215,35 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__2"
+    // $ANTLR end "rule__FeatureMapping__Group__2"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__2__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:887:1: rule__FGMMapping__Group__2__Impl : ( ( rule__FGMMapping__RightAssignment_2 ) ) ;
-    public final void rule__FGMMapping__Group__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__2__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:887:1: rule__FeatureMapping__Group__2__Impl : ( ( rule__FeatureMapping__RightAssignment_2 ) ) ;
+    public final void rule__FeatureMapping__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:891:1: ( ( ( rule__FGMMapping__RightAssignment_2 ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:892:1: ( ( rule__FGMMapping__RightAssignment_2 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:891:1: ( ( ( rule__FeatureMapping__RightAssignment_2 ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:892:1: ( ( rule__FeatureMapping__RightAssignment_2 ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:892:1: ( ( rule__FGMMapping__RightAssignment_2 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:893:1: ( rule__FGMMapping__RightAssignment_2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:892:1: ( ( rule__FeatureMapping__RightAssignment_2 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:893:1: ( rule__FeatureMapping__RightAssignment_2 )
             {
-             before(grammarAccess.getFGMMappingAccess().getRightAssignment_2()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:894:1: ( rule__FGMMapping__RightAssignment_2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:894:2: rule__FGMMapping__RightAssignment_2
+             before(grammarAccess.getFeatureMappingAccess().getRightAssignment_2()); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:894:1: ( rule__FeatureMapping__RightAssignment_2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:894:2: rule__FeatureMapping__RightAssignment_2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__RightAssignment_2_in_rule__FGMMapping__Group__2__Impl1739);
-            rule__FGMMapping__RightAssignment_2();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__RightAssignment_2_in_rule__FeatureMapping__Group__2__Impl1739);
+            rule__FeatureMapping__RightAssignment_2();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getFGMMappingAccess().getRightAssignment_2()); 
+             after(grammarAccess.getFeatureMappingAccess().getRightAssignment_2()); 
 
             }
 
@@ -2262,21 +2262,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__2__Impl"
+    // $ANTLR end "rule__FeatureMapping__Group__2__Impl"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__3"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:904:1: rule__FGMMapping__Group__3 : rule__FGMMapping__Group__3__Impl ;
-    public final void rule__FGMMapping__Group__3() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__3"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:904:1: rule__FeatureMapping__Group__3 : rule__FeatureMapping__Group__3__Impl ;
+    public final void rule__FeatureMapping__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:908:1: ( rule__FGMMapping__Group__3__Impl )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:909:2: rule__FGMMapping__Group__3__Impl
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:908:1: ( rule__FeatureMapping__Group__3__Impl )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:909:2: rule__FeatureMapping__Group__3__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__FGMMapping__Group__3__Impl_in_rule__FGMMapping__Group__31769);
-            rule__FGMMapping__Group__3__Impl();
+            pushFollow(FollowSets000.FOLLOW_rule__FeatureMapping__Group__3__Impl_in_rule__FeatureMapping__Group__31769);
+            rule__FeatureMapping__Group__3__Impl();
 
             state._fsp--;
 
@@ -2295,12 +2295,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__3"
+    // $ANTLR end "rule__FeatureMapping__Group__3"
 
 
-    // $ANTLR start "rule__FGMMapping__Group__3__Impl"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:915:1: rule__FGMMapping__Group__3__Impl : ( KEYWORD_2 ) ;
-    public final void rule__FGMMapping__Group__3__Impl() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__Group__3__Impl"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:915:1: rule__FeatureMapping__Group__3__Impl : ( KEYWORD_2 ) ;
+    public final void rule__FeatureMapping__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -2311,9 +2311,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:920:1: ( KEYWORD_2 )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:921:1: KEYWORD_2
             {
-             before(grammarAccess.getFGMMappingAccess().getSemicolonKeyword_3()); 
-            match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_rule__FGMMapping__Group__3__Impl1797); 
-             after(grammarAccess.getFGMMappingAccess().getSemicolonKeyword_3()); 
+             before(grammarAccess.getFeatureMappingAccess().getSemicolonKeyword_3()); 
+            match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_rule__FeatureMapping__Group__3__Impl1797); 
+             after(grammarAccess.getFeatureMappingAccess().getSemicolonKeyword_3()); 
 
             }
 
@@ -2332,7 +2332,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__Group__3__Impl"
+    // $ANTLR end "rule__FeatureMapping__Group__3__Impl"
 
 
     // $ANTLR start "rule__FeaturePath__Group__0"
@@ -3104,26 +3104,26 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "rule__FGMGrammarRoot__FgmscAssignment_1"
 
 
-    // $ANTLR start "rule__FGMLibrary__FgtmappingsetAssignment"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1228:1: rule__FGMLibrary__FgtmappingsetAssignment : ( ruleFGTMappingset ) ;
-    public final void rule__FGMLibrary__FgtmappingsetAssignment() throws RecognitionException {
+    // $ANTLR start "rule__FGMLibrary__FeaturemappingsetAssignment"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1228:1: rule__FGMLibrary__FeaturemappingsetAssignment : ( ruleFeatureMappingset ) ;
+    public final void rule__FGMLibrary__FeaturemappingsetAssignment() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1232:1: ( ( ruleFGTMappingset ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1233:1: ( ruleFGTMappingset )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1232:1: ( ( ruleFeatureMappingset ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1233:1: ( ruleFeatureMappingset )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1233:1: ( ruleFGTMappingset )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1234:1: ruleFGTMappingset
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1233:1: ( ruleFeatureMappingset )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1234:1: ruleFeatureMappingset
             {
-             before(grammarAccess.getFGMLibraryAccess().getFgtmappingsetFGTMappingsetParserRuleCall_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFGTMappingset_in_rule__FGMLibrary__FgtmappingsetAssignment2407);
-            ruleFGTMappingset();
+             before(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetFeatureMappingsetParserRuleCall_0()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMappingset_in_rule__FGMLibrary__FeaturemappingsetAssignment2407);
+            ruleFeatureMappingset();
 
             state._fsp--;
 
-             after(grammarAccess.getFGMLibraryAccess().getFgtmappingsetFGTMappingsetParserRuleCall_0()); 
+             after(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetFeatureMappingsetParserRuleCall_0()); 
 
             }
 
@@ -3142,12 +3142,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMLibrary__FgtmappingsetAssignment"
+    // $ANTLR end "rule__FGMLibrary__FeaturemappingsetAssignment"
 
 
-    // $ANTLR start "rule__FGTMappingset__NameAssignment_1"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1243:1: rule__FGTMappingset__NameAssignment_1 : ( RULE_ID ) ;
-    public final void rule__FGTMappingset__NameAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__NameAssignment_1"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1243:1: rule__FeatureMappingset__NameAssignment_1 : ( RULE_ID ) ;
+    public final void rule__FeatureMappingset__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3158,9 +3158,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1248:1: ( RULE_ID )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1249:1: RULE_ID
             {
-             before(grammarAccess.getFGTMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_rule__FGTMappingset__NameAssignment_12438); 
-             after(grammarAccess.getFGTMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_rule__FeatureMappingset__NameAssignment_12438); 
+             after(grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -3179,12 +3179,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__NameAssignment_1"
+    // $ANTLR end "rule__FeatureMappingset__NameAssignment_1"
 
 
-    // $ANTLR start "rule__FGTMappingset__MappingsetAssignment_2_1"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1258:1: rule__FGTMappingset__MappingsetAssignment_2_1 : ( ( ruleQFGTMREF ) ) ;
-    public final void rule__FGTMappingset__MappingsetAssignment_2_1() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__MappingsetAssignment_2_1"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1258:1: rule__FeatureMappingset__MappingsetAssignment_2_1 : ( ( ruleQFGTMREF ) ) ;
+    public final void rule__FeatureMappingset__MappingsetAssignment_2_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3195,21 +3195,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1263:1: ( ( ruleQFGTMREF ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1264:1: ( ruleQFGTMREF )
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingsetFGTMappingsetCrossReference_2_1_0()); 
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_2_1_0()); 
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1265:1: ( ruleQFGTMREF )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1266:1: ruleQFGTMREF
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_1_0_1()); 
-            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_rule__FGTMappingset__MappingsetAssignment_2_12473);
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1()); 
+            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_rule__FeatureMappingset__MappingsetAssignment_2_12473);
             ruleQFGTMREF();
 
             state._fsp--;
 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_1_0_1()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1()); 
 
             }
 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingsetFGTMappingsetCrossReference_2_1_0()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_2_1_0()); 
 
             }
 
@@ -3228,29 +3228,29 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__MappingsetAssignment_2_1"
+    // $ANTLR end "rule__FeatureMappingset__MappingsetAssignment_2_1"
 
 
-    // $ANTLR start "rule__FGTMappingset__MappingAssignment_3"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1277:1: rule__FGTMappingset__MappingAssignment_3 : ( ruleFGMMapping ) ;
-    public final void rule__FGTMappingset__MappingAssignment_3() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMappingset__MappingAssignment_3"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1277:1: rule__FeatureMappingset__MappingAssignment_3 : ( ruleFeatureMapping ) ;
+    public final void rule__FeatureMappingset__MappingAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1281:1: ( ( ruleFGMMapping ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1282:1: ( ruleFGMMapping )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1281:1: ( ( ruleFeatureMapping ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1282:1: ( ruleFeatureMapping )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1282:1: ( ruleFGMMapping )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1283:1: ruleFGMMapping
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1282:1: ( ruleFeatureMapping )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1283:1: ruleFeatureMapping
             {
-             before(grammarAccess.getFGTMappingsetAccess().getMappingFGMMappingParserRuleCall_3_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFGMMapping_in_rule__FGTMappingset__MappingAssignment_32508);
-            ruleFGMMapping();
+             before(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_3_0()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_rule__FeatureMappingset__MappingAssignment_32508);
+            ruleFeatureMapping();
 
             state._fsp--;
 
-             after(grammarAccess.getFGTMappingsetAccess().getMappingFGMMappingParserRuleCall_3_0()); 
+             after(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_3_0()); 
 
             }
 
@@ -3269,7 +3269,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGTMappingset__MappingAssignment_3"
+    // $ANTLR end "rule__FeatureMappingset__MappingAssignment_3"
 
 
     // $ANTLR start "rule__FGMSubclause__MappingsetAssignment_2"
@@ -3285,21 +3285,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1297:1: ( ( ruleQFGTMREF ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1298:1: ( ruleQFGTMREF )
             {
-             before(grammarAccess.getFGMSubclauseAccess().getMappingsetFGTMappingsetCrossReference_2_0()); 
+             before(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetCrossReference_2_0()); 
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1299:1: ( ruleQFGTMREF )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1300:1: ruleQFGTMREF
             {
-             before(grammarAccess.getFGMSubclauseAccess().getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_0_1()); 
+             before(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1()); 
             pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_rule__FGMSubclause__MappingsetAssignment_22543);
             ruleQFGTMREF();
 
             state._fsp--;
 
-             after(grammarAccess.getFGMSubclauseAccess().getMappingsetFGTMappingsetQFGTMREFParserRuleCall_2_0_1()); 
+             after(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1()); 
 
             }
 
-             after(grammarAccess.getFGMSubclauseAccess().getMappingsetFGTMappingsetCrossReference_2_0()); 
+             after(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetCrossReference_2_0()); 
 
             }
 
@@ -3321,9 +3321,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
     // $ANTLR end "rule__FGMSubclause__MappingsetAssignment_2"
 
 
-    // $ANTLR start "rule__FGMMapping__LeftAssignment_0"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1311:1: rule__FGMMapping__LeftAssignment_0 : ( ruleFeaturePath ) ;
-    public final void rule__FGMMapping__LeftAssignment_0() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__LeftAssignment_0"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1311:1: rule__FeatureMapping__LeftAssignment_0 : ( ruleFeaturePath ) ;
+    public final void rule__FeatureMapping__LeftAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3334,13 +3334,13 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1316:1: ( ruleFeaturePath )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1317:1: ruleFeaturePath
             {
-             before(grammarAccess.getFGMMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_rule__FGMMapping__LeftAssignment_02578);
+             before(grammarAccess.getFeatureMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__LeftAssignment_02578);
             ruleFeaturePath();
 
             state._fsp--;
 
-             after(grammarAccess.getFGMMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
+             after(grammarAccess.getFeatureMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
 
             }
 
@@ -3359,12 +3359,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__LeftAssignment_0"
+    // $ANTLR end "rule__FeatureMapping__LeftAssignment_0"
 
 
-    // $ANTLR start "rule__FGMMapping__RightAssignment_2"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1326:1: rule__FGMMapping__RightAssignment_2 : ( ruleFeaturePath ) ;
-    public final void rule__FGMMapping__RightAssignment_2() throws RecognitionException {
+    // $ANTLR start "rule__FeatureMapping__RightAssignment_2"
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1326:1: rule__FeatureMapping__RightAssignment_2 : ( ruleFeaturePath ) ;
+    public final void rule__FeatureMapping__RightAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
@@ -3375,13 +3375,13 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1331:1: ( ruleFeaturePath )
             // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1332:1: ruleFeaturePath
             {
-             before(grammarAccess.getFGMMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_rule__FGMMapping__RightAssignment_22609);
+             before(grammarAccess.getFeatureMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
+            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__RightAssignment_22609);
             ruleFeaturePath();
 
             state._fsp--;
 
-             after(grammarAccess.getFGMMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
+             after(grammarAccess.getFeatureMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
 
             }
 
@@ -3400,7 +3400,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         }
         return ;
     }
-    // $ANTLR end "rule__FGMMapping__RightAssignment_2"
+    // $ANTLR end "rule__FeatureMapping__RightAssignment_2"
 
 
     // $ANTLR start "rule__FeaturePath__FeatureGroupTypeAssignment_0_0"
@@ -3545,17 +3545,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_rule__FGMGrammarRoot__Alternatives_in_ruleFGMGrammarRoot91 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMLibrary_in_entryRuleFGMLibrary118 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFGMLibrary125 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMLibrary__FgtmappingsetAssignment_in_ruleFGMLibrary157 = new BitSet(new long[]{0x0000000000000012L});
-        public static final BitSet FOLLOW_rule__FGMLibrary__FgtmappingsetAssignment_in_ruleFGMLibrary169 = new BitSet(new long[]{0x0000000000000012L});
-        public static final BitSet FOLLOW_ruleFGTMappingset_in_entryRuleFGTMappingset199 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFGTMappingset206 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__0_in_ruleFGTMappingset236 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FGMLibrary__FeaturemappingsetAssignment_in_ruleFGMLibrary157 = new BitSet(new long[]{0x0000000000000012L});
+        public static final BitSet FOLLOW_rule__FGMLibrary__FeaturemappingsetAssignment_in_ruleFGMLibrary169 = new BitSet(new long[]{0x0000000000000012L});
+        public static final BitSet FOLLOW_ruleFeatureMappingset_in_entryRuleFeatureMappingset199 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureMappingset206 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__0_in_ruleFeatureMappingset236 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMSubclause_in_entryRuleFGMSubclause263 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFGMSubclause270 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__0_in_ruleFGMSubclause300 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFGMMapping_in_entryRuleFGMMapping335 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFGMMapping342 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__0_in_ruleFGMMapping372 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping335 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureMapping342 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__0_in_ruleFeatureMapping372 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFeaturePath_in_entryRuleFeaturePath399 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFeaturePath406 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeaturePath__Group__0_in_ruleFeaturePath436 = new BitSet(new long[]{0x0000000000000002L});
@@ -3572,31 +3572,31 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_KEYWORD_8_in_rule__FGMGrammarRoot__Group_0__0__Impl681 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMGrammarRoot__Group_0__1__Impl_in_rule__FGMGrammarRoot__Group_0__1712 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMGrammarRoot__FgmlAssignment_0_1_in_rule__FGMGrammarRoot__Group_0__1__Impl739 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__0__Impl_in_rule__FGTMappingset__Group__0773 = new BitSet(new long[]{0x0000000000004000L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__1_in_rule__FGTMappingset__Group__0776 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_9_in_rule__FGTMappingset__Group__0__Impl804 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__1__Impl_in_rule__FGTMappingset__Group__1835 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__2_in_rule__FGTMappingset__Group__1838 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__NameAssignment_1_in_rule__FGTMappingset__Group__1__Impl865 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__2__Impl_in_rule__FGTMappingset__Group__2895 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__3_in_rule__FGTMappingset__Group__2898 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group_2__0_in_rule__FGTMappingset__Group__2__Impl925 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__3__Impl_in_rule__FGTMappingset__Group__3956 = new BitSet(new long[]{0x0000000000000100L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__4_in_rule__FGTMappingset__Group__3959 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__MappingAssignment_3_in_rule__FGTMappingset__Group__3__Impl986 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__4__Impl_in_rule__FGTMappingset__Group__41016 = new BitSet(new long[]{0x0000000000000010L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__5_in_rule__FGTMappingset__Group__41019 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_5_in_rule__FGTMappingset__Group__4__Impl1047 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__5__Impl_in_rule__FGTMappingset__Group__51078 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__6_in_rule__FGTMappingset__Group__51081 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_9_in_rule__FGTMappingset__Group__5__Impl1109 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group__6__Impl_in_rule__FGTMappingset__Group__61140 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_2_in_rule__FGTMappingset__Group__6__Impl1168 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group_2__0__Impl_in_rule__FGTMappingset__Group_2__01213 = new BitSet(new long[]{0x0000000000004000L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group_2__1_in_rule__FGTMappingset__Group_2__01216 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_7_in_rule__FGTMappingset__Group_2__0__Impl1244 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__Group_2__1__Impl_in_rule__FGTMappingset__Group_2__11275 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGTMappingset__MappingsetAssignment_2_1_in_rule__FGTMappingset__Group_2__1__Impl1302 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__0__Impl_in_rule__FeatureMappingset__Group__0773 = new BitSet(new long[]{0x0000000000004000L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__1_in_rule__FeatureMappingset__Group__0776 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_9_in_rule__FeatureMappingset__Group__0__Impl804 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__1__Impl_in_rule__FeatureMappingset__Group__1835 = new BitSet(new long[]{0x0000000000004020L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__2_in_rule__FeatureMappingset__Group__1838 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__NameAssignment_1_in_rule__FeatureMappingset__Group__1__Impl865 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__2__Impl_in_rule__FeatureMappingset__Group__2895 = new BitSet(new long[]{0x0000000000004020L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__3_in_rule__FeatureMappingset__Group__2898 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__0_in_rule__FeatureMappingset__Group__2__Impl925 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__3__Impl_in_rule__FeatureMappingset__Group__3956 = new BitSet(new long[]{0x0000000000000100L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__4_in_rule__FeatureMappingset__Group__3959 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__MappingAssignment_3_in_rule__FeatureMappingset__Group__3__Impl986 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__4__Impl_in_rule__FeatureMappingset__Group__41016 = new BitSet(new long[]{0x0000000000000010L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__5_in_rule__FeatureMappingset__Group__41019 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_5_in_rule__FeatureMappingset__Group__4__Impl1047 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__5__Impl_in_rule__FeatureMappingset__Group__51078 = new BitSet(new long[]{0x0000000000001000L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__6_in_rule__FeatureMappingset__Group__51081 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_9_in_rule__FeatureMappingset__Group__5__Impl1109 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group__6__Impl_in_rule__FeatureMappingset__Group__61140 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_2_in_rule__FeatureMappingset__Group__6__Impl1168 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__0__Impl_in_rule__FeatureMappingset__Group_2__01213 = new BitSet(new long[]{0x0000000000004000L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__1_in_rule__FeatureMappingset__Group_2__01216 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_7_in_rule__FeatureMappingset__Group_2__0__Impl1244 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__1__Impl_in_rule__FeatureMappingset__Group_2__11275 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__MappingsetAssignment_2_1_in_rule__FeatureMappingset__Group_2__1__Impl1302 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__0__Impl_in_rule__FGMSubclause__Group__01336 = new BitSet(new long[]{0x0000000000000010L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__1_in_rule__FGMSubclause__Group__01339 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_6_in_rule__FGMSubclause__Group__0__Impl1367 = new BitSet(new long[]{0x0000000000000002L});
@@ -3608,17 +3608,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_rule__FGMSubclause__MappingsetAssignment_2_in_rule__FGMSubclause__Group__2__Impl1490 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__3__Impl_in_rule__FGMSubclause__Group__31520 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_2_in_rule__FGMSubclause__Group__3__Impl1548 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__0__Impl_in_rule__FGMMapping__Group__01587 = new BitSet(new long[]{0x0000000000000080L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__1_in_rule__FGMMapping__Group__01590 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__LeftAssignment_0_in_rule__FGMMapping__Group__0__Impl1617 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__1__Impl_in_rule__FGMMapping__Group__11647 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__2_in_rule__FGMMapping__Group__11650 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_4_in_rule__FGMMapping__Group__1__Impl1678 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__2__Impl_in_rule__FGMMapping__Group__21709 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__3_in_rule__FGMMapping__Group__21712 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__RightAssignment_2_in_rule__FGMMapping__Group__2__Impl1739 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMMapping__Group__3__Impl_in_rule__FGMMapping__Group__31769 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_2_in_rule__FGMMapping__Group__3__Impl1797 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__0__Impl_in_rule__FeatureMapping__Group__01587 = new BitSet(new long[]{0x0000000000000080L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__1_in_rule__FeatureMapping__Group__01590 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__LeftAssignment_0_in_rule__FeatureMapping__Group__0__Impl1617 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__1__Impl_in_rule__FeatureMapping__Group__11647 = new BitSet(new long[]{0x0000000000004020L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__2_in_rule__FeatureMapping__Group__11650 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_4_in_rule__FeatureMapping__Group__1__Impl1678 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__2__Impl_in_rule__FeatureMapping__Group__21709 = new BitSet(new long[]{0x0000000000001000L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__3_in_rule__FeatureMapping__Group__21712 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__RightAssignment_2_in_rule__FeatureMapping__Group__2__Impl1739 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_rule__FeatureMapping__Group__3__Impl_in_rule__FeatureMapping__Group__31769 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_2_in_rule__FeatureMapping__Group__3__Impl1797 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeaturePath__Group__0__Impl_in_rule__FeaturePath__Group__01836 = new BitSet(new long[]{0x0000000000004000L});
         public static final BitSet FOLLOW_rule__FeaturePath__Group__1_in_rule__FeaturePath__Group__01839 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeaturePath__Group_0__0_in_rule__FeaturePath__Group__0__Impl1866 = new BitSet(new long[]{0x0000000000000002L});
@@ -3642,13 +3642,13 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_KEYWORD_3_in_rule__QFGTMREF__Group_0__1__Impl2305 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMLibrary_in_rule__FGMGrammarRoot__FgmlAssignment_0_12345 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMSubclause_in_rule__FGMGrammarRoot__FgmscAssignment_12376 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFGTMappingset_in_rule__FGMLibrary__FgtmappingsetAssignment2407 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_rule__FGTMappingset__NameAssignment_12438 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleQFGTMREF_in_rule__FGTMappingset__MappingsetAssignment_2_12473 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFGMMapping_in_rule__FGTMappingset__MappingAssignment_32508 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeatureMappingset_in_rule__FGMLibrary__FeaturemappingsetAssignment2407 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_RULE_ID_in_rule__FeatureMappingset__NameAssignment_12438 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_rule__FeatureMappingset__MappingsetAssignment_2_12473 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeatureMapping_in_rule__FeatureMappingset__MappingAssignment_32508 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleQFGTMREF_in_rule__FGMSubclause__MappingsetAssignment_22543 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FGMMapping__LeftAssignment_02578 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FGMMapping__RightAssignment_22609 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__LeftAssignment_02578 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__RightAssignment_22609 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_RULE_ID_in_rule__FeaturePath__FeatureGroupTypeAssignment_0_02644 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFeatureReference_in_rule__FeaturePath__FeatureReferenceAssignment_12679 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_RULE_ID_in_rule__FeatureReference__FeatureAssignment2714 = new BitSet(new long[]{0x0000000000000002L});

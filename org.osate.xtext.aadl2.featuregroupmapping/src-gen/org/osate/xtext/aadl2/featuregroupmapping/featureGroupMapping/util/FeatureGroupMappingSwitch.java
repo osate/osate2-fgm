@@ -95,12 +95,14 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET:
       {
-        FGTMappingset fgtMappingset = (FGTMappingset)theEObject;
-        T result = caseFGTMappingset(fgtMappingset);
-        if (result == null) result = caseNamedElement(fgtMappingset);
-        if (result == null) result = caseElement(fgtMappingset);
+        FeatureMappingset featureMappingset = (FeatureMappingset)theEObject;
+        T result = caseFeatureMappingset(featureMappingset);
+        if (result == null) result = caseAnnexSubclause(featureMappingset);
+        if (result == null) result = caseModalElement(featureMappingset);
+        if (result == null) result = caseNamedElement(featureMappingset);
+        if (result == null) result = caseElement(featureMappingset);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
@@ -108,18 +110,14 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
       {
         FGMSubclause fgmSubclause = (FGMSubclause)theEObject;
         T result = caseFGMSubclause(fgmSubclause);
-        if (result == null) result = caseAnnexSubclause(fgmSubclause);
-        if (result == null) result = caseModalElement(fgmSubclause);
-        if (result == null) result = caseNamedElement(fgmSubclause);
-        if (result == null) result = caseElement(fgmSubclause);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
-      case FeatureGroupMappingPackage.FGM_MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPING:
       {
-        FGMMapping fgmMapping = (FGMMapping)theEObject;
-        T result = caseFGMMapping(fgmMapping);
-        if (result == null) result = caseElement(fgmMapping);
+        FeatureMapping featureMapping = (FeatureMapping)theEObject;
+        T result = caseFeatureMapping(featureMapping);
+        if (result == null) result = caseElement(featureMapping);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
@@ -176,17 +174,17 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
   }
 
   /**
-   * Returns the result of interpreting the object as an instance of '<em>FGT Mappingset</em>'.
+   * Returns the result of interpreting the object as an instance of '<em>Feature Mappingset</em>'.
    * <!-- begin-user-doc -->
    * This implementation returns null;
    * returning a non-null result will terminate the switch.
    * <!-- end-user-doc -->
    * @param object the target of the switch.
-   * @return the result of interpreting the object as an instance of '<em>FGT Mappingset</em>'.
+   * @return the result of interpreting the object as an instance of '<em>Feature Mappingset</em>'.
    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
    * @generated
    */
-  public T caseFGTMappingset(FGTMappingset object)
+  public T caseFeatureMappingset(FeatureMappingset object)
   {
     return null;
   }
@@ -208,17 +206,17 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
   }
 
   /**
-   * Returns the result of interpreting the object as an instance of '<em>FGM Mapping</em>'.
+   * Returns the result of interpreting the object as an instance of '<em>Feature Mapping</em>'.
    * <!-- begin-user-doc -->
    * This implementation returns null;
    * returning a non-null result will terminate the switch.
    * <!-- end-user-doc -->
    * @param object the target of the switch.
-   * @return the result of interpreting the object as an instance of '<em>FGM Mapping</em>'.
+   * @return the result of interpreting the object as an instance of '<em>Feature Mapping</em>'.
    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
    * @generated
    */
-  public T caseFGMMapping(FGMMapping object)
+  public T caseFeatureMapping(FeatureMapping object)
   {
     return null;
   }

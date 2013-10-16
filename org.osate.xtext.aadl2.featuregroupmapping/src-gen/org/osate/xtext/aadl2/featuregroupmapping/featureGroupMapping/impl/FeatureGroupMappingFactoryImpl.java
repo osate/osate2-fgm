@@ -66,9 +66,9 @@ public class FeatureGroupMappingFactoryImpl extends EFactoryImpl implements Feat
     {
       case FeatureGroupMappingPackage.FGM_GRAMMAR_ROOT: return createFGMGrammarRoot();
       case FeatureGroupMappingPackage.FGM_LIBRARY: return createFGMLibrary();
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET: return createFGTMappingset();
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET: return createFeatureMappingset();
       case FeatureGroupMappingPackage.FGM_SUBCLAUSE: return createFGMSubclause();
-      case FeatureGroupMappingPackage.FGM_MAPPING: return createFGMMapping();
+      case FeatureGroupMappingPackage.FEATURE_MAPPING: return createFeatureMapping();
       case FeatureGroupMappingPackage.FEATURE_PATH: return createFeaturePath();
       case FeatureGroupMappingPackage.FEATURE_REFERENCE: return createFeatureReference();
       default:
@@ -103,10 +103,10 @@ public class FeatureGroupMappingFactoryImpl extends EFactoryImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGTMappingset createFGTMappingset()
+  public FeatureMappingset createFeatureMappingset()
   {
-    FGTMappingsetImpl fgtMappingset = new FGTMappingsetImpl();
-    return fgtMappingset;
+    FeatureMappingsetImpl featureMappingset = new FeatureMappingsetImpl();
+    return featureMappingset;
   }
 
   /**
@@ -125,10 +125,10 @@ public class FeatureGroupMappingFactoryImpl extends EFactoryImpl implements Feat
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGMMapping createFGMMapping()
+  public FeatureMapping createFeatureMapping()
   {
-    FGMMappingImpl fgmMapping = new FGMMappingImpl();
-    return fgmMapping;
+    FeatureMappingImpl featureMapping = new FeatureMappingImpl();
+    return featureMapping;
   }
 
   /**

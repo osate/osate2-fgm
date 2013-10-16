@@ -17,8 +17,8 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import org.osate.aadl2.impl.AnnexLibraryImpl;
 
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 
 /**
  * <!-- begin-user-doc -->
@@ -27,7 +27,7 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGrou
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMLibraryImpl#getFgtmappingset <em>Fgtmappingset</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMLibraryImpl#getFeaturemappingset <em>Featuremappingset</em>}</li>
  * </ul>
  * </p>
  *
@@ -36,14 +36,14 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGrou
 public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
 {
   /**
-   * The cached value of the '{@link #getFgtmappingset() <em>Fgtmappingset</em>}' containment reference list.
+   * The cached value of the '{@link #getFeaturemappingset() <em>Featuremappingset</em>}' containment reference list.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #getFgtmappingset()
+   * @see #getFeaturemappingset()
    * @generated
    * @ordered
    */
-  protected EList<FGTMappingset> fgtmappingset;
+  protected EList<FeatureMappingset> featuremappingset;
 
   /**
    * <!-- begin-user-doc -->
@@ -71,13 +71,13 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
    * <!-- end-user-doc -->
    * @generated
    */
-  public EList<FGTMappingset> getFgtmappingset()
+  public EList<FeatureMappingset> getFeaturemappingset()
   {
-    if (fgtmappingset == null)
+    if (featuremappingset == null)
     {
-      fgtmappingset = new EObjectContainmentEList<FGTMappingset>(FGTMappingset.class, this, FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET);
+      featuremappingset = new EObjectContainmentEList<FeatureMappingset>(FeatureMappingset.class, this, FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET);
     }
-    return fgtmappingset;
+    return featuremappingset;
   }
 
   /**
@@ -90,8 +90,8 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET:
-        return ((InternalEList<?>)getFgtmappingset()).basicRemove(otherEnd, msgs);
+      case FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET:
+        return ((InternalEList<?>)getFeaturemappingset()).basicRemove(otherEnd, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
   }
@@ -106,8 +106,8 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET:
-        return getFgtmappingset();
+      case FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET:
+        return getFeaturemappingset();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -123,9 +123,9 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET:
-        getFgtmappingset().clear();
-        getFgtmappingset().addAll((Collection<? extends FGTMappingset>)newValue);
+      case FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET:
+        getFeaturemappingset().clear();
+        getFeaturemappingset().addAll((Collection<? extends FeatureMappingset>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -141,8 +141,8 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET:
-        getFgtmappingset().clear();
+      case FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET:
+        getFeaturemappingset().clear();
         return;
     }
     super.eUnset(featureID);
@@ -158,8 +158,8 @@ public class FGMLibraryImpl extends AnnexLibraryImpl implements FGMLibrary
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGM_LIBRARY__FGTMAPPINGSET:
-        return fgtmappingset != null && !fgtmappingset.isEmpty();
+      case FeatureGroupMappingPackage.FGM_LIBRARY__FEATUREMAPPINGSET:
+        return featuremappingset != null && !featuremappingset.isEmpty();
     }
     return super.eIsSet(featureID);
   }

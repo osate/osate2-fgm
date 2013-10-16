@@ -4,18 +4,21 @@ import com.google.inject.Inject;
 import com.google.inject.Provider;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.xtext.serializer.acceptor.ISemanticSequenceAcceptor;
+import org.eclipse.xtext.serializer.acceptor.SequenceFeeder;
 import org.eclipse.xtext.serializer.diagnostic.ISemanticSequencerDiagnosticProvider;
 import org.eclipse.xtext.serializer.diagnostic.ISerializationDiagnostic.Acceptor;
 import org.eclipse.xtext.serializer.sequencer.AbstractDelegatingSemanticSequencer;
 import org.eclipse.xtext.serializer.sequencer.GenericSequencer;
+import org.eclipse.xtext.serializer.sequencer.ISemanticNodeProvider.INodesForEObjectProvider;
 import org.eclipse.xtext.serializer.sequencer.ISemanticSequencer;
 import org.eclipse.xtext.serializer.sequencer.ITransientValueService;
+import org.eclipse.xtext.serializer.sequencer.ITransientValueService.ValueTransient;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMGrammarRoot;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMLibrary;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeaturePath;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureReference;
 import org.osate.xtext.aadl2.featuregroupmapping.services.FeatureGroupMappingGrammarAccess;
@@ -41,24 +44,24 @@ public abstract class AbstractFeatureGroupMappingSemanticSequencer extends Abstr
 					return; 
 				}
 				else break;
-			case FeatureGroupMappingPackage.FGM_MAPPING:
-				if(context == grammarAccess.getElementRule() ||
-				   context == grammarAccess.getFGMMappingRule()) {
-					sequence_FGMMapping(context, (FGMMapping) semanticObject); 
-					return; 
-				}
-				else break;
 			case FeatureGroupMappingPackage.FGM_SUBCLAUSE:
-				if(context == grammarAccess.getAnnexSubclauseRule() ||
-				   context == grammarAccess.getFGMSubclauseRule()) {
+				if(context == grammarAccess.getFGMSubclauseRule()) {
 					sequence_FGMSubclause(context, (FGMSubclause) semanticObject); 
 					return; 
 				}
 				else break;
-			case FeatureGroupMappingPackage.FGT_MAPPINGSET:
-				if(context == grammarAccess.getFGTMappingsetRule() ||
-				   context == grammarAccess.getNamedELementRule()) {
-					sequence_FGTMappingset(context, (FGTMappingset) semanticObject); 
+			case FeatureGroupMappingPackage.FEATURE_MAPPING:
+				if(context == grammarAccess.getElementRule() ||
+				   context == grammarAccess.getFeatureMappingRule()) {
+					sequence_FeatureMapping(context, (FeatureMapping) semanticObject); 
+					return; 
+				}
+				else break;
+			case FeatureGroupMappingPackage.FEATURE_MAPPINGSET:
+				if(context == grammarAccess.getAnnexSubclauseRule() ||
+				   context == grammarAccess.getFeatureMappingsetRule() ||
+				   context == grammarAccess.getNamedElementRule()) {
+					sequence_FeatureMappingset(context, (FeatureMappingset) semanticObject); 
 					return; 
 				}
 				else break;
@@ -91,7 +94,7 @@ public abstract class AbstractFeatureGroupMappingSemanticSequencer extends Abstr
 	
 	/**
 	 * Constraint:
-	 *     fgtmappingset+=FGTMappingset+
+	 *     featuremappingset+=FeatureMappingset+
 	 */
 	protected void sequence_FGMLibrary(EObject context, FGMLibrary semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -100,27 +103,34 @@ public abstract class AbstractFeatureGroupMappingSemanticSequencer extends Abstr
 	
 	/**
 	 * Constraint:
-	 *     (left=FeaturePath right=FeaturePath)
-	 */
-	protected void sequence_FGMMapping(EObject context, FGMMapping semanticObject) {
-		genericSequencer.createSequence(context, semanticObject);
-	}
-	
-	
-	/**
-	 * Constraint:
-	 *     mappingset=[FGTMappingset|QFGTMREF]
+	 *     mappingset=[FeatureMappingset|QFGTMREF]
 	 */
 	protected void sequence_FGMSubclause(EObject context, FGMSubclause semanticObject) {
+		if(errorAcceptor != null) {
+			if(transientValues.isValueTransient(semanticObject, FeatureGroupMappingPackage.Literals.FGM_SUBCLAUSE__MAPPINGSET) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, FeatureGroupMappingPackage.Literals.FGM_SUBCLAUSE__MAPPINGSET));
+		}
+		INodesForEObjectProvider nodes = createNodeProvider(semanticObject);
+		SequenceFeeder feeder = createSequencerFeeder(semanticObject, nodes);
+		feeder.accept(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_0_1(), semanticObject.getMappingset());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Constraint:
+	 *     (left=FeaturePath right=FeaturePath)
+	 */
+	protected void sequence_FeatureMapping(EObject context, FeatureMapping semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
 	}
 	
 	
 	/**
 	 * Constraint:
-	 *     (name=ID mappingset=[FGTMappingset|QFGTMREF]? mapping+=FGMMapping)
+	 *     (name=ID mappingset=[FeatureMappingset|QFGTMREF]? mapping+=FeatureMapping)
 	 */
-	protected void sequence_FGTMappingset(EObject context, FGTMappingset semanticObject) {
+	protected void sequence_FeatureMappingset(EObject context, FeatureMappingset semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
 	}
 	

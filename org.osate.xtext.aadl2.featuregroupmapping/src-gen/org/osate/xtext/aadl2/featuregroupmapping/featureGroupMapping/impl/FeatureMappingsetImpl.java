@@ -17,27 +17,27 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
-import org.osate.aadl2.impl.NamedElementImpl;
+import org.osate.aadl2.impl.AnnexSubclauseImpl;
 
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping;
-import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping;
+import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>FGT Mappingset</b></em>'.
+ * An implementation of the model object '<em><b>Feature Mappingset</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl#getMappingset <em>Mappingset</em>}</li>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGTMappingsetImpl#getMapping <em>Mapping</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl#getMappingset <em>Mappingset</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingsetImpl#getMapping <em>Mapping</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
+public class FeatureMappingsetImpl extends AnnexSubclauseImpl implements FeatureMappingset
 {
   /**
    * The cached value of the '{@link #getMappingset() <em>Mappingset</em>}' reference.
@@ -47,7 +47,7 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * @generated
    * @ordered
    */
-  protected FGTMappingset mappingset;
+  protected FeatureMappingset mappingset;
 
   /**
    * The cached value of the '{@link #getMapping() <em>Mapping</em>}' containment reference list.
@@ -57,14 +57,14 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * @generated
    * @ordered
    */
-  protected EList<FGMMapping> mapping;
+  protected EList<FeatureMapping> mapping;
 
   /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    */
-  protected FGTMappingsetImpl()
+  protected FeatureMappingsetImpl()
   {
     super();
   }
@@ -77,7 +77,7 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   @Override
   protected EClass eStaticClass()
   {
-    return FeatureGroupMappingPackage.Literals.FGT_MAPPINGSET;
+    return FeatureGroupMappingPackage.Literals.FEATURE_MAPPINGSET;
   }
 
   /**
@@ -85,16 +85,16 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGTMappingset getMappingset()
+  public FeatureMappingset getMappingset()
   {
     if (mappingset != null && mappingset.eIsProxy())
     {
       InternalEObject oldMappingset = (InternalEObject)mappingset;
-      mappingset = (FGTMappingset)eResolveProxy(oldMappingset);
+      mappingset = (FeatureMappingset)eResolveProxy(oldMappingset);
       if (mappingset != oldMappingset)
       {
         if (eNotificationRequired())
-          eNotify(new ENotificationImpl(this, Notification.RESOLVE, FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET, oldMappingset, mappingset));
+          eNotify(new ENotificationImpl(this, Notification.RESOLVE, FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET, oldMappingset, mappingset));
       }
     }
     return mappingset;
@@ -105,7 +105,7 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * <!-- end-user-doc -->
    * @generated
    */
-  public FGTMappingset basicGetMappingset()
+  public FeatureMappingset basicGetMappingset()
   {
     return mappingset;
   }
@@ -115,12 +115,12 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * <!-- end-user-doc -->
    * @generated
    */
-  public void setMappingset(FGTMappingset newMappingset)
+  public void setMappingset(FeatureMappingset newMappingset)
   {
-    FGTMappingset oldMappingset = mappingset;
+    FeatureMappingset oldMappingset = mappingset;
     mappingset = newMappingset;
     if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET, oldMappingset, mappingset));
+      eNotify(new ENotificationImpl(this, Notification.SET, FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET, oldMappingset, mappingset));
   }
 
   /**
@@ -128,11 +128,11 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
    * <!-- end-user-doc -->
    * @generated
    */
-  public EList<FGMMapping> getMapping()
+  public EList<FeatureMapping> getMapping()
   {
     if (mapping == null)
     {
-      mapping = new EObjectContainmentEList<FGMMapping>(FGMMapping.class, this, FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING);
+      mapping = new EObjectContainmentEList<FeatureMapping>(FeatureMapping.class, this, FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING);
     }
     return mapping;
   }
@@ -147,7 +147,7 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING:
         return ((InternalEList<?>)getMapping()).basicRemove(otherEnd, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
@@ -163,10 +163,10 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET:
         if (resolve) return getMappingset();
         return basicGetMappingset();
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING:
         return getMapping();
     }
     return super.eGet(featureID, resolve, coreType);
@@ -183,12 +183,12 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET:
-        setMappingset((FGTMappingset)newValue);
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET:
+        setMappingset((FeatureMappingset)newValue);
         return;
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING:
         getMapping().clear();
-        getMapping().addAll((Collection<? extends FGMMapping>)newValue);
+        getMapping().addAll((Collection<? extends FeatureMapping>)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -204,10 +204,10 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET:
-        setMappingset((FGTMappingset)null);
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET:
+        setMappingset((FeatureMappingset)null);
         return;
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING:
         getMapping().clear();
         return;
     }
@@ -224,12 +224,12 @@ public class FGTMappingsetImpl extends NamedElementImpl implements FGTMappingset
   {
     switch (featureID)
     {
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPINGSET:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPINGSET:
         return mappingset != null;
-      case FeatureGroupMappingPackage.FGT_MAPPINGSET__MAPPING:
+      case FeatureGroupMappingPackage.FEATURE_MAPPINGSET__MAPPING:
         return mapping != null && !mapping.isEmpty();
     }
     return super.eIsSet(featureID);
   }
 
-} //FGTMappingsetImpl
+} //FeatureMappingsetImpl

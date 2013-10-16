@@ -6,26 +6,26 @@ import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.osate.aadl2.NamedElement;
+import org.osate.aadl2.AnnexSubclause;
 
 /**
  * <!-- begin-user-doc -->
- * A representation of the model object '<em><b>FGT Mappingset</b></em>'.
+ * A representation of the model object '<em><b>Feature Mappingset</b></em>'.
  * <!-- end-user-doc -->
  *
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMappingset <em>Mappingset</em>}</li>
- *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMapping <em>Mapping</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMappingset <em>Mappingset</em>}</li>
+ *   <li>{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMapping <em>Mapping</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFGTMappingset()
+ * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFeatureMappingset()
  * @model
  * @generated
  */
-public interface FGTMappingset extends EObject, NamedElement
+public interface FeatureMappingset extends EObject, AnnexSubclause
 {
   /**
    * Returns the value of the '<em><b>Mappingset</b></em>' reference.
@@ -36,26 +36,26 @@ public interface FGTMappingset extends EObject, NamedElement
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Mappingset</em>' reference.
-   * @see #setMappingset(FGTMappingset)
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFGTMappingset_Mappingset()
+   * @see #setMappingset(FeatureMappingset)
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFeatureMappingset_Mappingset()
    * @model
    * @generated
    */
-  FGTMappingset getMappingset();
+  FeatureMappingset getMappingset();
 
   /**
-   * Sets the value of the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGTMappingset#getMappingset <em>Mappingset</em>}' reference.
+   * Sets the value of the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMappingset#getMappingset <em>Mappingset</em>}' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Mappingset</em>' reference.
    * @see #getMappingset()
    * @generated
    */
-  void setMappingset(FGTMappingset value);
+  void setMappingset(FeatureMappingset value);
 
   /**
    * Returns the value of the '<em><b>Mapping</b></em>' containment reference list.
-   * The list contents are of type {@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMMapping}.
+   * The list contents are of type {@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping}.
    * <!-- begin-user-doc -->
    * <p>
    * If the meaning of the '<em>Mapping</em>' containment reference list isn't clear,
@@ -63,10 +63,10 @@ public interface FGTMappingset extends EObject, NamedElement
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Mapping</em>' containment reference list.
-   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFGTMappingset_Mapping()
+   * @see org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage#getFeatureMappingset_Mapping()
    * @model containment="true"
    * @generated
    */
-  EList<FGMMapping> getMapping();
+  EList<FeatureMapping> getMapping();
 
-} // FGTMappingset
+} // FeatureMappingset
