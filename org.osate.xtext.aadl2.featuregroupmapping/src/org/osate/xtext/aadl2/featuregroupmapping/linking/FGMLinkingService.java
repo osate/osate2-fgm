@@ -76,8 +76,8 @@ public class FGMLinkingService extends PropertiesLinkingService {
 		return Collections.<EObject> emptyList();
 	}
 	/**
-	 * find the FGMlibrary. The String name refers to the package and the default EML name is added ("emv2")
-	 * @param context context of search to identify package and EML
+	 * find the FGMlibrary. The String name refers to the package and the annex name is added ("fgm")
+	 * @param context context of search to identify package and FGM
 	 * @param name fully qualified name including FGM
 	 * @return FGMLibrary
 	 */
