@@ -1346,8 +1346,8 @@ rule__FeaturePath__FeatureGroupTypeAssignment_0_0
 (
 { before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); }
 (
-{ before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1()); }
-	RULE_ID{ after(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1()); }
+{ before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1()); }
+	ruleQFGTMREF{ after(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1()); }
 )
 { after(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); }
 )

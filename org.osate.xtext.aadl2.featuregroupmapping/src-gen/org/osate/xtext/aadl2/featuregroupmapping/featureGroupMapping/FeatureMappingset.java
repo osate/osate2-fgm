@@ -6,7 +6,7 @@ import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.osate.aadl2.AnnexSubclause;
+import org.osate.aadl2.NamedElement;
 
 /**
  * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ import org.osate.aadl2.AnnexSubclause;
  * @model
  * @generated
  */
-public interface FeatureMappingset extends EObject, AnnexSubclause
+public interface FeatureMappingset extends EObject, NamedElement
 {
   /**
    * Returns the value of the '<em><b>Mappingset</b></em>' reference.

@@ -412,7 +412,8 @@ public class FeatureGroupMappingPackageImpl extends EPackageImpl implements Feat
 
     // Add supertypes to classes
     fgmLibraryEClass.getESuperTypes().add(theAadl2Package.getAnnexLibrary());
-    featureMappingsetEClass.getESuperTypes().add(theAadl2Package.getAnnexSubclause());
+    featureMappingsetEClass.getESuperTypes().add(theAadl2Package.getNamedElement());
+    fgmSubclauseEClass.getESuperTypes().add(theAadl2Package.getAnnexSubclause());
     featureMappingEClass.getESuperTypes().add(theAadl2Package.getElement());
     featurePathEClass.getESuperTypes().add(theAadl2Package.getElement());
     featureReferenceEClass.getESuperTypes().add(theAadl2Package.getElement());

@@ -195,15 +195,15 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	public class AnnexSubclauseElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "AnnexSubclause");
-		private final RuleCall cFeatureMappingsetParserRuleCall = (RuleCall)rule.eContents().get(1);
+		private final RuleCall cFGMSubclauseParserRuleCall = (RuleCall)rule.eContents().get(1);
 		
 		//AnnexSubclause returns aadl2::AnnexSubclause:
 		//
-		//	FeatureMappingset;
+		//	FGMSubclause;
 		public ParserRule getRule() { return rule; }
 
-		//FeatureMappingset
-		public RuleCall getFeatureMappingsetParserRuleCall() { return cFeatureMappingsetParserRuleCall; }
+		//FGMSubclause
+		public RuleCall getFGMSubclauseParserRuleCall() { return cFGMSubclauseParserRuleCall; }
 	}
 
 	public class NamedElementElements extends AbstractParserRuleElementFinder {
@@ -291,30 +291,30 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 		private final Group cGroup_0 = (Group)cGroup.eContents().get(0);
 		private final Assignment cFeatureGroupTypeAssignment_0_0 = (Assignment)cGroup_0.eContents().get(0);
 		private final CrossReference cFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0 = (CrossReference)cFeatureGroupTypeAssignment_0_0.eContents().get(0);
-		private final RuleCall cFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1 = (RuleCall)cFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0.eContents().get(1);
+		private final RuleCall cFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1 = (RuleCall)cFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0.eContents().get(1);
 		private final Keyword cFullStopKeyword_0_1 = (Keyword)cGroup_0.eContents().get(1);
 		private final Assignment cFeatureReferenceAssignment_1 = (Assignment)cGroup.eContents().get(1);
 		private final RuleCall cFeatureReferenceFeatureReferenceParserRuleCall_1_0 = (RuleCall)cFeatureReferenceAssignment_1.eContents().get(0);
 		
 		//FeaturePath:
 		//
-		//	(featureGroupType=[aadl2::FeatureGroupType] ".") featureReference+=FeatureReference+;
+		//	(featureGroupType=[aadl2::FeatureGroupType|QFGTMREF] ".") featureReference+=FeatureReference+;
 		public ParserRule getRule() { return rule; }
 
-		//(featureGroupType=[aadl2::FeatureGroupType] ".") featureReference+=FeatureReference+
+		//(featureGroupType=[aadl2::FeatureGroupType|QFGTMREF] ".") featureReference+=FeatureReference+
 		public Group getGroup() { return cGroup; }
 
-		//featureGroupType=[aadl2::FeatureGroupType] "."
+		//featureGroupType=[aadl2::FeatureGroupType|QFGTMREF] "."
 		public Group getGroup_0() { return cGroup_0; }
 
-		//featureGroupType=[aadl2::FeatureGroupType]
+		//featureGroupType=[aadl2::FeatureGroupType|QFGTMREF]
 		public Assignment getFeatureGroupTypeAssignment_0_0() { return cFeatureGroupTypeAssignment_0_0; }
 
-		//[aadl2::FeatureGroupType]
+		//[aadl2::FeatureGroupType|QFGTMREF]
 		public CrossReference getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0() { return cFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0; }
 
-		//ID
-		public RuleCall getFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1() { return cFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1; }
+		//QFGTMREF
+		public RuleCall getFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1() { return cFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1; }
 
 		//"."
 		public Keyword getFullStopKeyword_0_1() { return cFullStopKeyword_0_1; }
@@ -486,7 +486,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	//AnnexSubclause returns aadl2::AnnexSubclause:
 	//
-	//	FeatureMappingset;
+	//	FGMSubclause;
 	public AnnexSubclauseElements getAnnexSubclauseAccess() {
 		return (pAnnexSubclause != null) ? pAnnexSubclause : (pAnnexSubclause = new AnnexSubclauseElements());
 	}
@@ -534,7 +534,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	//FeaturePath:
 	//
-	//	(featureGroupType=[aadl2::FeatureGroupType] ".") featureReference+=FeatureReference+;
+	//	(featureGroupType=[aadl2::FeatureGroupType|QFGTMREF] ".") featureReference+=FeatureReference+;
 	public FeaturePathElements getFeaturePathAccess() {
 		return (pFeaturePath != null) ? pFeaturePath : (pFeaturePath = new FeaturePathElements());
 	}

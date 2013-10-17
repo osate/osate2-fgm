@@ -8,8 +8,8 @@ package org.osate.xtext.aadl2.featuregroupmapping;
  */
 public class FeatureGroupMappingRuntimeModule extends org.osate.xtext.aadl2.featuregroupmapping.AbstractFeatureGroupMappingRuntimeModule {
 
-	@Override
-	public Class<? extends org.eclipse.xtext.naming.IQualifiedNameProvider> bindIQualifiedNameProvider() {
-		return org.osate.xtext.aadl2.featuregroupmapping.naming.FeatureGroupMappingQualifiedNameProvider.class;
-	}
+//	@Override
+//	public Class<? extends org.eclipse.xtext.naming.IQualifiedNameProvider> bindIQualifiedNameProvider() {
+//		return org.osate.xtext.aadl2.featuregroupmapping.naming.FeatureGroupMappingQualifiedNameProvider.class;
+//	}
 }

@@ -10,20 +10,10 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapp
 import org.osate.xtext.aadl2.featuregroupmapping.util.FGMUtil;
 
 public class FeatureGroupMappingQualifiedNameProvider extends DefaultDeclarativeQualifiedNameProvider {
-	
-	public String getDelimiter() {
-		return "::";
-	}
 	// Enable to limit indexing to global items
 	// Duplicates checking only applies to global items
 	@Override
 	public QualifiedName getFullyQualifiedName(final EObject obj) {
-		if (!(obj instanceof NamedElement) ) return null;
-		if (((NamedElement)obj).getName() == null) 
-			return null;
-		if (obj instanceof AadlPackage){
-			return getConverter().toQualifiedName(((AadlPackage) obj).getName());
-		}
 		// for all globally visible Annex elements return a unqiue name
 		if (obj instanceof FGMLibrary || obj instanceof FeatureMappingset){
 			return getConverter().toQualifiedName(getTheName((NamedElement)obj));
@@ -38,7 +28,4 @@ public class FeatureGroupMappingQualifiedNameProvider extends DefaultDeclarative
 		} 
 		return root.getName() + "::"+FGMUtil.FGMAnnexName+"::" + namedElement.getName();
 	}
-	
-
-
 }

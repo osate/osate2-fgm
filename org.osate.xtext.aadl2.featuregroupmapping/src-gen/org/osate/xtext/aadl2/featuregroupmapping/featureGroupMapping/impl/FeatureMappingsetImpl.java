@@ -17,7 +17,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
-import org.osate.aadl2.impl.AnnexSubclauseImpl;
+import org.osate.aadl2.impl.NamedElementImpl;
 
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapping;
@@ -37,7 +37,7 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapp
  *
  * @generated
  */
-public class FeatureMappingsetImpl extends AnnexSubclauseImpl implements FeatureMappingset
+public class FeatureMappingsetImpl extends NamedElementImpl implements FeatureMappingset
 {
   /**
    * The cached value of the '{@link #getMappingset() <em>Mappingset</em>}' reference.

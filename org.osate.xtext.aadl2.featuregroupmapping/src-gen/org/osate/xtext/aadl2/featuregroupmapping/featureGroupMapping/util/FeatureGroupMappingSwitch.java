@@ -99,8 +99,6 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
       {
         FeatureMappingset featureMappingset = (FeatureMappingset)theEObject;
         T result = caseFeatureMappingset(featureMappingset);
-        if (result == null) result = caseAnnexSubclause(featureMappingset);
-        if (result == null) result = caseModalElement(featureMappingset);
         if (result == null) result = caseNamedElement(featureMappingset);
         if (result == null) result = caseElement(featureMappingset);
         if (result == null) result = defaultCase(theEObject);
@@ -110,6 +108,10 @@ public class FeatureGroupMappingSwitch<T> extends Switch<T>
       {
         FGMSubclause fgmSubclause = (FGMSubclause)theEObject;
         T result = caseFGMSubclause(fgmSubclause);
+        if (result == null) result = caseAnnexSubclause(fgmSubclause);
+        if (result == null) result = caseModalElement(fgmSubclause);
+        if (result == null) result = caseNamedElement(fgmSubclause);
+        if (result == null) result = caseElement(fgmSubclause);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }

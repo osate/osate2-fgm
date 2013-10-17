@@ -184,7 +184,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__OWNED_ELEMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_ELEMENT;
+  int FEATURE_MAPPINGSET__OWNED_ELEMENT = Aadl2Package.NAMED_ELEMENT__OWNED_ELEMENT;
 
   /**
    * The feature id for the '<em><b>Owned Comment</b></em>' containment reference list.
@@ -193,7 +193,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__OWNED_COMMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_COMMENT;
+  int FEATURE_MAPPINGSET__OWNED_COMMENT = Aadl2Package.NAMED_ELEMENT__OWNED_COMMENT;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -202,7 +202,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__NAME = Aadl2Package.ANNEX_SUBCLAUSE__NAME;
+  int FEATURE_MAPPINGSET__NAME = Aadl2Package.NAMED_ELEMENT__NAME;
 
   /**
    * The feature id for the '<em><b>Qualified Name</b></em>' attribute.
@@ -211,7 +211,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__QUALIFIED_NAME = Aadl2Package.ANNEX_SUBCLAUSE__QUALIFIED_NAME;
+  int FEATURE_MAPPINGSET__QUALIFIED_NAME = Aadl2Package.NAMED_ELEMENT__QUALIFIED_NAME;
 
   /**
    * The feature id for the '<em><b>Owned Property Association</b></em>' containment reference list.
@@ -220,16 +220,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION;
-
-  /**
-   * The feature id for the '<em><b>In Mode</b></em>' reference list.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int FEATURE_MAPPINGSET__IN_MODE = Aadl2Package.ANNEX_SUBCLAUSE__IN_MODE;
+  int FEATURE_MAPPINGSET__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.NAMED_ELEMENT__OWNED_PROPERTY_ASSOCIATION;
 
   /**
    * The feature id for the '<em><b>Mappingset</b></em>' reference.
@@ -238,7 +229,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__MAPPINGSET = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 0;
+  int FEATURE_MAPPINGSET__MAPPINGSET = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 0;
 
   /**
    * The feature id for the '<em><b>Mapping</b></em>' containment reference list.
@@ -247,7 +238,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET__MAPPING = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 1;
+  int FEATURE_MAPPINGSET__MAPPING = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 1;
 
   /**
    * The number of structural features of the '<em>Feature Mappingset</em>' class.
@@ -256,7 +247,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FEATURE_MAPPINGSET_FEATURE_COUNT = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 2;
+  int FEATURE_MAPPINGSET_FEATURE_COUNT = Aadl2Package.NAMED_ELEMENT_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FGMSubclauseImpl <em>FGM Subclause</em>}' class.
@@ -269,13 +260,67 @@ public interface FeatureGroupMappingPackage extends EPackage
   int FGM_SUBCLAUSE = 3;
 
   /**
+   * The feature id for the '<em><b>Owned Element</b></em>' reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__OWNED_ELEMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_ELEMENT;
+
+  /**
+   * The feature id for the '<em><b>Owned Comment</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__OWNED_COMMENT = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_COMMENT;
+
+  /**
+   * The feature id for the '<em><b>Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__NAME = Aadl2Package.ANNEX_SUBCLAUSE__NAME;
+
+  /**
+   * The feature id for the '<em><b>Qualified Name</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__QUALIFIED_NAME = Aadl2Package.ANNEX_SUBCLAUSE__QUALIFIED_NAME;
+
+  /**
+   * The feature id for the '<em><b>Owned Property Association</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION = Aadl2Package.ANNEX_SUBCLAUSE__OWNED_PROPERTY_ASSOCIATION;
+
+  /**
+   * The feature id for the '<em><b>In Mode</b></em>' reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FGM_SUBCLAUSE__IN_MODE = Aadl2Package.ANNEX_SUBCLAUSE__IN_MODE;
+
+  /**
    * The feature id for the '<em><b>Mappingset</b></em>' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int FGM_SUBCLAUSE__MAPPINGSET = 0;
+  int FGM_SUBCLAUSE__MAPPINGSET = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>FGM Subclause</em>' class.
@@ -284,7 +329,7 @@ public interface FeatureGroupMappingPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FGM_SUBCLAUSE_FEATURE_COUNT = 1;
+  int FGM_SUBCLAUSE_FEATURE_COUNT = Aadl2Package.ANNEX_SUBCLAUSE_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.impl.FeatureMappingImpl <em>Feature Mapping</em>}' class.

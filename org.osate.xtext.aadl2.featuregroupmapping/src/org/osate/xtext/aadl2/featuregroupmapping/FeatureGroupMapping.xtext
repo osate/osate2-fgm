@@ -36,7 +36,7 @@ AnnexLibrary returns aadl2::AnnexLibrary:
 	 ;
 
 AnnexSubclause returns aadl2::AnnexSubclause:
-	 FeatureMappingset 
+	 FGMSubclause 
 	 ;
 // FGMLibrary is a named element that can be referenced by others	 
 NamedElement returns aadl2::NamedElement:
@@ -52,7 +52,7 @@ FeatureMapping returns FeatureMapping:
 	left = FeaturePath '<=>' right =FeaturePath ';';
 
 FeaturePath returns FeaturePath:
-	(featureGroupType=[aadl2::FeatureGroupType|ID] '.')
+	(featureGroupType=[aadl2::FeatureGroupType|QFGTMREF] '.')
 	(featureReference+=FeatureReference)+
 ;
 

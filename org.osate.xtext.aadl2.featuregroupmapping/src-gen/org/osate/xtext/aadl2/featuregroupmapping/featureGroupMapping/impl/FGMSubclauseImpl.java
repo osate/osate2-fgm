@@ -8,7 +8,8 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
+import org.osate.aadl2.impl.AnnexSubclauseImpl;
 
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FGMSubclause;
 import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureGroupMappingPackage;
@@ -27,7 +28,7 @@ import org.osate.xtext.aadl2.featuregroupmapping.featureGroupMapping.FeatureMapp
  *
  * @generated
  */
-public class FGMSubclauseImpl extends MinimalEObjectImpl.Container implements FGMSubclause
+public class FGMSubclauseImpl extends AnnexSubclauseImpl implements FGMSubclause
 {
   /**
    * The cached value of the '{@link #getMappingset() <em>Mappingset</em>}' reference.

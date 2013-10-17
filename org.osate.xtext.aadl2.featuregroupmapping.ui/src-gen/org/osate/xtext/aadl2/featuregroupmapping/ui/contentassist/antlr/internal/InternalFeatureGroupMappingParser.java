@@ -3404,25 +3404,29 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
 
 
     // $ANTLR start "rule__FeaturePath__FeatureGroupTypeAssignment_0_0"
-    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1341:1: rule__FeaturePath__FeatureGroupTypeAssignment_0_0 : ( ( RULE_ID ) ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1341:1: rule__FeaturePath__FeatureGroupTypeAssignment_0_0 : ( ( ruleQFGTMREF ) ) ;
     public final void rule__FeaturePath__FeatureGroupTypeAssignment_0_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1345:1: ( ( ( RULE_ID ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1346:1: ( ( RULE_ID ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1345:1: ( ( ( ruleQFGTMREF ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1346:1: ( ( ruleQFGTMREF ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1346:1: ( ( RULE_ID ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1347:1: ( RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1346:1: ( ( ruleQFGTMREF ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1347:1: ( ruleQFGTMREF )
             {
              before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); 
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1348:1: ( RULE_ID )
-            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1349:1: RULE_ID
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1348:1: ( ruleQFGTMREF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping.ui/src-gen/org/osate/xtext/aadl2/featuregroupmapping/ui/contentassist/antlr/internal/InternalFeatureGroupMappingParser.g:1349:1: ruleQFGTMREF
             {
-             before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1()); 
-            match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_rule__FeaturePath__FeatureGroupTypeAssignment_0_02644); 
-             after(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeIDTerminalRuleCall_0_0_0_1()); 
+             before(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1()); 
+            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_rule__FeaturePath__FeatureGroupTypeAssignment_0_02644);
+            ruleQFGTMREF();
+
+            state._fsp--;
+
+             after(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeQFGTMREFParserRuleCall_0_0_0_1()); 
 
             }
 
@@ -3592,7 +3596,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_KEYWORD_9_in_rule__FeatureMappingset__Group__5__Impl1109 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeatureMappingset__Group__6__Impl_in_rule__FeatureMappingset__Group__61140 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_2_in_rule__FeatureMappingset__Group__6__Impl1168 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__0__Impl_in_rule__FeatureMappingset__Group_2__01213 = new BitSet(new long[]{0x0000000000004000L});
+        public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__0__Impl_in_rule__FeatureMappingset__Group_2__01213 = new BitSet(new long[]{0x0000000000004020L});
         public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__1_in_rule__FeatureMappingset__Group_2__01216 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_7_in_rule__FeatureMappingset__Group_2__0__Impl1244 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeatureMappingset__Group_2__1__Impl_in_rule__FeatureMappingset__Group_2__11275 = new BitSet(new long[]{0x0000000000000002L});
@@ -3600,7 +3604,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__0__Impl_in_rule__FGMSubclause__Group__01336 = new BitSet(new long[]{0x0000000000000010L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__1_in_rule__FGMSubclause__Group__01339 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_6_in_rule__FGMSubclause__Group__0__Impl1367 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__FGMSubclause__Group__1__Impl_in_rule__FGMSubclause__Group__11398 = new BitSet(new long[]{0x0000000000004000L});
+        public static final BitSet FOLLOW_rule__FGMSubclause__Group__1__Impl_in_rule__FGMSubclause__Group__11398 = new BitSet(new long[]{0x0000000000004020L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__2_in_rule__FGMSubclause__Group__11401 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_9_in_rule__FGMSubclause__Group__1__Impl1429 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FGMSubclause__Group__2__Impl_in_rule__FGMSubclause__Group__21460 = new BitSet(new long[]{0x0000000000001000L});
@@ -3630,7 +3634,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_rule__FeaturePath__FeatureGroupTypeAssignment_0_0_in_rule__FeaturePath__Group_0__0__Impl2004 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__FeaturePath__Group_0__1__Impl_in_rule__FeaturePath__Group_0__12034 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_KEYWORD_1_in_rule__FeaturePath__Group_0__1__Impl2062 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__QFGTMREF__Group__0__Impl_in_rule__QFGTMREF__Group__02097 = new BitSet(new long[]{0x0000000000004000L});
+        public static final BitSet FOLLOW_rule__QFGTMREF__Group__0__Impl_in_rule__QFGTMREF__Group__02097 = new BitSet(new long[]{0x0000000000004020L});
         public static final BitSet FOLLOW_rule__QFGTMREF__Group__1_in_rule__QFGTMREF__Group__02100 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_rule__QFGTMREF__Group_0__0_in_rule__QFGTMREF__Group__0__Impl2127 = new BitSet(new long[]{0x0000000000004002L});
         public static final BitSet FOLLOW_rule__QFGTMREF__Group__1__Impl_in_rule__QFGTMREF__Group__12158 = new BitSet(new long[]{0x0000000000000002L});
@@ -3649,7 +3653,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalContentAs
         public static final BitSet FOLLOW_ruleQFGTMREF_in_rule__FGMSubclause__MappingsetAssignment_22543 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__LeftAssignment_02578 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFeaturePath_in_rule__FeatureMapping__RightAssignment_22609 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_rule__FeaturePath__FeatureGroupTypeAssignment_0_02644 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_rule__FeaturePath__FeatureGroupTypeAssignment_0_02644 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFeatureReference_in_rule__FeaturePath__FeatureReferenceAssignment_12679 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_RULE_ID_in_rule__FeatureReference__FeatureAssignment2714 = new BitSet(new long[]{0x0000000000000002L});
     }

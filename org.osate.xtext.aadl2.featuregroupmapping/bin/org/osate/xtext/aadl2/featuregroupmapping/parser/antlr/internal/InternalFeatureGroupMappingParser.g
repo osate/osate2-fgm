@@ -403,10 +403,12 @@ ruleFeaturePath returns [EObject current=null]
 	            $current = createModelElement(grammarAccess.getFeaturePathRule());
 	        }
         }
-	otherlv_0=RULE_ID
-	{
-		newLeafNode(otherlv_0, grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); 
-	}
+		{ 
+	        newCompositeNode(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); 
+	    }
+		ruleQFGTMREF		{ 
+	        afterParserOrEnumRuleCall();
+	    }
 
 )
 )
