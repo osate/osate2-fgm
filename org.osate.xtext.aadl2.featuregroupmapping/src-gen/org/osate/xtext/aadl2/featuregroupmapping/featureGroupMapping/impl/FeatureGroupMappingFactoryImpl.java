@@ -30,7 +30,7 @@ public class FeatureGroupMappingFactoryImpl extends EFactoryImpl implements Feat
   {
     try
     {
-      FeatureGroupMappingFactory theFeatureGroupMappingFactory = (FeatureGroupMappingFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.aadl.info/FGM"); 
+      FeatureGroupMappingFactory theFeatureGroupMappingFactory = (FeatureGroupMappingFactory)EPackage.Registry.INSTANCE.getEFactory(FeatureGroupMappingPackage.eNS_URI);
       if (theFeatureGroupMappingFactory != null)
       {
         return theFeatureGroupMappingFactory;
