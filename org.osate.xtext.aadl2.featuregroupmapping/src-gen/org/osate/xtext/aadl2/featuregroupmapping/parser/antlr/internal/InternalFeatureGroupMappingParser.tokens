@@ -1,3 +1,4 @@
+RULE_WS=16
 'mappings'=4
 'extends'=5
 'library'=6
@@ -6,7 +7,7 @@
 'use'=9
 '::'=10
 '.'=11
-';'=12
-RULE_SL_COMMENT=13
-RULE_ID=14
-RULE_WS=15
+':'=12
+';'=13
+RULE_SL_COMMENT=14
+RULE_ID=15

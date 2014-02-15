@@ -21,21 +21,22 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "KEYWORD_9", "KEYWORD_7", "KEYWORD_8", "KEYWORD_4", "KEYWORD_5", "KEYWORD_6", "KEYWORD_3", "KEYWORD_1", "KEYWORD_2", "RULE_SL_COMMENT", "RULE_ID", "RULE_WS"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "KEYWORD_10", "KEYWORD_8", "KEYWORD_9", "KEYWORD_5", "KEYWORD_6", "KEYWORD_7", "KEYWORD_4", "KEYWORD_1", "KEYWORD_2", "KEYWORD_3", "RULE_SL_COMMENT", "RULE_ID", "RULE_WS"
     };
-    public static final int RULE_ID=14;
-    public static final int KEYWORD_6=9;
-    public static final int KEYWORD_7=5;
-    public static final int KEYWORD_8=6;
-    public static final int KEYWORD_9=4;
+    public static final int RULE_ID=15;
+    public static final int KEYWORD_6=8;
+    public static final int KEYWORD_7=9;
+    public static final int KEYWORD_8=5;
+    public static final int KEYWORD_9=6;
     public static final int KEYWORD_1=11;
-    public static final int KEYWORD_5=8;
-    public static final int KEYWORD_4=7;
-    public static final int KEYWORD_3=10;
+    public static final int KEYWORD_5=7;
+    public static final int KEYWORD_4=10;
+    public static final int KEYWORD_3=13;
     public static final int KEYWORD_2=12;
-    public static final int RULE_WS=15;
-    public static final int RULE_SL_COMMENT=13;
+    public static final int RULE_WS=16;
+    public static final int RULE_SL_COMMENT=14;
     public static final int EOF=-1;
+    public static final int KEYWORD_10=4;
 
     // delegates
     // delegators
@@ -113,7 +114,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFGMGrammarRoot"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:70:1: ruleFGMGrammarRoot returns [EObject current=null] : ( (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:70:1: ruleFGMGrammarRoot returns [EObject current=null] : ( (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) ) ;
     public final EObject ruleFGMGrammarRoot() throws RecognitionException {
         EObject current = null;
 
@@ -126,17 +127,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:73:28: ( ( (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:1: ( (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:73:28: ( ( (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:1: ( (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:1: ( (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:1: ( (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) ) | ( (lv_fgmsc_2_0= ruleFGMSubclause ) ) )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
-            if ( (LA1_0==KEYWORD_8) ) {
+            if ( (LA1_0==KEYWORD_9) ) {
                 alt1=1;
             }
-            else if ( (LA1_0==KEYWORD_6) ) {
+            else if ( (LA1_0==KEYWORD_7) ) {
                 alt1=2;
             }
             else {
@@ -147,12 +148,12 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
             }
             switch (alt1) {
                 case 1 :
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:2: (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:2: (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) )
                     {
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:2: (otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) ) )
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:75:2: otherlv_0= KEYWORD_8 ( (lv_fgml_1_0= ruleFGMLibrary ) )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:74:2: (otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) ) )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:75:2: otherlv_0= KEYWORD_9 ( (lv_fgml_1_0= ruleFGMLibrary ) )
                     {
-                    otherlv_0=(Token)match(input,KEYWORD_8,FollowSets000.FOLLOW_KEYWORD_8_in_ruleFGMGrammarRoot116); 
+                    otherlv_0=(Token)match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_ruleFGMGrammarRoot116); 
 
                         	newLeafNode(otherlv_0, grammarAccess.getFGMGrammarRootAccess().getLibraryKeyword_0_0());
                         
@@ -307,7 +308,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                 int alt2=2;
                 int LA2_0 = input.LA(1);
 
-                if ( (LA2_0==KEYWORD_9) ) {
+                if ( (LA2_0==RULE_ID) ) {
                     alt2=1;
                 }
 
@@ -408,41 +409,38 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFeatureMappingset"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:172:1: ruleFeatureMappingset returns [EObject current=null] : (otherlv_0= KEYWORD_9 ( (lv_name_1_0= RULE_ID ) ) (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_4_0= ruleFeatureMapping ) ) otherlv_5= KEYWORD_5 otherlv_6= KEYWORD_9 otherlv_7= KEYWORD_2 ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:172:1: ruleFeatureMappingset returns [EObject current=null] : ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= KEYWORD_2 otherlv_2= KEYWORD_10 (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_5_0= ruleFeatureMapping ) ) otherlv_6= KEYWORD_6 otherlv_7= KEYWORD_10 otherlv_8= KEYWORD_3 ) ;
     public final EObject ruleFeatureMappingset() throws RecognitionException {
         EObject current = null;
 
-        Token otherlv_0=null;
-        Token lv_name_1_0=null;
+        Token lv_name_0_0=null;
+        Token otherlv_1=null;
         Token otherlv_2=null;
-        Token otherlv_5=null;
+        Token otherlv_3=null;
         Token otherlv_6=null;
         Token otherlv_7=null;
-        EObject lv_mapping_4_0 = null;
+        Token otherlv_8=null;
+        EObject lv_mapping_5_0 = null;
 
 
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:175:28: ( (otherlv_0= KEYWORD_9 ( (lv_name_1_0= RULE_ID ) ) (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_4_0= ruleFeatureMapping ) ) otherlv_5= KEYWORD_5 otherlv_6= KEYWORD_9 otherlv_7= KEYWORD_2 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:1: (otherlv_0= KEYWORD_9 ( (lv_name_1_0= RULE_ID ) ) (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_4_0= ruleFeatureMapping ) ) otherlv_5= KEYWORD_5 otherlv_6= KEYWORD_9 otherlv_7= KEYWORD_2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:175:28: ( ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= KEYWORD_2 otherlv_2= KEYWORD_10 (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_5_0= ruleFeatureMapping ) ) otherlv_6= KEYWORD_6 otherlv_7= KEYWORD_10 otherlv_8= KEYWORD_3 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:1: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= KEYWORD_2 otherlv_2= KEYWORD_10 (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_5_0= ruleFeatureMapping ) ) otherlv_6= KEYWORD_6 otherlv_7= KEYWORD_10 otherlv_8= KEYWORD_3 )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:1: (otherlv_0= KEYWORD_9 ( (lv_name_1_0= RULE_ID ) ) (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_4_0= ruleFeatureMapping ) ) otherlv_5= KEYWORD_5 otherlv_6= KEYWORD_9 otherlv_7= KEYWORD_2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:177:2: otherlv_0= KEYWORD_9 ( (lv_name_1_0= RULE_ID ) ) (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_4_0= ruleFeatureMapping ) ) otherlv_5= KEYWORD_5 otherlv_6= KEYWORD_9 otherlv_7= KEYWORD_2
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:1: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= KEYWORD_2 otherlv_2= KEYWORD_10 (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_5_0= ruleFeatureMapping ) ) otherlv_6= KEYWORD_6 otherlv_7= KEYWORD_10 otherlv_8= KEYWORD_3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:2: ( (lv_name_0_0= RULE_ID ) ) otherlv_1= KEYWORD_2 otherlv_2= KEYWORD_10 (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )? ( (lv_mapping_5_0= ruleFeatureMapping ) ) otherlv_6= KEYWORD_6 otherlv_7= KEYWORD_10 otherlv_8= KEYWORD_3
             {
-            otherlv_0=(Token)match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_ruleFeatureMappingset337); 
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:176:2: ( (lv_name_0_0= RULE_ID ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:177:1: (lv_name_0_0= RULE_ID )
+            {
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:177:1: (lv_name_0_0= RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:178:3: lv_name_0_0= RULE_ID
+            {
+            lv_name_0_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleFeatureMappingset341); 
 
-                	newLeafNode(otherlv_0, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_0());
-                
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:181:1: ( (lv_name_1_0= RULE_ID ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:182:1: (lv_name_1_0= RULE_ID )
-            {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:182:1: (lv_name_1_0= RULE_ID )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:183:3: lv_name_1_0= RULE_ID
-            {
-            lv_name_1_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleFeatureMappingset353); 
-
-            			newLeafNode(lv_name_1_0, grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
+            			newLeafNode(lv_name_0_0, grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_0_0()); 
             		
 
             	        if (current==null) {
@@ -451,7 +449,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                    		setWithLastConsumed(
                    			current, 
                    			"name",
-                    		lv_name_1_0, 
+                    		lv_name_0_0, 
                     		"ID");
             	    
 
@@ -460,26 +458,34 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:199:2: (otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) ) )?
+            otherlv_1=(Token)match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_ruleFeatureMappingset359); 
+
+                	newLeafNode(otherlv_1, grammarAccess.getFeatureMappingsetAccess().getColonKeyword_1());
+                
+            otherlv_2=(Token)match(input,KEYWORD_10,FollowSets000.FOLLOW_KEYWORD_10_in_ruleFeatureMappingset371); 
+
+                	newLeafNode(otherlv_2, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_2());
+                
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:204:1: (otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) ) )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
-            if ( (LA3_0==KEYWORD_7) ) {
+            if ( (LA3_0==KEYWORD_8) ) {
                 alt3=1;
             }
             switch (alt3) {
                 case 1 :
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:200:2: otherlv_2= KEYWORD_7 ( ( ruleQFGTMREF ) )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:205:2: otherlv_3= KEYWORD_8 ( ( ruleQFGTMREF ) )
                     {
-                    otherlv_2=(Token)match(input,KEYWORD_7,FollowSets000.FOLLOW_KEYWORD_7_in_ruleFeatureMappingset372); 
+                    otherlv_3=(Token)match(input,KEYWORD_8,FollowSets000.FOLLOW_KEYWORD_8_in_ruleFeatureMappingset384); 
 
-                        	newLeafNode(otherlv_2, grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_2_0());
+                        	newLeafNode(otherlv_3, grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_3_0());
                         
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:204:1: ( ( ruleQFGTMREF ) )
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:205:1: ( ruleQFGTMREF )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:209:1: ( ( ruleQFGTMREF ) )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:210:1: ( ruleQFGTMREF )
                     {
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:205:1: ( ruleQFGTMREF )
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:206:3: ruleQFGTMREF
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:210:1: ( ruleQFGTMREF )
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:211:3: ruleQFGTMREF
                     {
 
                     			if (current==null) {
@@ -487,9 +493,9 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                     	        }
                             
                      
-                    	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_2_1_0()); 
+                    	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFeatureMappingset394);
+                    pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFeatureMappingset406);
                     ruleQFGTMREF();
 
                     state._fsp--;
@@ -509,17 +515,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:219:4: ( (lv_mapping_4_0= ruleFeatureMapping ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:220:1: (lv_mapping_4_0= ruleFeatureMapping )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:224:4: ( (lv_mapping_5_0= ruleFeatureMapping ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:225:1: (lv_mapping_5_0= ruleFeatureMapping )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:220:1: (lv_mapping_4_0= ruleFeatureMapping )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:221:3: lv_mapping_4_0= ruleFeatureMapping
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:225:1: (lv_mapping_5_0= ruleFeatureMapping )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:226:3: lv_mapping_5_0= ruleFeatureMapping
             {
              
-            	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_3_0()); 
+            	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_4_0()); 
             	    
-            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_ruleFeatureMappingset417);
-            lv_mapping_4_0=ruleFeatureMapping();
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_ruleFeatureMappingset429);
+            lv_mapping_5_0=ruleFeatureMapping();
 
             state._fsp--;
 
@@ -530,7 +536,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                    		add(
                    			current, 
                    			"mapping",
-                    		lv_mapping_4_0, 
+                    		lv_mapping_5_0, 
                     		"FeatureMapping");
             	        afterParserOrEnumRuleCall();
             	    
@@ -540,17 +546,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            otherlv_5=(Token)match(input,KEYWORD_5,FollowSets000.FOLLOW_KEYWORD_5_in_ruleFeatureMappingset430); 
+            otherlv_6=(Token)match(input,KEYWORD_6,FollowSets000.FOLLOW_KEYWORD_6_in_ruleFeatureMappingset442); 
 
-                	newLeafNode(otherlv_5, grammarAccess.getFeatureMappingsetAccess().getEndKeyword_4());
+                	newLeafNode(otherlv_6, grammarAccess.getFeatureMappingsetAccess().getEndKeyword_5());
                 
-            otherlv_6=(Token)match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_ruleFeatureMappingset442); 
+            otherlv_7=(Token)match(input,KEYWORD_10,FollowSets000.FOLLOW_KEYWORD_10_in_ruleFeatureMappingset454); 
 
-                	newLeafNode(otherlv_6, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_5());
+                	newLeafNode(otherlv_7, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_6());
                 
-            otherlv_7=(Token)match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_ruleFeatureMappingset454); 
+            otherlv_8=(Token)match(input,KEYWORD_3,FollowSets000.FOLLOW_KEYWORD_3_in_ruleFeatureMappingset466); 
 
-                	newLeafNode(otherlv_7, grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_6());
+                	newLeafNode(otherlv_8, grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_7());
                 
 
             }
@@ -573,7 +579,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleFGMSubclause"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:260:1: entryRuleFGMSubclause returns [EObject current=null] : iv_ruleFGMSubclause= ruleFGMSubclause EOF ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:265:1: entryRuleFGMSubclause returns [EObject current=null] : iv_ruleFGMSubclause= ruleFGMSubclause EOF ;
     public final EObject entryRuleFGMSubclause() throws RecognitionException {
         EObject current = null;
 
@@ -581,17 +587,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:261:2: (iv_ruleFGMSubclause= ruleFGMSubclause EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:262:2: iv_ruleFGMSubclause= ruleFGMSubclause EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:266:2: (iv_ruleFGMSubclause= ruleFGMSubclause EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:267:2: iv_ruleFGMSubclause= ruleFGMSubclause EOF
             {
              newCompositeNode(grammarAccess.getFGMSubclauseRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFGMSubclause_in_entryRuleFGMSubclause488);
+            pushFollow(FollowSets000.FOLLOW_ruleFGMSubclause_in_entryRuleFGMSubclause500);
             iv_ruleFGMSubclause=ruleFGMSubclause();
 
             state._fsp--;
 
              current =iv_ruleFGMSubclause; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFGMSubclause498); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFGMSubclause510); 
 
             }
 
@@ -609,7 +615,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFGMSubclause"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:269:1: ruleFGMSubclause returns [EObject current=null] : (otherlv_0= KEYWORD_6 otherlv_1= KEYWORD_9 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_2 ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:274:1: ruleFGMSubclause returns [EObject current=null] : (otherlv_0= KEYWORD_7 otherlv_1= KEYWORD_10 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_3 ) ;
     public final EObject ruleFGMSubclause() throws RecognitionException {
         EObject current = null;
 
@@ -620,25 +626,25 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:272:28: ( (otherlv_0= KEYWORD_6 otherlv_1= KEYWORD_9 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_2 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:273:1: (otherlv_0= KEYWORD_6 otherlv_1= KEYWORD_9 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:277:28: ( (otherlv_0= KEYWORD_7 otherlv_1= KEYWORD_10 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_3 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:278:1: (otherlv_0= KEYWORD_7 otherlv_1= KEYWORD_10 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_3 )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:273:1: (otherlv_0= KEYWORD_6 otherlv_1= KEYWORD_9 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:274:2: otherlv_0= KEYWORD_6 otherlv_1= KEYWORD_9 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_2
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:278:1: (otherlv_0= KEYWORD_7 otherlv_1= KEYWORD_10 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:279:2: otherlv_0= KEYWORD_7 otherlv_1= KEYWORD_10 ( ( ruleQFGTMREF ) ) otherlv_3= KEYWORD_3
             {
-            otherlv_0=(Token)match(input,KEYWORD_6,FollowSets000.FOLLOW_KEYWORD_6_in_ruleFGMSubclause536); 
+            otherlv_0=(Token)match(input,KEYWORD_7,FollowSets000.FOLLOW_KEYWORD_7_in_ruleFGMSubclause548); 
 
                 	newLeafNode(otherlv_0, grammarAccess.getFGMSubclauseAccess().getUseKeyword_0());
                 
-            otherlv_1=(Token)match(input,KEYWORD_9,FollowSets000.FOLLOW_KEYWORD_9_in_ruleFGMSubclause548); 
+            otherlv_1=(Token)match(input,KEYWORD_10,FollowSets000.FOLLOW_KEYWORD_10_in_ruleFGMSubclause560); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getFGMSubclauseAccess().getMappingsKeyword_1());
                 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:283:1: ( ( ruleQFGTMREF ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:284:1: ( ruleQFGTMREF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:288:1: ( ( ruleQFGTMREF ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:289:1: ( ruleQFGTMREF )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:284:1: ( ruleQFGTMREF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:285:3: ruleQFGTMREF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:289:1: ( ruleQFGTMREF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:290:3: ruleQFGTMREF
             {
 
             			if (current==null) {
@@ -648,7 +654,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
              
             	        newCompositeNode(grammarAccess.getFGMSubclauseAccess().getMappingsetFeatureMappingsetCrossReference_2_0()); 
             	    
-            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFGMSubclause570);
+            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFGMSubclause582);
             ruleQFGTMREF();
 
             state._fsp--;
@@ -662,7 +668,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            otherlv_3=(Token)match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_ruleFGMSubclause583); 
+            otherlv_3=(Token)match(input,KEYWORD_3,FollowSets000.FOLLOW_KEYWORD_3_in_ruleFGMSubclause595); 
 
                 	newLeafNode(otherlv_3, grammarAccess.getFGMSubclauseAccess().getSemicolonKeyword_3());
                 
@@ -687,7 +693,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleFeatureMapping"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:319:1: entryRuleFeatureMapping returns [EObject current=null] : iv_ruleFeatureMapping= ruleFeatureMapping EOF ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:324:1: entryRuleFeatureMapping returns [EObject current=null] : iv_ruleFeatureMapping= ruleFeatureMapping EOF ;
     public final EObject entryRuleFeatureMapping() throws RecognitionException {
         EObject current = null;
 
@@ -695,17 +701,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:320:2: (iv_ruleFeatureMapping= ruleFeatureMapping EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:321:2: iv_ruleFeatureMapping= ruleFeatureMapping EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:325:2: (iv_ruleFeatureMapping= ruleFeatureMapping EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:326:2: iv_ruleFeatureMapping= ruleFeatureMapping EOF
             {
              newCompositeNode(grammarAccess.getFeatureMappingRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping625);
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping637);
             iv_ruleFeatureMapping=ruleFeatureMapping();
 
             state._fsp--;
 
              current =iv_ruleFeatureMapping; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureMapping635); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureMapping647); 
 
             }
 
@@ -723,7 +729,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFeatureMapping"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:328:1: ruleFeatureMapping returns [EObject current=null] : ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_4 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_2 ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:333:1: ruleFeatureMapping returns [EObject current=null] : ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_5 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_3 ) ;
     public final EObject ruleFeatureMapping() throws RecognitionException {
         EObject current = null;
 
@@ -737,22 +743,22 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:331:28: ( ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_4 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_2 ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:332:1: ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_4 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_2 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:336:28: ( ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_5 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_3 ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:337:1: ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_5 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_3 )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:332:1: ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_4 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_2 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:332:2: ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_4 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_2
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:337:1: ( ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_5 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_3 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:337:2: ( (lv_left_0_0= ruleFeaturePath ) ) otherlv_1= KEYWORD_5 ( (lv_right_2_0= ruleFeaturePath ) ) otherlv_3= KEYWORD_3
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:332:2: ( (lv_left_0_0= ruleFeaturePath ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:333:1: (lv_left_0_0= ruleFeaturePath )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:337:2: ( (lv_left_0_0= ruleFeaturePath ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:338:1: (lv_left_0_0= ruleFeaturePath )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:333:1: (lv_left_0_0= ruleFeaturePath )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:334:3: lv_left_0_0= ruleFeaturePath
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:338:1: (lv_left_0_0= ruleFeaturePath )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:339:3: lv_left_0_0= ruleFeaturePath
             {
              
             	        newCompositeNode(grammarAccess.getFeatureMappingAccess().getLeftFeaturePathParserRuleCall_0_0()); 
             	    
-            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_ruleFeatureMapping681);
+            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_ruleFeatureMapping693);
             lv_left_0_0=ruleFeaturePath();
 
             state._fsp--;
@@ -774,20 +780,20 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            otherlv_1=(Token)match(input,KEYWORD_4,FollowSets000.FOLLOW_KEYWORD_4_in_ruleFeatureMapping694); 
+            otherlv_1=(Token)match(input,KEYWORD_5,FollowSets000.FOLLOW_KEYWORD_5_in_ruleFeatureMapping706); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getFeatureMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1());
                 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:355:1: ( (lv_right_2_0= ruleFeaturePath ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:356:1: (lv_right_2_0= ruleFeaturePath )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:360:1: ( (lv_right_2_0= ruleFeaturePath ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:361:1: (lv_right_2_0= ruleFeaturePath )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:356:1: (lv_right_2_0= ruleFeaturePath )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:357:3: lv_right_2_0= ruleFeaturePath
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:361:1: (lv_right_2_0= ruleFeaturePath )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:362:3: lv_right_2_0= ruleFeaturePath
             {
              
             	        newCompositeNode(grammarAccess.getFeatureMappingAccess().getRightFeaturePathParserRuleCall_2_0()); 
             	    
-            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_ruleFeatureMapping714);
+            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_ruleFeatureMapping726);
             lv_right_2_0=ruleFeaturePath();
 
             state._fsp--;
@@ -809,7 +815,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            otherlv_3=(Token)match(input,KEYWORD_2,FollowSets000.FOLLOW_KEYWORD_2_in_ruleFeatureMapping727); 
+            otherlv_3=(Token)match(input,KEYWORD_3,FollowSets000.FOLLOW_KEYWORD_3_in_ruleFeatureMapping739); 
 
                 	newLeafNode(otherlv_3, grammarAccess.getFeatureMappingAccess().getSemicolonKeyword_3());
                 
@@ -834,7 +840,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleFeaturePath"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:386:1: entryRuleFeaturePath returns [EObject current=null] : iv_ruleFeaturePath= ruleFeaturePath EOF ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:391:1: entryRuleFeaturePath returns [EObject current=null] : iv_ruleFeaturePath= ruleFeaturePath EOF ;
     public final EObject entryRuleFeaturePath() throws RecognitionException {
         EObject current = null;
 
@@ -842,17 +848,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:387:2: (iv_ruleFeaturePath= ruleFeaturePath EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:388:2: iv_ruleFeaturePath= ruleFeaturePath EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:392:2: (iv_ruleFeaturePath= ruleFeaturePath EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:393:2: iv_ruleFeaturePath= ruleFeaturePath EOF
             {
              newCompositeNode(grammarAccess.getFeaturePathRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_entryRuleFeaturePath761);
+            pushFollow(FollowSets000.FOLLOW_ruleFeaturePath_in_entryRuleFeaturePath773);
             iv_ruleFeaturePath=ruleFeaturePath();
 
             state._fsp--;
 
              current =iv_ruleFeaturePath; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeaturePath771); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeaturePath783); 
 
             }
 
@@ -870,7 +876,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFeaturePath"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:395:1: ruleFeaturePath returns [EObject current=null] : ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:400:1: ruleFeaturePath returns [EObject current=null] : ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ ) ;
     public final EObject ruleFeaturePath() throws RecognitionException {
         EObject current = null;
 
@@ -881,20 +887,20 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:398:28: ( ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:1: ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:403:28: ( ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:1: ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:1: ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:2: ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:1: ( ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+ )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:2: ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 ) ( (lv_featureReference_2_0= ruleFeatureReference ) )+
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:2: ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:3: ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:2: ( ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1 )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:3: ( ( ruleQFGTMREF ) ) otherlv_1= KEYWORD_1
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:399:3: ( ( ruleQFGTMREF ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:400:1: ( ruleQFGTMREF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:404:3: ( ( ruleQFGTMREF ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:405:1: ( ruleQFGTMREF )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:400:1: ( ruleQFGTMREF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:401:3: ruleQFGTMREF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:405:1: ( ruleQFGTMREF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:406:3: ruleQFGTMREF
             {
 
             			if (current==null) {
@@ -904,7 +910,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
              
             	        newCompositeNode(grammarAccess.getFeaturePathAccess().getFeatureGroupTypeFeatureGroupTypeCrossReference_0_0_0()); 
             	    
-            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFeaturePath820);
+            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_ruleFeaturePath832);
             ruleQFGTMREF();
 
             state._fsp--;
@@ -918,14 +924,14 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
             }
 
-            otherlv_1=(Token)match(input,KEYWORD_1,FollowSets000.FOLLOW_KEYWORD_1_in_ruleFeaturePath833); 
+            otherlv_1=(Token)match(input,KEYWORD_1,FollowSets000.FOLLOW_KEYWORD_1_in_ruleFeaturePath845); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getFeaturePathAccess().getFullStopKeyword_0_1());
                 
 
             }
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:419:2: ( (lv_featureReference_2_0= ruleFeatureReference ) )+
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:424:2: ( (lv_featureReference_2_0= ruleFeatureReference ) )+
             int cnt4=0;
             loop4:
             do {
@@ -939,15 +945,15 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
                 switch (alt4) {
             	case 1 :
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:420:1: (lv_featureReference_2_0= ruleFeatureReference )
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:425:1: (lv_featureReference_2_0= ruleFeatureReference )
             	    {
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:420:1: (lv_featureReference_2_0= ruleFeatureReference )
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:421:3: lv_featureReference_2_0= ruleFeatureReference
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:425:1: (lv_featureReference_2_0= ruleFeatureReference )
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:426:3: lv_featureReference_2_0= ruleFeatureReference
             	    {
             	     
             	    	        newCompositeNode(grammarAccess.getFeaturePathAccess().getFeatureReferenceFeatureReferenceParserRuleCall_1_0()); 
             	    	    
-            	    pushFollow(FollowSets000.FOLLOW_ruleFeatureReference_in_ruleFeaturePath854);
+            	    pushFollow(FollowSets000.FOLLOW_ruleFeatureReference_in_ruleFeaturePath866);
             	    lv_featureReference_2_0=ruleFeatureReference();
 
             	    state._fsp--;
@@ -1000,7 +1006,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleFeatureReference"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:445:1: entryRuleFeatureReference returns [EObject current=null] : iv_ruleFeatureReference= ruleFeatureReference EOF ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:450:1: entryRuleFeatureReference returns [EObject current=null] : iv_ruleFeatureReference= ruleFeatureReference EOF ;
     public final EObject entryRuleFeatureReference() throws RecognitionException {
         EObject current = null;
 
@@ -1008,17 +1014,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:446:2: (iv_ruleFeatureReference= ruleFeatureReference EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:447:2: iv_ruleFeatureReference= ruleFeatureReference EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:451:2: (iv_ruleFeatureReference= ruleFeatureReference EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:452:2: iv_ruleFeatureReference= ruleFeatureReference EOF
             {
              newCompositeNode(grammarAccess.getFeatureReferenceRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleFeatureReference_in_entryRuleFeatureReference890);
+            pushFollow(FollowSets000.FOLLOW_ruleFeatureReference_in_entryRuleFeatureReference902);
             iv_ruleFeatureReference=ruleFeatureReference();
 
             state._fsp--;
 
              current =iv_ruleFeatureReference; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureReference900); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleFeatureReference912); 
 
             }
 
@@ -1036,7 +1042,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleFeatureReference"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:454:1: ruleFeatureReference returns [EObject current=null] : ( (otherlv_0= RULE_ID ) ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:459:1: ruleFeatureReference returns [EObject current=null] : ( (otherlv_0= RULE_ID ) ) ;
     public final EObject ruleFeatureReference() throws RecognitionException {
         EObject current = null;
 
@@ -1045,21 +1051,21 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:457:28: ( ( (otherlv_0= RULE_ID ) ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:458:1: ( (otherlv_0= RULE_ID ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:462:28: ( ( (otherlv_0= RULE_ID ) ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:463:1: ( (otherlv_0= RULE_ID ) )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:458:1: ( (otherlv_0= RULE_ID ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:459:1: (otherlv_0= RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:463:1: ( (otherlv_0= RULE_ID ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:464:1: (otherlv_0= RULE_ID )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:459:1: (otherlv_0= RULE_ID )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:460:3: otherlv_0= RULE_ID
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:464:1: (otherlv_0= RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:465:3: otherlv_0= RULE_ID
             {
 
             			if (current==null) {
             	            current = createModelElement(grammarAccess.getFeatureReferenceRule());
             	        }
                     
-            otherlv_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleFeatureReference944); 
+            otherlv_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleFeatureReference956); 
 
             		newLeafNode(otherlv_0, grammarAccess.getFeatureReferenceAccess().getFeatureFeatureCrossReference_0()); 
             	
@@ -1087,7 +1093,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleQFGTMREF"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:479:1: entryRuleQFGTMREF returns [String current=null] : iv_ruleQFGTMREF= ruleQFGTMREF EOF ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:484:1: entryRuleQFGTMREF returns [String current=null] : iv_ruleQFGTMREF= ruleQFGTMREF EOF ;
     public final String entryRuleQFGTMREF() throws RecognitionException {
         String current = null;
 
@@ -1095,17 +1101,17 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:480:1: (iv_ruleQFGTMREF= ruleQFGTMREF EOF )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:481:2: iv_ruleQFGTMREF= ruleQFGTMREF EOF
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:485:1: (iv_ruleQFGTMREF= ruleQFGTMREF EOF )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:486:2: iv_ruleQFGTMREF= ruleQFGTMREF EOF
             {
              newCompositeNode(grammarAccess.getQFGTMREFRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_entryRuleQFGTMREF979);
+            pushFollow(FollowSets000.FOLLOW_ruleQFGTMREF_in_entryRuleQFGTMREF991);
             iv_ruleQFGTMREF=ruleQFGTMREF();
 
             state._fsp--;
 
              current =iv_ruleQFGTMREF.getText(); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleQFGTMREF990); 
+            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleQFGTMREF1002); 
 
             }
 
@@ -1123,7 +1129,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleQFGTMREF"
-    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:488:1: ruleQFGTMREF returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : ( (this_ID_0= RULE_ID kw= KEYWORD_3 )* this_ID_2= RULE_ID ) ;
+    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:1: ruleQFGTMREF returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : ( (this_ID_0= RULE_ID kw= KEYWORD_4 )* this_ID_2= RULE_ID ) ;
     public final AntlrDatatypeRuleToken ruleQFGTMREF() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -1134,13 +1140,13 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
          enterRule(); 
             
         try {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:492:6: ( ( (this_ID_0= RULE_ID kw= KEYWORD_3 )* this_ID_2= RULE_ID ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:1: ( (this_ID_0= RULE_ID kw= KEYWORD_3 )* this_ID_2= RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:497:6: ( ( (this_ID_0= RULE_ID kw= KEYWORD_4 )* this_ID_2= RULE_ID ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:498:1: ( (this_ID_0= RULE_ID kw= KEYWORD_4 )* this_ID_2= RULE_ID )
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:1: ( (this_ID_0= RULE_ID kw= KEYWORD_3 )* this_ID_2= RULE_ID )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:2: (this_ID_0= RULE_ID kw= KEYWORD_3 )* this_ID_2= RULE_ID
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:498:1: ( (this_ID_0= RULE_ID kw= KEYWORD_4 )* this_ID_2= RULE_ID )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:498:2: (this_ID_0= RULE_ID kw= KEYWORD_4 )* this_ID_2= RULE_ID
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:2: (this_ID_0= RULE_ID kw= KEYWORD_3 )*
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:498:2: (this_ID_0= RULE_ID kw= KEYWORD_4 )*
             loop5:
             do {
                 int alt5=2;
@@ -1149,7 +1155,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                 if ( (LA5_0==RULE_ID) ) {
                     int LA5_1 = input.LA(2);
 
-                    if ( (LA5_1==KEYWORD_3) ) {
+                    if ( (LA5_1==KEYWORD_4) ) {
                         alt5=1;
                     }
 
@@ -1159,16 +1165,16 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
 
                 switch (alt5) {
             	case 1 :
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:493:7: this_ID_0= RULE_ID kw= KEYWORD_3
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/internal/InternalFeatureGroupMappingParser.g:498:7: this_ID_0= RULE_ID kw= KEYWORD_4
             	    {
-            	    this_ID_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleQFGTMREF1031); 
+            	    this_ID_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleQFGTMREF1043); 
 
             	    		current.merge(this_ID_0);
             	        
             	     
             	        newLeafNode(this_ID_0, grammarAccess.getQFGTMREFAccess().getIDTerminalRuleCall_0_0()); 
             	        
-            	    kw=(Token)match(input,KEYWORD_3,FollowSets000.FOLLOW_KEYWORD_3_in_ruleQFGTMREF1049); 
+            	    kw=(Token)match(input,KEYWORD_4,FollowSets000.FOLLOW_KEYWORD_4_in_ruleQFGTMREF1061); 
 
             	            current.merge(kw);
             	            newLeafNode(kw, grammarAccess.getQFGTMREFAccess().getColonColonKeyword_0_1()); 
@@ -1182,7 +1188,7 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
                 }
             } while (true);
 
-            this_ID_2=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleQFGTMREF1066); 
+            this_ID_2=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleQFGTMREF1078); 
 
             		current.merge(this_ID_2);
                 
@@ -1218,47 +1224,48 @@ public class InternalFeatureGroupMappingParser extends AbstractInternalAntlrPars
     private static class FollowSets000 {
         public static final BitSet FOLLOW_ruleFGMGrammarRoot_in_entryRuleFGMGrammarRoot67 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFGMGrammarRoot77 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_8_in_ruleFGMGrammarRoot116 = new BitSet(new long[]{0x0000000000000010L});
+        public static final BitSet FOLLOW_KEYWORD_9_in_ruleFGMGrammarRoot116 = new BitSet(new long[]{0x0000000000008000L});
         public static final BitSet FOLLOW_ruleFGMLibrary_in_ruleFGMGrammarRoot136 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMSubclause_in_ruleFGMGrammarRoot164 = new BitSet(new long[]{0x0000000000000002L});
         public static final BitSet FOLLOW_ruleFGMLibrary_in_entryRuleFGMLibrary199 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFGMLibrary209 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeatureMappingset_in_ruleFGMLibrary254 = new BitSet(new long[]{0x0000000000000012L});
+        public static final BitSet FOLLOW_ruleFeatureMappingset_in_ruleFGMLibrary254 = new BitSet(new long[]{0x0000000000008002L});
         public static final BitSet FOLLOW_ruleFeatureMappingset_in_entryRuleFeatureMappingset289 = new BitSet(new long[]{0x0000000000000000L});
         public static final BitSet FOLLOW_EOF_in_entryRuleFeatureMappingset299 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_9_in_ruleFeatureMappingset337 = new BitSet(new long[]{0x0000000000004000L});
-        public static final BitSet FOLLOW_RULE_ID_in_ruleFeatureMappingset353 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_KEYWORD_7_in_ruleFeatureMappingset372 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFeatureMappingset394 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_ruleFeatureMapping_in_ruleFeatureMappingset417 = new BitSet(new long[]{0x0000000000000100L});
-        public static final BitSet FOLLOW_KEYWORD_5_in_ruleFeatureMappingset430 = new BitSet(new long[]{0x0000000000000010L});
-        public static final BitSet FOLLOW_KEYWORD_9_in_ruleFeatureMappingset442 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_KEYWORD_2_in_ruleFeatureMappingset454 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFGMSubclause_in_entryRuleFGMSubclause488 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFGMSubclause498 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_KEYWORD_6_in_ruleFGMSubclause536 = new BitSet(new long[]{0x0000000000000010L});
-        public static final BitSet FOLLOW_KEYWORD_9_in_ruleFGMSubclause548 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFGMSubclause570 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_KEYWORD_2_in_ruleFGMSubclause583 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping625 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureMapping635 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeaturePath_in_ruleFeatureMapping681 = new BitSet(new long[]{0x0000000000000080L});
-        public static final BitSet FOLLOW_KEYWORD_4_in_ruleFeatureMapping694 = new BitSet(new long[]{0x0000000000004020L});
-        public static final BitSet FOLLOW_ruleFeaturePath_in_ruleFeatureMapping714 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_KEYWORD_2_in_ruleFeatureMapping727 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleFeaturePath_in_entryRuleFeaturePath761 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFeaturePath771 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFeaturePath820 = new BitSet(new long[]{0x0000000000000800L});
-        public static final BitSet FOLLOW_KEYWORD_1_in_ruleFeaturePath833 = new BitSet(new long[]{0x0000000000004000L});
-        public static final BitSet FOLLOW_ruleFeatureReference_in_ruleFeaturePath854 = new BitSet(new long[]{0x0000000000004002L});
-        public static final BitSet FOLLOW_ruleFeatureReference_in_entryRuleFeatureReference890 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureReference900 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_ruleFeatureReference944 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleQFGTMREF_in_entryRuleQFGTMREF979 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleQFGTMREF990 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_ruleQFGTMREF1031 = new BitSet(new long[]{0x0000000000000400L});
-        public static final BitSet FOLLOW_KEYWORD_3_in_ruleQFGTMREF1049 = new BitSet(new long[]{0x0000000000004000L});
-        public static final BitSet FOLLOW_RULE_ID_in_ruleQFGTMREF1066 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_RULE_ID_in_ruleFeatureMappingset341 = new BitSet(new long[]{0x0000000000001000L});
+        public static final BitSet FOLLOW_KEYWORD_2_in_ruleFeatureMappingset359 = new BitSet(new long[]{0x0000000000000010L});
+        public static final BitSet FOLLOW_KEYWORD_10_in_ruleFeatureMappingset371 = new BitSet(new long[]{0x0000000000008020L});
+        public static final BitSet FOLLOW_KEYWORD_8_in_ruleFeatureMappingset384 = new BitSet(new long[]{0x0000000000008020L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFeatureMappingset406 = new BitSet(new long[]{0x0000000000008020L});
+        public static final BitSet FOLLOW_ruleFeatureMapping_in_ruleFeatureMappingset429 = new BitSet(new long[]{0x0000000000000100L});
+        public static final BitSet FOLLOW_KEYWORD_6_in_ruleFeatureMappingset442 = new BitSet(new long[]{0x0000000000000010L});
+        public static final BitSet FOLLOW_KEYWORD_10_in_ruleFeatureMappingset454 = new BitSet(new long[]{0x0000000000002000L});
+        public static final BitSet FOLLOW_KEYWORD_3_in_ruleFeatureMappingset466 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFGMSubclause_in_entryRuleFGMSubclause500 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFGMSubclause510 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_KEYWORD_7_in_ruleFGMSubclause548 = new BitSet(new long[]{0x0000000000000010L});
+        public static final BitSet FOLLOW_KEYWORD_10_in_ruleFGMSubclause560 = new BitSet(new long[]{0x0000000000008020L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFGMSubclause582 = new BitSet(new long[]{0x0000000000002000L});
+        public static final BitSet FOLLOW_KEYWORD_3_in_ruleFGMSubclause595 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeatureMapping_in_entryRuleFeatureMapping637 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureMapping647 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeaturePath_in_ruleFeatureMapping693 = new BitSet(new long[]{0x0000000000000080L});
+        public static final BitSet FOLLOW_KEYWORD_5_in_ruleFeatureMapping706 = new BitSet(new long[]{0x0000000000008020L});
+        public static final BitSet FOLLOW_ruleFeaturePath_in_ruleFeatureMapping726 = new BitSet(new long[]{0x0000000000002000L});
+        public static final BitSet FOLLOW_KEYWORD_3_in_ruleFeatureMapping739 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleFeaturePath_in_entryRuleFeaturePath773 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFeaturePath783 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_ruleFeaturePath832 = new BitSet(new long[]{0x0000000000000800L});
+        public static final BitSet FOLLOW_KEYWORD_1_in_ruleFeaturePath845 = new BitSet(new long[]{0x0000000000008000L});
+        public static final BitSet FOLLOW_ruleFeatureReference_in_ruleFeaturePath866 = new BitSet(new long[]{0x0000000000008002L});
+        public static final BitSet FOLLOW_ruleFeatureReference_in_entryRuleFeatureReference902 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleFeatureReference912 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_RULE_ID_in_ruleFeatureReference956 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_ruleQFGTMREF_in_entryRuleQFGTMREF991 = new BitSet(new long[]{0x0000000000000000L});
+        public static final BitSet FOLLOW_EOF_in_entryRuleQFGTMREF1002 = new BitSet(new long[]{0x0000000000000002L});
+        public static final BitSet FOLLOW_RULE_ID_in_ruleQFGTMREF1043 = new BitSet(new long[]{0x0000000000000400L});
+        public static final BitSet FOLLOW_KEYWORD_4_in_ruleQFGTMREF1061 = new BitSet(new long[]{0x0000000000008000L});
+        public static final BitSet FOLLOW_RULE_ID_in_ruleQFGTMREF1078 = new BitSet(new long[]{0x0000000000000002L});
     }
 
 

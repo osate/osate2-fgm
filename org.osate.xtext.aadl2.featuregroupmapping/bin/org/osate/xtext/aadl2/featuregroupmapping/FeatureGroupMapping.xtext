@@ -22,7 +22,7 @@ FGMLibrary returns FGMLibrary:
 ;
 
 FeatureMappingset returns FeatureMappingset:
-	'mappings' name=ID 
+	name=ID ':' 'mappings'  
 	('extends' mappingset=[FeatureMappingset|QFGTMREF])?
 	mapping+= FeatureMapping
 	'end' 'mappings' ';';

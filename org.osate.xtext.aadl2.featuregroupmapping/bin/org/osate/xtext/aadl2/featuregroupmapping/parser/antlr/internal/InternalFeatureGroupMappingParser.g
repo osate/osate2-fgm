@@ -72,7 +72,7 @@ ruleFGMGrammarRoot returns [EObject current=null]
     }
     @after { leaveRule(); }:
 ((
-	otherlv_0=KEYWORD_8
+	otherlv_0=KEYWORD_9
     {
     	newLeafNode(otherlv_0, grammarAccess.getFGMGrammarRootAccess().getLibraryKeyword_0_0());
     }
@@ -173,16 +173,11 @@ ruleFeatureMappingset returns [EObject current=null]
     @init { enterRule(); 
     }
     @after { leaveRule(); }:
+((
 (
-	otherlv_0=KEYWORD_9
-    {
-    	newLeafNode(otherlv_0, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_0());
-    }
-(
-(
-		lv_name_1_0=RULE_ID
+		lv_name_0_0=RULE_ID
 		{
-			newLeafNode(lv_name_1_0, grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_1_0()); 
+			newLeafNode(lv_name_0_0, grammarAccess.getFeatureMappingsetAccess().getNameIDTerminalRuleCall_0_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -191,15 +186,25 @@ ruleFeatureMappingset returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"name",
-        		lv_name_1_0, 
+        		lv_name_0_0, 
         		"ID");
 	    }
 
 )
-)(
-	otherlv_2=KEYWORD_7
+)
+	otherlv_1=KEYWORD_2
     {
-    	newLeafNode(otherlv_2, grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_2_0());
+    	newLeafNode(otherlv_1, grammarAccess.getFeatureMappingsetAccess().getColonKeyword_1());
+    }
+
+	otherlv_2=KEYWORD_10
+    {
+    	newLeafNode(otherlv_2, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_2());
+    }
+(
+	otherlv_3=KEYWORD_8
+    {
+    	newLeafNode(otherlv_3, grammarAccess.getFeatureMappingsetAccess().getExtendsKeyword_3_0());
     }
 (
 (
@@ -209,7 +214,7 @@ ruleFeatureMappingset returns [EObject current=null]
 	        }
         }
 		{ 
-	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_2_1_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingsetFeatureMappingsetCrossReference_3_1_0()); 
 	    }
 		ruleQFGTMREF		{ 
 	        afterParserOrEnumRuleCall();
@@ -219,35 +224,35 @@ ruleFeatureMappingset returns [EObject current=null]
 ))?(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_3_0()); 
+	        newCompositeNode(grammarAccess.getFeatureMappingsetAccess().getMappingFeatureMappingParserRuleCall_4_0()); 
 	    }
-		lv_mapping_4_0=ruleFeatureMapping		{
+		lv_mapping_5_0=ruleFeatureMapping		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getFeatureMappingsetRule());
 	        }
        		add(
        			$current, 
        			"mapping",
-        		lv_mapping_4_0, 
+        		lv_mapping_5_0, 
         		"FeatureMapping");
 	        afterParserOrEnumRuleCall();
 	    }
 
 )
 )
-	otherlv_5=KEYWORD_5
+	otherlv_6=KEYWORD_6
     {
-    	newLeafNode(otherlv_5, grammarAccess.getFeatureMappingsetAccess().getEndKeyword_4());
+    	newLeafNode(otherlv_6, grammarAccess.getFeatureMappingsetAccess().getEndKeyword_5());
     }
 
-	otherlv_6=KEYWORD_9
+	otherlv_7=KEYWORD_10
     {
-    	newLeafNode(otherlv_6, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_5());
+    	newLeafNode(otherlv_7, grammarAccess.getFeatureMappingsetAccess().getMappingsKeyword_6());
     }
 
-	otherlv_7=KEYWORD_2
+	otherlv_8=KEYWORD_3
     {
-    	newLeafNode(otherlv_7, grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_6());
+    	newLeafNode(otherlv_8, grammarAccess.getFeatureMappingsetAccess().getSemicolonKeyword_7());
     }
 )
 ;
@@ -271,12 +276,12 @@ ruleFGMSubclause returns [EObject current=null]
     }
     @after { leaveRule(); }:
 (
-	otherlv_0=KEYWORD_6
+	otherlv_0=KEYWORD_7
     {
     	newLeafNode(otherlv_0, grammarAccess.getFGMSubclauseAccess().getUseKeyword_0());
     }
 
-	otherlv_1=KEYWORD_9
+	otherlv_1=KEYWORD_10
     {
     	newLeafNode(otherlv_1, grammarAccess.getFGMSubclauseAccess().getMappingsKeyword_1());
     }
@@ -296,7 +301,7 @@ ruleFGMSubclause returns [EObject current=null]
 
 )
 )
-	otherlv_3=KEYWORD_2
+	otherlv_3=KEYWORD_3
     {
     	newLeafNode(otherlv_3, grammarAccess.getFGMSubclauseAccess().getSemicolonKeyword_3());
     }
@@ -348,7 +353,7 @@ ruleFeatureMapping returns [EObject current=null]
 
 )
 )
-	otherlv_1=KEYWORD_4
+	otherlv_1=KEYWORD_5
     {
     	newLeafNode(otherlv_1, grammarAccess.getFeatureMappingAccess().getLessThanSignEqualsSignGreaterThanSignKeyword_1());
     }
@@ -371,7 +376,7 @@ ruleFeatureMapping returns [EObject current=null]
 
 )
 )
-	otherlv_3=KEYWORD_2
+	otherlv_3=KEYWORD_3
     {
     	newLeafNode(otherlv_3, grammarAccess.getFeatureMappingAccess().getSemicolonKeyword_3());
     }
@@ -498,7 +503,7 @@ ruleQFGTMREF returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken(
     newLeafNode(this_ID_0, grammarAccess.getQFGTMREFAccess().getIDTerminalRuleCall_0_0()); 
     }
 
-	kw=KEYWORD_3 
+	kw=KEYWORD_4 
     {
         $current.merge(kw);
         newLeafNode(kw, grammarAccess.getQFGTMREFAccess().getColonColonKeyword_0_1()); 

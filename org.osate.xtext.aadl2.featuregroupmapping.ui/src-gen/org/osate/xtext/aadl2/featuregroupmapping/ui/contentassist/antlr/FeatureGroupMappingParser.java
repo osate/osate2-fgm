@@ -41,7 +41,7 @@ public class FeatureGroupMappingParser extends AbstractContentAssistParser {
 					put(grammarAccess.getElementAccess().getAlternatives(), "rule__Element__Alternatives");
 					put(grammarAccess.getFGMGrammarRootAccess().getGroup_0(), "rule__FGMGrammarRoot__Group_0__0");
 					put(grammarAccess.getFeatureMappingsetAccess().getGroup(), "rule__FeatureMappingset__Group__0");
-					put(grammarAccess.getFeatureMappingsetAccess().getGroup_2(), "rule__FeatureMappingset__Group_2__0");
+					put(grammarAccess.getFeatureMappingsetAccess().getGroup_3(), "rule__FeatureMappingset__Group_3__0");
 					put(grammarAccess.getFGMSubclauseAccess().getGroup(), "rule__FGMSubclause__Group__0");
 					put(grammarAccess.getFeatureMappingAccess().getGroup(), "rule__FeatureMapping__Group__0");
 					put(grammarAccess.getFeaturePathAccess().getGroup(), "rule__FeaturePath__Group__0");
@@ -51,9 +51,9 @@ public class FeatureGroupMappingParser extends AbstractContentAssistParser {
 					put(grammarAccess.getFGMGrammarRootAccess().getFgmlAssignment_0_1(), "rule__FGMGrammarRoot__FgmlAssignment_0_1");
 					put(grammarAccess.getFGMGrammarRootAccess().getFgmscAssignment_1(), "rule__FGMGrammarRoot__FgmscAssignment_1");
 					put(grammarAccess.getFGMLibraryAccess().getFeaturemappingsetAssignment(), "rule__FGMLibrary__FeaturemappingsetAssignment");
-					put(grammarAccess.getFeatureMappingsetAccess().getNameAssignment_1(), "rule__FeatureMappingset__NameAssignment_1");
-					put(grammarAccess.getFeatureMappingsetAccess().getMappingsetAssignment_2_1(), "rule__FeatureMappingset__MappingsetAssignment_2_1");
-					put(grammarAccess.getFeatureMappingsetAccess().getMappingAssignment_3(), "rule__FeatureMappingset__MappingAssignment_3");
+					put(grammarAccess.getFeatureMappingsetAccess().getNameAssignment_0(), "rule__FeatureMappingset__NameAssignment_0");
+					put(grammarAccess.getFeatureMappingsetAccess().getMappingsetAssignment_3_1(), "rule__FeatureMappingset__MappingsetAssignment_3_1");
+					put(grammarAccess.getFeatureMappingsetAccess().getMappingAssignment_4(), "rule__FeatureMappingset__MappingAssignment_4");
 					put(grammarAccess.getFGMSubclauseAccess().getMappingsetAssignment_2(), "rule__FGMSubclause__MappingsetAssignment_2");
 					put(grammarAccess.getFeatureMappingAccess().getLeftAssignment_0(), "rule__FeatureMapping__LeftAssignment_0");
 					put(grammarAccess.getFeatureMappingAccess().getRightAssignment_2(), "rule__FeatureMapping__RightAssignment_2");
