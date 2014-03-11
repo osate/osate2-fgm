@@ -75,65 +75,70 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	public class FeatureMappingsetElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FeatureMappingset");
 		private final Group cGroup = (Group)rule.eContents().get(1);
-		private final Keyword cMappingsKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
-		private final RuleCall cNameIDTerminalRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
-		private final Group cGroup_2 = (Group)cGroup.eContents().get(2);
-		private final Keyword cExtendsKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
-		private final Assignment cMappingsetAssignment_2_1 = (Assignment)cGroup_2.eContents().get(1);
-		private final CrossReference cMappingsetFeatureMappingsetCrossReference_2_1_0 = (CrossReference)cMappingsetAssignment_2_1.eContents().get(0);
-		private final RuleCall cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1 = (RuleCall)cMappingsetFeatureMappingsetCrossReference_2_1_0.eContents().get(1);
-		private final Assignment cMappingAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final RuleCall cMappingFeatureMappingParserRuleCall_3_0 = (RuleCall)cMappingAssignment_3.eContents().get(0);
-		private final Keyword cEndKeyword_4 = (Keyword)cGroup.eContents().get(4);
-		private final Keyword cMappingsKeyword_5 = (Keyword)cGroup.eContents().get(5);
-		private final Keyword cSemicolonKeyword_6 = (Keyword)cGroup.eContents().get(6);
+		private final Assignment cNameAssignment_0 = (Assignment)cGroup.eContents().get(0);
+		private final RuleCall cNameIDTerminalRuleCall_0_0 = (RuleCall)cNameAssignment_0.eContents().get(0);
+		private final Keyword cColonKeyword_1 = (Keyword)cGroup.eContents().get(1);
+		private final Keyword cMappingsKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Group cGroup_3 = (Group)cGroup.eContents().get(3);
+		private final Keyword cExtendsKeyword_3_0 = (Keyword)cGroup_3.eContents().get(0);
+		private final Assignment cMappingsetAssignment_3_1 = (Assignment)cGroup_3.eContents().get(1);
+		private final CrossReference cMappingsetFeatureMappingsetCrossReference_3_1_0 = (CrossReference)cMappingsetAssignment_3_1.eContents().get(0);
+		private final RuleCall cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_3_1_0_1 = (RuleCall)cMappingsetFeatureMappingsetCrossReference_3_1_0.eContents().get(1);
+		private final Assignment cMappingAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cMappingFeatureMappingParserRuleCall_4_0 = (RuleCall)cMappingAssignment_4.eContents().get(0);
+		private final Keyword cEndKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Keyword cMappingsKeyword_6 = (Keyword)cGroup.eContents().get(6);
+		private final Keyword cSemicolonKeyword_7 = (Keyword)cGroup.eContents().get(7);
 		
 		//FeatureMappingset:
-		//	"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";";
+		//	name=ID ":" "mappings" ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings"
+		//	";";
 		public ParserRule getRule() { return rule; }
 
-		//"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";"
+		//name=ID ":" "mappings" ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";"
 		public Group getGroup() { return cGroup; }
 
-		//"mappings"
-		public Keyword getMappingsKeyword_0() { return cMappingsKeyword_0; }
-
 		//name=ID
-		public Assignment getNameAssignment_1() { return cNameAssignment_1; }
+		public Assignment getNameAssignment_0() { return cNameAssignment_0; }
 
 		//ID
-		public RuleCall getNameIDTerminalRuleCall_1_0() { return cNameIDTerminalRuleCall_1_0; }
+		public RuleCall getNameIDTerminalRuleCall_0_0() { return cNameIDTerminalRuleCall_0_0; }
 
-		//("extends" mappingset=[FeatureMappingset|QFGTMREF])?
-		public Group getGroup_2() { return cGroup_2; }
-
-		//"extends"
-		public Keyword getExtendsKeyword_2_0() { return cExtendsKeyword_2_0; }
-
-		//mappingset=[FeatureMappingset|QFGTMREF]
-		public Assignment getMappingsetAssignment_2_1() { return cMappingsetAssignment_2_1; }
-
-		//[FeatureMappingset|QFGTMREF]
-		public CrossReference getMappingsetFeatureMappingsetCrossReference_2_1_0() { return cMappingsetFeatureMappingsetCrossReference_2_1_0; }
-
-		//QFGTMREF
-		public RuleCall getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1() { return cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_2_1_0_1; }
-
-		//mapping+=FeatureMapping
-		public Assignment getMappingAssignment_3() { return cMappingAssignment_3; }
-
-		//FeatureMapping
-		public RuleCall getMappingFeatureMappingParserRuleCall_3_0() { return cMappingFeatureMappingParserRuleCall_3_0; }
-
-		//"end"
-		public Keyword getEndKeyword_4() { return cEndKeyword_4; }
+		//":"
+		public Keyword getColonKeyword_1() { return cColonKeyword_1; }
 
 		//"mappings"
-		public Keyword getMappingsKeyword_5() { return cMappingsKeyword_5; }
+		public Keyword getMappingsKeyword_2() { return cMappingsKeyword_2; }
+
+		//("extends" mappingset=[FeatureMappingset|QFGTMREF])?
+		public Group getGroup_3() { return cGroup_3; }
+
+		//"extends"
+		public Keyword getExtendsKeyword_3_0() { return cExtendsKeyword_3_0; }
+
+		//mappingset=[FeatureMappingset|QFGTMREF]
+		public Assignment getMappingsetAssignment_3_1() { return cMappingsetAssignment_3_1; }
+
+		//[FeatureMappingset|QFGTMREF]
+		public CrossReference getMappingsetFeatureMappingsetCrossReference_3_1_0() { return cMappingsetFeatureMappingsetCrossReference_3_1_0; }
+
+		//QFGTMREF
+		public RuleCall getMappingsetFeatureMappingsetQFGTMREFParserRuleCall_3_1_0_1() { return cMappingsetFeatureMappingsetQFGTMREFParserRuleCall_3_1_0_1; }
+
+		//mapping+=FeatureMapping
+		public Assignment getMappingAssignment_4() { return cMappingAssignment_4; }
+
+		//FeatureMapping
+		public RuleCall getMappingFeatureMappingParserRuleCall_4_0() { return cMappingFeatureMappingParserRuleCall_4_0; }
+
+		//"end"
+		public Keyword getEndKeyword_5() { return cEndKeyword_5; }
+
+		//"mappings"
+		public Keyword getMappingsKeyword_6() { return cMappingsKeyword_6; }
 
 		//";"
-		public Keyword getSemicolonKeyword_6() { return cSemicolonKeyword_6; }
+		public Keyword getSemicolonKeyword_7() { return cSemicolonKeyword_7; }
 	}
 
 	public class FGMSubclauseElements extends AbstractParserRuleElementFinder {
@@ -429,7 +434,8 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	}
 
 	//FeatureMappingset:
-	//	"mappings" name=ID ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings" ";";
+	//	name=ID ":" "mappings" ("extends" mappingset=[FeatureMappingset|QFGTMREF])? mapping+=FeatureMapping "end" "mappings"
+	//	";";
 	public FeatureMappingsetElements getFeatureMappingsetAccess() {
 		return (pFeatureMappingset != null) ? pFeatureMappingset : (pFeatureMappingset = new FeatureMappingsetElements());
 	}

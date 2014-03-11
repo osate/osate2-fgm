@@ -12,19 +12,20 @@ import java.util.ArrayList;
 
 @SuppressWarnings("all")
 public class InternalFeatureGroupMappingLexer extends Lexer {
-    public static final int RULE_ID=14;
-    public static final int KEYWORD_6=9;
-    public static final int KEYWORD_7=5;
-    public static final int KEYWORD_8=6;
-    public static final int KEYWORD_9=4;
+    public static final int RULE_ID=15;
+    public static final int KEYWORD_6=8;
+    public static final int KEYWORD_7=9;
+    public static final int KEYWORD_8=5;
+    public static final int KEYWORD_9=6;
     public static final int KEYWORD_1=11;
-    public static final int KEYWORD_5=8;
-    public static final int KEYWORD_4=7;
-    public static final int KEYWORD_3=10;
+    public static final int KEYWORD_5=7;
+    public static final int KEYWORD_4=10;
+    public static final int KEYWORD_3=13;
     public static final int KEYWORD_2=12;
-    public static final int RULE_WS=15;
-    public static final int RULE_SL_COMMENT=13;
+    public static final int RULE_WS=16;
+    public static final int RULE_SL_COMMENT=14;
     public static final int EOF=-1;
+    public static final int KEYWORD_10=4;
 
     // delegates
     // delegators
@@ -39,13 +40,13 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
     }
     public String getGrammarFileName() { return "../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g"; }
 
-    // $ANTLR start "KEYWORD_9"
-    public final void mKEYWORD_9() throws RecognitionException {
+    // $ANTLR start "KEYWORD_10"
+    public final void mKEYWORD_10() throws RecognitionException {
         try {
-            int _type = KEYWORD_9;
+            int _type = KEYWORD_10;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:19:11: ( ( 'M' | 'm' ) ( 'A' | 'a' ) ( 'P' | 'p' ) ( 'P' | 'p' ) ( 'I' | 'i' ) ( 'N' | 'n' ) ( 'G' | 'g' ) ( 'S' | 's' ) )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:19:13: ( 'M' | 'm' ) ( 'A' | 'a' ) ( 'P' | 'p' ) ( 'P' | 'p' ) ( 'I' | 'i' ) ( 'N' | 'n' ) ( 'G' | 'g' ) ( 'S' | 's' )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:19:12: ( ( 'M' | 'm' ) ( 'A' | 'a' ) ( 'P' | 'p' ) ( 'P' | 'p' ) ( 'I' | 'i' ) ( 'N' | 'n' ) ( 'G' | 'g' ) ( 'S' | 's' ) )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:19:14: ( 'M' | 'm' ) ( 'A' | 'a' ) ( 'P' | 'p' ) ( 'P' | 'p' ) ( 'I' | 'i' ) ( 'N' | 'n' ) ( 'G' | 'g' ) ( 'S' | 's' )
             {
             if ( input.LA(1)=='M'||input.LA(1)=='m' ) {
                 input.consume();
@@ -128,12 +129,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_9"
+    // $ANTLR end "KEYWORD_10"
 
-    // $ANTLR start "KEYWORD_7"
-    public final void mKEYWORD_7() throws RecognitionException {
+    // $ANTLR start "KEYWORD_8"
+    public final void mKEYWORD_8() throws RecognitionException {
         try {
-            int _type = KEYWORD_7;
+            int _type = KEYWORD_8;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:21:11: ( ( 'E' | 'e' ) ( 'X' | 'x' ) ( 'T' | 't' ) ( 'E' | 'e' ) ( 'N' | 'n' ) ( 'D' | 'd' ) ( 'S' | 's' ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:21:13: ( 'E' | 'e' ) ( 'X' | 'x' ) ( 'T' | 't' ) ( 'E' | 'e' ) ( 'N' | 'n' ) ( 'D' | 'd' ) ( 'S' | 's' )
@@ -210,12 +211,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_7"
+    // $ANTLR end "KEYWORD_8"
 
-    // $ANTLR start "KEYWORD_8"
-    public final void mKEYWORD_8() throws RecognitionException {
+    // $ANTLR start "KEYWORD_9"
+    public final void mKEYWORD_9() throws RecognitionException {
         try {
-            int _type = KEYWORD_8;
+            int _type = KEYWORD_9;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:23:11: ( ( 'L' | 'l' ) ( 'I' | 'i' ) ( 'B' | 'b' ) ( 'R' | 'r' ) ( 'A' | 'a' ) ( 'R' | 'r' ) ( 'Y' | 'y' ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:23:13: ( 'L' | 'l' ) ( 'I' | 'i' ) ( 'B' | 'b' ) ( 'R' | 'r' ) ( 'A' | 'a' ) ( 'R' | 'r' ) ( 'Y' | 'y' )
@@ -292,12 +293,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_8"
+    // $ANTLR end "KEYWORD_9"
 
-    // $ANTLR start "KEYWORD_4"
-    public final void mKEYWORD_4() throws RecognitionException {
+    // $ANTLR start "KEYWORD_5"
+    public final void mKEYWORD_5() throws RecognitionException {
         try {
-            int _type = KEYWORD_4;
+            int _type = KEYWORD_5;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:25:11: ( '<' '=' '>' )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:25:13: '<' '=' '>'
@@ -314,12 +315,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_4"
+    // $ANTLR end "KEYWORD_5"
 
-    // $ANTLR start "KEYWORD_5"
-    public final void mKEYWORD_5() throws RecognitionException {
+    // $ANTLR start "KEYWORD_6"
+    public final void mKEYWORD_6() throws RecognitionException {
         try {
-            int _type = KEYWORD_5;
+            int _type = KEYWORD_6;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:27:11: ( ( 'E' | 'e' ) ( 'N' | 'n' ) ( 'D' | 'd' ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:27:13: ( 'E' | 'e' ) ( 'N' | 'n' ) ( 'D' | 'd' )
@@ -360,12 +361,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_5"
+    // $ANTLR end "KEYWORD_6"
 
-    // $ANTLR start "KEYWORD_6"
-    public final void mKEYWORD_6() throws RecognitionException {
+    // $ANTLR start "KEYWORD_7"
+    public final void mKEYWORD_7() throws RecognitionException {
         try {
-            int _type = KEYWORD_6;
+            int _type = KEYWORD_7;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:29:11: ( ( 'U' | 'u' ) ( 'S' | 's' ) ( 'E' | 'e' ) )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:29:13: ( 'U' | 'u' ) ( 'S' | 's' ) ( 'E' | 'e' )
@@ -406,12 +407,12 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_6"
+    // $ANTLR end "KEYWORD_7"
 
-    // $ANTLR start "KEYWORD_3"
-    public final void mKEYWORD_3() throws RecognitionException {
+    // $ANTLR start "KEYWORD_4"
+    public final void mKEYWORD_4() throws RecognitionException {
         try {
-            int _type = KEYWORD_3;
+            int _type = KEYWORD_4;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:31:11: ( ':' ':' )
             // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:31:13: ':' ':'
@@ -427,7 +428,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "KEYWORD_3"
+    // $ANTLR end "KEYWORD_4"
 
     // $ANTLR start "KEYWORD_1"
     public final void mKEYWORD_1() throws RecognitionException {
@@ -454,10 +455,10 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         try {
             int _type = KEYWORD_2;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:35:11: ( ';' )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:35:13: ';'
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:35:11: ( ':' )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:35:13: ':'
             {
-            match(';'); 
+            match(':'); 
 
             }
 
@@ -469,17 +470,37 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
     }
     // $ANTLR end "KEYWORD_2"
 
+    // $ANTLR start "KEYWORD_3"
+    public final void mKEYWORD_3() throws RecognitionException {
+        try {
+            int _type = KEYWORD_3;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:37:11: ( ';' )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:37:13: ';'
+            {
+            match(';'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        }
+    }
+    // $ANTLR end "KEYWORD_3"
+
     // $ANTLR start "RULE_SL_COMMENT"
     public final void mRULE_SL_COMMENT() throws RecognitionException {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:17: ( '--' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:19: '--' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:17: ( '--' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:19: '--' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("--"); 
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop1:
             do {
                 int alt1=2;
@@ -492,7 +513,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -512,7 +533,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
                 }
             } while (true);
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:40: ( ( '\\r' )? '\\n' )?
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:40: ( ( '\\r' )? '\\n' )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -521,9 +542,9 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:41: ( '\\r' )? '\\n'
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:41: ( '\\r' )? '\\n'
                     {
-                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:41: ( '\\r' )?
+                    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:41: ( '\\r' )?
                     int alt2=2;
                     int LA2_0 = input.LA(1);
 
@@ -532,7 +553,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
                     }
                     switch (alt2) {
                         case 1 :
-                            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:39:41: '\\r'
+                            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:41: '\\r'
                             {
                             match('\r'); 
 
@@ -564,8 +585,8 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:9: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )* )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:11: ( 'a' .. 'z' | 'A' .. 'Z' ) ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )*
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:9: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )* )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:11: ( 'a' .. 'z' | 'A' .. 'Z' ) ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )*
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -576,7 +597,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:31: ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )*
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:31: ( ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' ) )*
             loop5:
             do {
                 int alt5=2;
@@ -589,9 +610,9 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
 
                 switch (alt5) {
             	case 1 :
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:32: ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:32: ( '_' )? ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' )
             	    {
-            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:32: ( '_' )?
+            	    // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:32: ( '_' )?
             	    int alt4=2;
             	    int LA4_0 = input.LA(1);
 
@@ -600,7 +621,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
             	    }
             	    switch (alt4) {
             	        case 1 :
-            	            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:41:32: '_'
+            	            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:32: '_'
             	            {
             	            match('_'); 
 
@@ -643,10 +664,10 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:45:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:45:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:43:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:45:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt6=0;
             loop6:
             do {
@@ -696,89 +717,96 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
     // $ANTLR end "RULE_WS"
 
     public void mTokens() throws RecognitionException {
-        // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:8: ( KEYWORD_9 | KEYWORD_7 | KEYWORD_8 | KEYWORD_4 | KEYWORD_5 | KEYWORD_6 | KEYWORD_3 | KEYWORD_1 | KEYWORD_2 | RULE_SL_COMMENT | RULE_ID | RULE_WS )
-        int alt7=12;
+        // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:8: ( KEYWORD_10 | KEYWORD_8 | KEYWORD_9 | KEYWORD_5 | KEYWORD_6 | KEYWORD_7 | KEYWORD_4 | KEYWORD_1 | KEYWORD_2 | KEYWORD_3 | RULE_SL_COMMENT | RULE_ID | RULE_WS )
+        int alt7=13;
         alt7 = dfa7.predict(input);
         switch (alt7) {
             case 1 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:10: KEYWORD_9
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:10: KEYWORD_10
                 {
-                mKEYWORD_9(); 
+                mKEYWORD_10(); 
 
                 }
                 break;
             case 2 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:20: KEYWORD_7
-                {
-                mKEYWORD_7(); 
-
-                }
-                break;
-            case 3 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:30: KEYWORD_8
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:21: KEYWORD_8
                 {
                 mKEYWORD_8(); 
 
                 }
                 break;
-            case 4 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:40: KEYWORD_4
+            case 3 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:31: KEYWORD_9
                 {
-                mKEYWORD_4(); 
+                mKEYWORD_9(); 
 
                 }
                 break;
-            case 5 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:50: KEYWORD_5
+            case 4 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:41: KEYWORD_5
                 {
                 mKEYWORD_5(); 
 
                 }
                 break;
-            case 6 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:60: KEYWORD_6
+            case 5 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:51: KEYWORD_6
                 {
                 mKEYWORD_6(); 
 
                 }
                 break;
-            case 7 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:70: KEYWORD_3
+            case 6 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:61: KEYWORD_7
                 {
-                mKEYWORD_3(); 
+                mKEYWORD_7(); 
+
+                }
+                break;
+            case 7 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:71: KEYWORD_4
+                {
+                mKEYWORD_4(); 
 
                 }
                 break;
             case 8 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:80: KEYWORD_1
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:81: KEYWORD_1
                 {
                 mKEYWORD_1(); 
 
                 }
                 break;
             case 9 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:90: KEYWORD_2
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:91: KEYWORD_2
                 {
                 mKEYWORD_2(); 
 
                 }
                 break;
             case 10 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:100: RULE_SL_COMMENT
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:101: KEYWORD_3
+                {
+                mKEYWORD_3(); 
+
+                }
+                break;
+            case 11 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:111: RULE_SL_COMMENT
                 {
                 mRULE_SL_COMMENT(); 
 
                 }
                 break;
-            case 11 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:116: RULE_ID
+            case 12 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:127: RULE_ID
                 {
                 mRULE_ID(); 
 
                 }
                 break;
-            case 12 :
-                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:124: RULE_WS
+            case 13 :
+                // ../org.osate.xtext.aadl2.featuregroupmapping/src-gen/org/osate/xtext/aadl2/featuregroupmapping/parser/antlr/lexer/InternalFeatureGroupMappingLexer.g:1:135: RULE_WS
                 {
                 mRULE_WS(); 
 
@@ -792,23 +820,25 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
 
     protected DFA7 dfa7 = new DFA7(this);
     static final String DFA7_eotS =
-        "\1\uffff\3\12\1\uffff\1\12\6\uffff\7\12\1\30\1\12\1\32\2\12\1\uffff"+
-        "\1\12\1\uffff\7\12\1\45\1\46\1\47\3\uffff";
+        "\1\uffff\3\12\1\uffff\1\12\1\22\5\uffff\5\12\2\uffff\2\12\1\32"+
+        "\1\12\1\34\2\12\1\uffff\1\12\1\uffff\7\12\1\47\1\50\1\51\3\uffff";
     static final String DFA7_eofS =
-        "\50\uffff";
+        "\52\uffff";
     static final String DFA7_minS =
-        "\1\11\1\101\1\116\1\111\1\uffff\1\123\6\uffff\1\120\1\124\1\104"+
-        "\1\102\1\105\1\120\1\105\1\60\1\122\1\60\1\111\1\116\1\uffff\1\101"+
-        "\1\uffff\1\116\1\104\1\122\1\107\1\123\1\131\1\123\3\60\3\uffff";
+        "\1\11\1\101\1\116\1\111\1\uffff\1\123\1\72\5\uffff\1\120\1\124"+
+        "\1\104\1\102\1\105\2\uffff\1\120\1\105\1\60\1\122\1\60\1\111\1\116"+
+        "\1\uffff\1\101\1\uffff\1\116\1\104\1\122\1\107\1\123\1\131\1\123"+
+        "\3\60\3\uffff";
     static final String DFA7_maxS =
-        "\1\172\1\141\1\170\1\151\1\uffff\1\163\6\uffff\1\160\1\164\1\144"+
-        "\1\142\1\145\1\160\1\145\1\172\1\162\1\172\1\151\1\156\1\uffff\1"+
-        "\141\1\uffff\1\156\1\144\1\162\1\147\1\163\1\171\1\163\3\172\3\uffff";
+        "\1\172\1\141\1\170\1\151\1\uffff\1\163\1\72\5\uffff\1\160\1\164"+
+        "\1\144\1\142\1\145\2\uffff\1\160\1\145\1\172\1\162\1\172\1\151\1"+
+        "\156\1\uffff\1\141\1\uffff\1\156\1\144\1\162\1\147\1\163\1\171\1"+
+        "\163\3\172\3\uffff";
     static final String DFA7_acceptS =
-        "\4\uffff\1\4\1\uffff\1\7\1\10\1\11\1\12\1\13\1\14\14\uffff\1\5"+
-        "\1\uffff\1\6\12\uffff\1\2\1\3\1\1";
+        "\4\uffff\1\4\2\uffff\1\10\1\12\1\13\1\14\1\15\5\uffff\1\7\1\11"+
+        "\7\uffff\1\5\1\uffff\1\6\12\uffff\1\2\1\3\1\1";
     static final String DFA7_specialS =
-        "\50\uffff}>";
+        "\52\uffff}>";
     static final String[] DFA7_transitionS = {
             "\2\13\2\uffff\1\13\22\uffff\1\13\14\uffff\1\11\1\7\13\uffff"+
             "\1\6\1\10\1\4\4\uffff\4\12\1\2\6\12\1\3\1\1\7\12\1\5\5\12\6"+
@@ -818,34 +848,36 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
             "\1\17\37\uffff\1\17",
             "",
             "\1\20\37\uffff\1\20",
+            "\1\21",
             "",
             "",
             "",
             "",
             "",
-            "",
-            "\1\21\37\uffff\1\21",
-            "\1\22\37\uffff\1\22",
             "\1\23\37\uffff\1\23",
             "\1\24\37\uffff\1\24",
             "\1\25\37\uffff\1\25",
             "\1\26\37\uffff\1\26",
             "\1\27\37\uffff\1\27",
-            "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
+            "",
+            "",
+            "\1\30\37\uffff\1\30",
             "\1\31\37\uffff\1\31",
             "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
             "\1\33\37\uffff\1\33",
-            "\1\34\37\uffff\1\34",
-            "",
+            "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
             "\1\35\37\uffff\1\35",
-            "",
             "\1\36\37\uffff\1\36",
+            "",
             "\1\37\37\uffff\1\37",
+            "",
             "\1\40\37\uffff\1\40",
             "\1\41\37\uffff\1\41",
             "\1\42\37\uffff\1\42",
             "\1\43\37\uffff\1\43",
             "\1\44\37\uffff\1\44",
+            "\1\45\37\uffff\1\45",
+            "\1\46\37\uffff\1\46",
             "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
             "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
             "\12\12\7\uffff\32\12\4\uffff\1\12\1\uffff\32\12",
@@ -884,7 +916,7 @@ public class InternalFeatureGroupMappingLexer extends Lexer {
             this.transition = DFA7_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( KEYWORD_9 | KEYWORD_7 | KEYWORD_8 | KEYWORD_4 | KEYWORD_5 | KEYWORD_6 | KEYWORD_3 | KEYWORD_1 | KEYWORD_2 | RULE_SL_COMMENT | RULE_ID | RULE_WS );";
+            return "1:1: Tokens : ( KEYWORD_10 | KEYWORD_8 | KEYWORD_9 | KEYWORD_5 | KEYWORD_6 | KEYWORD_7 | KEYWORD_4 | KEYWORD_1 | KEYWORD_2 | KEYWORD_3 | RULE_SL_COMMENT | RULE_ID | RULE_WS );";
         }
     }
  
