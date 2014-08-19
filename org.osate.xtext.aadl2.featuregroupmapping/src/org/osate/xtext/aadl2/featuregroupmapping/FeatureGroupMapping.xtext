@@ -1,5 +1,5 @@
 grammar org.osate.xtext.aadl2.featuregroupmapping.FeatureGroupMapping 
-//with org.osate.xtext.aadl2.properties.Properties
+with org.osate.xtext.aadl2.properties.Properties
 
 hidden(WS, SL_COMMENT)
 

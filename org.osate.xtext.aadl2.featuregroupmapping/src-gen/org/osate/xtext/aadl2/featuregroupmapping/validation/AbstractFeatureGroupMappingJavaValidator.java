@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.eclipse.emf.ecore.EPackage;
 
-public class AbstractFeatureGroupMappingJavaValidator extends org.eclipse.xtext.validation.AbstractDeclarativeValidator {
+public class AbstractFeatureGroupMappingJavaValidator extends org.osate.xtext.aadl2.properties.validation.PropertiesJavaValidator {
 
 	@Override
 	protected List<EPackage> getEPackages() {
