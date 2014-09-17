@@ -609,8 +609,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 
 	////	( 'annex' containmentPathElement+=AnnexPath )?
 	// ContainmentPath returns aadl2::ContainedNamedElement:
-	//	{aadl2::ContainedNamedElement} containmentPathElement+=ContainmentPathElement ("."
-	//	containmentPathElement+=ContainmentPathElement)*;
+	//	{aadl2::ContainedNamedElement} pathElement=ContainmentPathElement;
 	public PropertiesGrammarAccess.ContainmentPathElements getContainmentPathAccess() {
 		return gaProperties.getContainmentPathAccess();
 	}
@@ -698,13 +697,12 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	}
 
 	//ReferenceTerm returns aadl2::ReferenceValue:
-	//	"reference" "(" (containmentPathElement+=QualifiedContainmentPathElement ".")?
-	//	containmentPathElement+=ContainmentPathElement ("." containmentPathElement+=ContainmentPathElement)*
-	//	//	( 'annex' ID '{**' 
-	// //	containmentPathElement+=ContainmentPathElement
+	//	"reference" "(" pathElement=QualifiedContainmentPathElement //	( 'annex' ID '{**' 
 	//
-	//	//	( '.' containmentPathElement+=ContainmentPathElement)*
-	// //	'**}')?
+	//	//	containmentPathElement+=ContainmentPathElement
+	// //	( '.' containmentPathElement+=ContainmentPathElement)*
+	//
+	//	//	'**}')?
 	// ")";
 	public PropertiesGrammarAccess.ReferenceTermElements getReferenceTermAccess() {
 		return gaProperties.getReferenceTermAccess();
@@ -779,7 +777,7 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	// //	 | 	 'annex' namedElement=[aadl2::NamedElement|ID]
 	//
 	//ContainmentPathElement returns aadl2::ContainmentPathElement:
-	//	namedElement=[aadl2::NamedElement] arrayRange+=ArrayRange?;
+	//	(namedElement=[aadl2::NamedElement] arrayRange+=ArrayRange?) ("." containedNamedElement=ContainmentPath)?;
 	public PropertiesGrammarAccess.ContainmentPathElementElements getContainmentPathElementAccess() {
 		return gaProperties.getContainmentPathElementAccess();
 	}
@@ -789,7 +787,8 @@ public class FeatureGroupMappingGrammarAccess extends AbstractGrammarElementFind
 	}
 
 	//QualifiedContainmentPathElement returns aadl2::ContainmentPathElement:
-	//	namedElement=[aadl2::NamedElement|QCLREF];
+	//	(namedElement=[aadl2::NamedElement|QCLREF] | namedElement=[aadl2::NamedElement] arrayRange+=ArrayRange?) ("."
+	//	containedNamedElement=ContainmentPath)?;
 	public PropertiesGrammarAccess.QualifiedContainmentPathElementElements getQualifiedContainmentPathElementAccess() {
 		return gaProperties.getQualifiedContainmentPathElementAccess();
 	}
